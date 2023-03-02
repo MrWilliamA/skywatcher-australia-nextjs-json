@@ -1,0 +1,45 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 800px;
+}
+
+.section article {
+  flex: 1 0 auto;
+  background: #ec985a;
+  color: white;
+  margin: 0 1rem 1rem 0;
+  text-align: center;
+  font-family: system-ui;
+  font-weight: 900;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section article:nth-child(1) {
+  height: 48%;
+}
+.section article:nth-child(2) {
+  height: 48%;
+}
+.section article:nth-child(3) {
+  height: 20%;
+}
+.section article:nth-child(4) {
+  height: 20%;
+}
+.section article:nth-child(5) {
+  height: 20%;
+}
+.section article:nth-child(6) {
+  height: 20%;
+}
+.section article:nth-child(7) {
+  height: 48%;
+}
+.section article:nth-child(8) {
+  height: 48%;
+}

@@ -1,0 +1,35 @@
+.pageBanner {
+  width: 100vw;
+  height: 70vh;
+  background-image: url("/images/banners/star-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+  overflow: hidden;
+}
+
+.galaxy {
+  position: absolute;
+  background-image: url("/images/banners/galaxy.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100vw;
+  height: 70vh;
+  animation: rotate 220s infinite linear;
+  background-size: contain;
+  z-index: 0;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg) scale(2);
+  }
+  to {
+    transform: rotate(359deg) scale(2);
+  }
+}
+
+.pageBanner h1 {
+  color: white;
+}

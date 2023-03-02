@@ -1,0 +1,12 @@
+.pageBanner {
+  width: 100vw;
+  overflow: auto;
+  background-size: cover;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.pageBanner h1 {
+  color: white;
+}
