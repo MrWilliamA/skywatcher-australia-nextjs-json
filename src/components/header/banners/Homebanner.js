@@ -6,7 +6,7 @@ const homebanner = () => {
     <section className={styles.pageBanner}>
       <div className={styles.galaxy}></div>
       <Nav />
-      <h1>Welcome to Sky-Watcher Australia</h1>
+      <h1>SKY-WATCHER AUSTRALIA.</h1>
     </section>
   );
 };
