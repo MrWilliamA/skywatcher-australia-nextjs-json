@@ -1,7 +1,7 @@
 .pageBanner {
   width: 100vw;
   height: 70vh;
-  background-image: url("/images/banners/star-background.jpg");
+  background-image: url("/images/banners/star-background2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -14,7 +14,7 @@
 
 .galaxy {
   position: absolute;
-  background-image: url("/images/banners/galaxy.png");
+  background-image: url("/images/banners/galaxy2.png");
   background-repeat: no-repeat;
   background-position: center top;
   width: 100vw;
@@ -34,6 +34,9 @@
 }
 
 .pageBanner h1 {
+  z-index: 9;
+  opacity: 0.5;
+  font-family: var(--font-headings-alt);
   color: white;
   font-size: 7vw;
   text-align: center;
@@ -44,24 +47,24 @@
     linear,
     left top,
     right top,
-    from(#222),
-    to(#222),
+    from(#0000),
+    to(#0000),
     color-stop(0.5, #fff)
   );
   background: -moz-gradient(
     linear,
     left top,
     right top,
-    from(#222),
-    to(#222),
+    from(#0000),
+    to(#0000),
     color-stop(0.5, #fff)
   );
   background: gradient(
     linear,
     left top,
     right top,
-    from(#222),
-    to(#222),
+    from(#0000),
+    to(#0000),
     color-stop(0.5, #fff)
   );
   -webkit-background-size: 125px 100%;
@@ -81,7 +84,7 @@
   animation-iteration-count: infinite;
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-color: #222;
+  background-color: #ffffff73;
 }
 
 @keyframes shimmer {
