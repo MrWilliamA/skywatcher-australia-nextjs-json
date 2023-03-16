@@ -19,13 +19,43 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.jpg" />
       </Head>
-      <Header />
+
       <main className={styles.main}>
-        <BoxedWidth>
-          <CatMasonry />
-          <FeaturedPages />
-        </BoxedWidth>
+        <CatMasonry />
+        <FeaturedPages />
       </main>
     </>
   );
 }
+
+Home.getLayout = function getLayout(page) {
+  return (
+    <>
+      <Header />
+      <BoxedWidth>{page}</BoxedWidth>
+    </>
+  );
+};
+
+// export default function Home() {
+//   return (
+//     <>
+//       <Head>
+//         <title>Sky-Watcher Australia</title>
+//         <meta
+//           name="description"
+//           content="Sky-Watcher Australia - Astronomy telescopes, binoculars and spotting scopes."
+//         />
+//         <meta name="viewport" content="width=device-width, initial-scale=1" />
+//         <link rel="icon" href="/favicon.jpg" />
+//       </Head>
+//       <Header />
+//       <main className={styles.main}>
+//         <BoxedWidth>
+//           <CatMasonry />
+//           <FeaturedPages />
+//         </BoxedWidth>
+//       </main>
+//     </>
+//   );
+// }

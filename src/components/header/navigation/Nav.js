@@ -50,6 +50,7 @@ const Nav = () => {
               width={200}
               height={70}
             />
+            {/* <img src={logoUrl} alt="SkyWatcher Australia" /> */}
           </Link>
         </div>
         <div className="rightMenuContainer">

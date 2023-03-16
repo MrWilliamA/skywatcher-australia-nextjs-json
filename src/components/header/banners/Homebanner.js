@@ -4,9 +4,13 @@ import styles from "../../../styles/Home.module.css";
 const homebanner = () => {
   return (
     <section className={styles.pageBanner}>
-      <div className={styles.galaxy}></div>
+      <div className={styles.galaxyContainer}>
+        <div className={styles.galaxy}></div>
+      </div>
       <Nav />
-      <h1>SKY-WATCHER AUSTRALIA</h1>
+      <div classname={styles.h1Container}>
+        <h1>SKY-WATCHER AUSTRALIA</h1>
+      </div>
     </section>
   );
 };

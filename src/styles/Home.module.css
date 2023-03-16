@@ -1,7 +1,7 @@
 .pageBanner {
   width: 100vw;
   height: 70vh;
-  background-image: url("/images/banners/star-background2.jpg");
+  background-image: url("/images/banners/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -11,37 +11,45 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
+.galaxyContainer {
+  position: absolute;
+  mask-image: url(/images/banners/mask.svg);
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-position: center top;
+  width: 100vw;
+  height: 70vh;
+}
 .galaxy {
   position: absolute;
-  background-image: url("/images/banners/galaxy2.png");
+  background-image: url(/images/banners/milky-way.png);
   background-repeat: no-repeat;
   background-position: center top;
   width: 100vw;
   height: 70vh;
-  animation: rotate 220s infinite linear;
-  background-size: contain;
-  z-index: 0;
+  animation: milkyway 40s infinite alternate linear;
+  background-size: cover;
+  filter: brightness(1.08);
 }
 
-@keyframes rotate {
+@keyframes milkyway {
   from {
-    transform: rotate(0deg) scale(2);
+    opacity: 1;
+    transform: none;
   }
   to {
-    transform: rotate(359deg) scale(2);
+    transform: translateX(254px) rotate(18deg) translateY(-16px);
+    opacity: 0.5;
   }
 }
 
 .pageBanner h1 {
   z-index: 9;
-  opacity: 0.5;
+  opacity: 0.8;
   font-family: var(--font-headings-alt);
-  color: white;
-  font-size: 7vw;
+  font-size: clamp(40px, 7vw, 115px);
   text-align: center;
   margin-bottom: 25px;
-  text-align: center;
   color: rgba(255, 255, 255, 0.1);
   background: -webkit-gradient(
     linear,
@@ -85,6 +93,12 @@
   background-repeat: no-repeat;
   background-position: 0 0;
   background-color: #ffffff73;
+  filter: drop-shadow(0px 0px 10px #0000008f);
+}
+
+.h1Container {
+  background: black;
+  padding-top: 20px;
 }
 
 @keyframes shimmer {
@@ -96,5 +110,26 @@
   }
   100% {
     background-position: top right;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .galaxy {
+    width: calc(100vw + 20vw);
+    left: -20vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .pageBanner,
+  .pageBanner div:not(.h1Container) {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .galaxy {
+    width: calc(100vw + 30vw);
+    left: -30vw;
   }
 }

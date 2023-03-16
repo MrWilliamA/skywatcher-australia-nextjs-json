@@ -6,6 +6,7 @@ const PageBanners = () => {
   return (
     <section className={styles.pageBanner}>
       <Nav />
+      <p>this is a page banner</p>
     </section>
   );
 };

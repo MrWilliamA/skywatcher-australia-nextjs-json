@@ -5,16 +5,7 @@ import { useRouter } from "next/router";
 
 const Header = () => {
   const currentURL = useRouter().pathname;
-
-  const [banner, setBanner] = useState(<PageBanners />);
-
-  useEffect(() => {
-    if (currentURL === "/") {
-      setBanner(<HomeBanner />);
-    }
-  }, []);
-
-  return banner;
+  return currentURL === "/" ? <HomeBanner /> : <PageBanners />;
 };
 
 export default Header;
