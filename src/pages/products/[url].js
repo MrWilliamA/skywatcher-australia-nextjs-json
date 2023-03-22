@@ -1,12 +1,12 @@
 import Head from "next/head";
-import test from "/productData/products.json";
-import { useState } from "react";
+import data from "/productData/products.json";
+import Styles from "../../styles/productPage.module.css";
 
 export default function Product({ urlObject }) {
-  const productList = test[0].products;
+  const productList = data.products;
 
   const currentUrl = urlObject.params.url;
-  const product = productList.filter((item) => item.url === currentUrl)[0];
+  const product = productList.find((item) => item.url === currentUrl);
 
   if (product !== undefined) {
     return (
@@ -17,6 +17,7 @@ export default function Product({ urlObject }) {
 
         <main>
           <h1>{product.name}</h1>
+          <p className={Styles.test}>{product.bullets}</p>
         </main>
       </div>
     );
@@ -25,12 +26,27 @@ export default function Product({ urlObject }) {
   }
 }
 
-export async function getServerSideProps({ params }) {
-  const data = await params;
+export async function getStaticProps({ params }) {
+  const { url } = params;
 
-  const currentUrl = { params };
+  const product = data.products.find((product) => product.url === url);
 
   return {
-    props: { urlObject: currentUrl },
+    props: {
+      urlObject: { params: { url } },
+      product,
+      title: product.name,
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  const paths = data.products.map((product) => {
+    return { params: { url: product.url } };
+  });
+
+  return {
+    paths,
+    fallback: false,
   };
 }

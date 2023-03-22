@@ -1,18 +1,69 @@
-import styles from "../../styles/CatMasonry.module.css";
+import styles from "../../styles/catMasonry.module.css";
+import Image from "next/image";
+import Link from "next/link";
+const refractors = "/images/featuredCats/refractors.png";
+const dobsonians = "/images/featuredCats/dobsonians.png";
+const otas = "/images/featuredCats/otas.png";
+const maks = "/images/featuredCats/maks.png";
+const acuter = "/images/featuredCats/acuter.png";
+const accessories = "/images/featuredCats/accessories.png";
+const reflectors = "/images/featuredCats/reflectors.png";
+const mounts = "/images/featuredCats/mounts.png";
+
 const CatMasonry = () => {
   return (
     <section className={styles.section}>
-      <article className="refractors">Refractors</article>
-      <article className="dobsonians">Dobsonians</article>
+      <article className="refractors">
+        <Image src={refractors} alt="Refractors" width="350" height="400" />
+        <h2>
+          <Link href="/refractors">Refractors</Link>
+        </h2>
+      </article>
+      <article className="dobsonians">
+        <Image src={dobsonians} alt="Dobsonians" width="350" height="400" />
+        <h2>
+          <Link href="/dobsonians">Dobsonians</Link>
+        </h2>
+      </article>
 
-      <article className="otas">OTAs</article>
+      <article className="otas">
+        <Image src={otas} alt="OTAs" width="550" height="200" />
+        <h2>
+          <Link href="/otas">OTAs</Link>
+        </h2>
+      </article>
 
-      <article className="maks">Maksutov Cassegrains</article>
-      <article className="acuter">Acuter</article>
-      <article className="accessories">Accessories</article>
+      <article className="maks">
+        <Image src={maks} alt="Maksutov Cassegrains" width="550" height="200" />
+        <h2>
+          <Link href="/maksutov-cassegrains">Maksutov Cassegrains</Link>
+        </h2>
+      </article>
+      <article className="acuter">
+        <Image src={acuter} alt="Acuter" width="550" height="200" />
+        <h2>
+          <Link href="/acuter">Acuter</Link>
+        </h2>
+      </article>
+      <article className="accessories">
+        <Image src={accessories} alt="Accessories" width="518" height="188" />
+        <h2>
+          <Link href="/accessories">Accessories</Link>
+        </h2>
+      </article>
 
-      <article className="reflectors">Reflectors</article>
-      <article className="mounts">Mounts</article>
+      <article className="reflectors">
+        <Image src={reflectors} alt="Reflectors" width="350" height="400" />
+        <h2>
+          <Link href="/reflectors">Reflectors</Link>
+        </h2>
+      </article>
+      <article className="mounts">
+        <Image src={mounts} alt="Mounts" width="350" height="400" />
+        <h2>
+          <Link href="/mounts">Mounts</Link>
+        </h2>
+      </article>
     </section>
   );
 };

@@ -1,78 +1,76 @@
-[
-  {
-    "products": [
-      {
-        "name": "Sky-Watcher 102/500 AZ-Go2 Refractor",
-        "sku": "SW1025-AZGO2",
-        "tags": ["telescopes", "Refractors", "First Telescopes"],
-        "url": "sky-watcher-102-500-az-go2-refractor",
-        "rrp": 749.99,
-        "bullets": [
-          "Magnifications (with eyepieces supplied): x25, x50 & x100",
-          "Highest Practical Power (Potential): x204",
-          "Objective Lens Diameter: 102mm",
-          "Telescope Focal Length: 500mm (f/5)",
-          "Eyepieces Supplied (1.25″): 10mm & 20mm",
-          "x2 Deluxe Barlow Lens (1.25″) with camera adaptor",
-          "6×30 Finderscope",
-          "Fully Multi-Coated Objective Lens",
-          "45° Erect Image Diagonal (1.25″)",
-          "AZ SynScan Mount",
-          "Power Requirement: 12v DC Power Supply (Tip Positive) or AA Batteries (not supplied)",
-          "Stainless Steel Tripod with Accessory Tray"
-        ],
-        "description": "The exciting Sky-Watcher AZ SynScan Mount is a precision engineered instrument that will allow you to easily find and enjoy viewing night sky treasures, such as Planets, Nebulae, Star Clusters, Galaxies and much more. The AZ SynScan hand controller allows you point your telescope at a specific object, or even tour the night sky at the touch of a button!  The user-friendly menu system allows automatic slewing to over 42,900+ objects. Even an inexperienced astronomer can master its variety of features in a few observing sessions. This compact Black Diamond 1025 telescope has a high-resolution multi-coated optical system and excels at medium-to-high-powers for the examination of the surface detail on the Moon, planets, as well as double-star observations.  It is also useful for terrestrial use.",
-        "specs": {
-          "Optical Design": "Achromatic Refractor",
-          "Optical Diameter": "102mm",
-          "Focal Length": "500mm",
-          "F/Ratio": "F/5",
-          "Highest Practical Power": "204x",
-          "Finder Scope": "Red Dot Finder*",
-          "Focuser Diameter": "2″ with 1.25″ adapter",
-          "Diagonal": "1.25″ 45 deg. Erect Image*",
-          "Eyepieces": "1.25″ Super 20 and 10*",
-          "Tube Weight": "2.53 Kgs",
-          "Tube Dimensions": "10cm x 47cm"
-        }
-      },
-      {
-        "name": "Sky-Watcher 114/450 AZ-Go2 Newtonian",
-        "sku": "SW114P-AZGO2",
-        "tags": ["telescopes", "Refractors", "First Telescopes"],
-        "url": "sky-watcher-114-450-az-go2-newtonian",
-        "rrp": 599.99,
-        "bullets": [
-          "Magnifications: x20, x40, x50 & x100",
-          "Highest Practical Power (Potential): x228",
-          "Diameter of Primary Mirror: 114mm",
-          "Telescope Focal Length: 500mm (f/5)",
-          "Eyepieces Supplied (1.25″): 10mm & 25mm",
-          "x2 Deluxe Barlow Lens (1.25″) with camera adaptor",
-          "Parabolic Primary Mirror",
-          "0.5mm Ultra-Thin Secondary Mirror Supports",
-          "6×24 Finderscope",
-          "1.25″ Rack & Pinion Focuser",
-          "AZ SynScan Mount (GPS optional)",
-          "Power Requirement: 12v DC Power Supply (Tip Positive) or AA Batteries (not supplied)",
-          "Stainless Steel Tripod with Accessory Tray"
-        ],
-        "description": "The Sky-Watcher Black Diamond 1145 has superb Parabolic optics and provides excellent all-around performance for both the observation of the moon, planets and deep sky objects. And the Sky-Watcher AZ SynScan Mount is a precision engineered instrument that will allow you to easily find and enjoy viewing night sky treasures, such as Planets, Nebulae, Star Clusters, Galaxies and much more. The AZ SynScan hand controller allows you point your telescope at a specific object, or even tour the night sky at the touch of a button! The user-friendly menu system allows automatic slewing to over 42,900+ objects. Even an inexperienced astronomer can master its variety of features in a few observing sessions.",
-        "specs": {
-          "Optical Design": "Paraboloidal Newtonian Reflector",
-          "Optical Diameter": "114mm",
-          "Focal Length": "500mm",
-          "F/Ratio": "F/4.4",
-          "Highest Practical Power": "228x",
-          "Finder Scope": "Red Dot Finder*",
-          "Focuser Diameter": "Rack and Pinion Focuser (1.25”)",
-          "Eyepieces": "1.25″ Super 25 and 10*",
-          "Tube Weight": "8 Kgs",
-          "Tube Dimensions": "15cm x 41cm",
-          "Shipping Weight": "10 kg",
-          "Shipping Dimensions": "85x35x26 cm3"
-        }
+{
+  "products": [
+    {
+      "name": "Sky-Watcher 102/500 AZ-Go2 Refractor",
+      "sku": "SW1025-AZGO2",
+      "tags": ["telescopes", "Refractors", "First Telescopes"],
+      "url": "sky-watcher-102-500-az-go2-refractor",
+      "rrp": 749.99,
+      "bullets": [
+        "Magnifications (with eyepieces supplied): x25, x50 & x100",
+        "Highest Practical Power (Potential): x204",
+        "Objective Lens Diameter: 102mm",
+        "Telescope Focal Length: 500mm (f/5)",
+        "Eyepieces Supplied (1.25″): 10mm & 20mm",
+        "x2 Deluxe Barlow Lens (1.25″) with camera adaptor",
+        "6×30 Finderscope",
+        "Fully Multi-Coated Objective Lens",
+        "45° Erect Image Diagonal (1.25″)",
+        "AZ SynScan Mount",
+        "Power Requirement: 12v DC Power Supply (Tip Positive) or AA Batteries (not supplied)",
+        "Stainless Steel Tripod with Accessory Tray"
+      ],
+      "description": "The exciting Sky-Watcher AZ SynScan Mount is a precision engineered instrument that will allow you to easily find and enjoy viewing night sky treasures, such as Planets, Nebulae, Star Clusters, Galaxies and much more. The AZ SynScan hand controller allows you point your telescope at a specific object, or even tour the night sky at the touch of a button!  The user-friendly menu system allows automatic slewing to over 42,900+ objects. Even an inexperienced astronomer can master its variety of features in a few observing sessions. This compact Black Diamond 1025 telescope has a high-resolution multi-coated optical system and excels at medium-to-high-powers for the examination of the surface detail on the Moon, planets, as well as double-star observations.  It is also useful for terrestrial use.",
+      "specs": {
+        "Optical Design": "Achromatic Refractor",
+        "Optical Diameter": "102mm",
+        "Focal Length": "500mm",
+        "F/Ratio": "F/5",
+        "Highest Practical Power": "204x",
+        "Finder Scope": "Red Dot Finder*",
+        "Focuser Diameter": "2″ with 1.25″ adapter",
+        "Diagonal": "1.25″ 45 deg. Erect Image*",
+        "Eyepieces": "1.25″ Super 20 and 10*",
+        "Tube Weight": "2.53 Kgs",
+        "Tube Dimensions": "10cm x 47cm"
       }
-    ]
-  }
-]
+    },
+    {
+      "name": "Sky-Watcher 114/450 AZ-Go2 Newtonian",
+      "sku": "SW114P-AZGO2",
+      "tags": ["telescopes", "Refractors", "First Telescopes"],
+      "url": "sky-watcher-114-450-az-go2-newtonian",
+      "rrp": 599.99,
+      "bullets": [
+        "Magnifications: x20, x40, x50 & x100",
+        "Highest Practical Power (Potential): x228",
+        "Diameter of Primary Mirror: 114mm",
+        "Telescope Focal Length: 500mm (f/5)",
+        "Eyepieces Supplied (1.25″): 10mm & 25mm",
+        "x2 Deluxe Barlow Lens (1.25″) with camera adaptor",
+        "Parabolic Primary Mirror",
+        "0.5mm Ultra-Thin Secondary Mirror Supports",
+        "6×24 Finderscope",
+        "1.25″ Rack & Pinion Focuser",
+        "AZ SynScan Mount (GPS optional)",
+        "Power Requirement: 12v DC Power Supply (Tip Positive) or AA Batteries (not supplied)",
+        "Stainless Steel Tripod with Accessory Tray"
+      ],
+      "description": "The Sky-Watcher Black Diamond 1145 has superb Parabolic optics and provides excellent all-around performance for both the observation of the moon, planets and deep sky objects. And the Sky-Watcher AZ SynScan Mount is a precision engineered instrument that will allow you to easily find and enjoy viewing night sky treasures, such as Planets, Nebulae, Star Clusters, Galaxies and much more. The AZ SynScan hand controller allows you point your telescope at a specific object, or even tour the night sky at the touch of a button! The user-friendly menu system allows automatic slewing to over 42,900+ objects. Even an inexperienced astronomer can master its variety of features in a few observing sessions.",
+      "specs": {
+        "Optical Design": "Paraboloidal Newtonian Reflector",
+        "Optical Diameter": "114mm",
+        "Focal Length": "500mm",
+        "F/Ratio": "F/4.4",
+        "Highest Practical Power": "228x",
+        "Finder Scope": "Red Dot Finder*",
+        "Focuser Diameter": "Rack and Pinion Focuser (1.25”)",
+        "Eyepieces": "1.25″ Super 25 and 10*",
+        "Tube Weight": "8 Kgs",
+        "Tube Dimensions": "15cm x 41cm",
+        "Shipping Weight": "10 kg",
+        "Shipping Dimensions": "85x35x26 cm3"
+      }
+    }
+  ]
+}

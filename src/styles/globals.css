@@ -8,7 +8,7 @@
 }
 
 :root {
-  --max-width: 1100px;
+  --max-width: 1250px;
   --border-radius: 12px;
   --font-headings: "Roboto Flex", sans-serif;
   --font-headings-alt: "impact", sans-serif;
@@ -16,6 +16,9 @@
   --background-rgb: 239, 239, 239;
   --foreground-rgb: 0, 0, 0;
   --green: #2ab673;
+  --green-trans: #2ab673ab;
+  --dark: #1c1c1c;
+  --light: #cbcbcb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,6 +33,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: var(--font-text);
 }
 
 html,
@@ -49,6 +53,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--green);
+}
+
 h1,
 h2,
 h3,
@@ -58,10 +66,35 @@ a {
   font-family: var(--font-headings);
 }
 
+h1 {
+  font-size: clamp(30px, 4vw, 60px);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+}
+
+.preheader {
+  background: var(--dark);
+  color: #b9b9b9;
+  padding: 6px 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+}
+
+.socials {
+  display: flex;
+  justify-content: start;
+}
+
+.socials a,
+.announcement svg {
+  margin: 0 5px;
+  position: relative;
+  top: 3px;
 }
 
 .navContainer {
@@ -102,9 +135,10 @@ a {
 }
 
 .boxedContainer {
-  width: 90%;
-  max-width: 1250px;
+  max-width: var(--max-width);
+  min-height: 15vh;
   margin: 50px auto;
+  padding: 0 12px;
 }
 
 .rightMenuContainer,

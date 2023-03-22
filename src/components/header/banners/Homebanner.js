@@ -1,17 +1,21 @@
-import Nav from "../../../components/header/navigation/Nav";
-import styles from "../../../styles/Home.module.css";
+import Nav from "../navigation/Nav";
+import styles from "../../../styles/home.module.css";
+import PreHeader from "../PreHeader";
 
 const homebanner = () => {
   return (
-    <section className={styles.pageBanner}>
-      <div className={styles.galaxyContainer}>
-        <div className={styles.galaxy}></div>
-      </div>
-      <Nav />
-      <div classname={styles.h1Container}>
-        <h1>SKY-WATCHER AUSTRALIA</h1>
-      </div>
-    </section>
+    <>
+      <PreHeader />
+      <section className={styles.pageBanner}>
+        <div className={styles.galaxyContainer}>
+          <div className={styles.galaxy}></div>
+        </div>
+        <Nav />
+        <div classname={styles.h1Container}>
+          <h1>Sky-Watcher Australia</h1>
+        </div>
+      </section>
+    </>
   );
 };
 

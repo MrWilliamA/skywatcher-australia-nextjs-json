@@ -1,5 +1,3 @@
-import React from "react";
-
 const FullWidth = ({ children }) => {
   return <>{children}</>;
 };

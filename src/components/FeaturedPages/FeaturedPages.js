@@ -1,4 +1,4 @@
-import styles from "../../styles/Featuredpages.module.css";
+import styles from "../../styles/featuredPages.module.css";
 
 const FeaturedPages = () => {
   return (

@@ -1,20 +1,35 @@
-import data from "../../../productData/products.json";
+import Head from "next/head";
+import Link from "next/link";
+import data from "/productData/products.json";
+import ProductGrid from "@/components/products/productGrid/ProductGrid";
 
-const index = () => {
-  console.log(data);
-
-  const products = [...data][0].products;
-
+export default function Index({ products }) {
   return (
-    <>
-      {products.map((product, key) => (
-        <div key={key} style={{ padding: 20, borderBottom: "1px solid #ccc" }}>
-          <h2>{product.name}</h2>
-          <p>{product.description}</p>
-        </div>
-      ))}
-    </>
-  );
-};
+    <div>
+      <Head>
+        <title>Sky-Watcher Products</title>
+        <meta
+          name="description"
+          content="Sky-Watcher Australia Products - Astronomy telescopes, binoculars and spotting scopes."
+        />
+      </Head>
 
-export default index;
+      <main>
+        <ul>
+          <ProductGrid products={products} />
+        </ul>
+      </main>
+    </div>
+  );
+}
+
+export async function getStaticProps() {
+  const productList = data.products;
+
+  return {
+    props: {
+      products: productList,
+      title: "Sky-Watcher Products",
+    },
+  };
+}

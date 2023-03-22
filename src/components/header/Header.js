@@ -1,11 +1,10 @@
-import HomeBanner from "./banners/Homebanner";
+import HomeBanner from "./banners/HomeBanner";
 import PageBanners from "./banners/PageBanners";
-import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
-const Header = () => {
+const Header = ({ title }) => {
   const currentURL = useRouter().pathname;
-  return currentURL === "/" ? <HomeBanner /> : <PageBanners />;
+  return currentURL === "/" ? <HomeBanner /> : <PageBanners title={title} />;
 };
 
 export default Header;

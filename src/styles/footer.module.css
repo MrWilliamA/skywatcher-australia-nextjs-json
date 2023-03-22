@@ -1,0 +1,37 @@
+.container {
+  background: var(--dark);
+  min-height: 10vh;
+  color: white;
+  padding: 40px 25px 10px 25px;
+}
+
+.innerContainer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  width: 28%;
+}
+
+.fullColumn {
+  width: 100%;
+  background: var(--dark);
+  padding: 18px 0;
+  border-top: var(--light) solid 1px;
+  margin-top: 60px;
+}
+
+.socials {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    margin: 20px 0;
+  }
+}

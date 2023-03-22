@@ -1,14 +1,23 @@
 .pageBanner {
   width: 100vw;
-  overflow: auto;
-  background-size: cover;
   height: 40vh;
-  background-image: url("/images/banners/banner.jpg");
+  background-image: url("/images/banners/thin-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center bottom;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
 }
-
 .pageBanner h1 {
   color: white;
+}
+
+.pageBannerText {
+  width: var(--max-width);
+  margin: auto;
+  max-width: 90%;
 }

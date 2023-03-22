@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 636.7 643.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 320px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-family: Leelawadee-Bold, Leelawadee;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-5 {
+        stroke: #d1d3d4;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-size: 82px;
+      }
+
+      .cls-2, .cls-3, .cls-7, .cls-4, .cls-8 {
+        fill: #d1d3d4;
+      }
+
+      .cls-3 {
+        font-size: 55px;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        font-size: 65px;
+      }
+
+      .cls-8 {
+        font-family: Roboto-Regular, Roboto;
+        font-size: 51px;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <path class="cls-7" d="m152.06,350.27c-2.84-12.34-4.34-25.19-4.34-38.39,0-94.23,76.39-170.62,170.62-170.62,61.74,0,115.83,32.79,145.78,81.92,15.76,25.85-294.65,202.85-312.07,127.1Z"/>
+  <text class="cls-2" transform="translate(505.3 154.75)"><tspan x="0" y="0">?</tspan></text>
+  <text class="cls-4" transform="translate(536.75 349.87)"><tspan x="0" y="0">?</tspan></text>
+  <text class="cls-3" transform="translate(70.8 387.89)"><tspan x="0" y="0">?</tspan></text>
+  <ellipse class="cls-5" cx="316.48" cy="309.53" rx="307.65" ry="79.94" transform="translate(-85.76 124.67) rotate(-19.68)"/>
+  <g>
+    <path class="cls-7" d="m287.54,219.51c48-17.17,95.31-30.7,138.68-39.83-29.4-24.01-66.95-38.43-107.87-38.43-82.92,0-152.02,59.16-167.41,137.57,40.27-21.23,86.92-41.55,136.6-59.32Z"/>
+    <path class="cls-7" d="m488.81,304.74c-1.86-45.09-21.2-85.66-51.45-115.1-45.13,8.98-95.04,23.02-145.79,41.17-52.44,18.76-101.42,40.35-142.88,62.81-.64,6-.97,12.09-.97,18.26,0,38.24,12.58,73.54,33.83,101.99,48.7-8.74,103.76-23.77,159.83-43.82,54.38-19.45,105.02-41.95,147.43-65.3Z"/>
+    <path class="cls-7" d="m345.42,381.34c-54.19,19.38-107.51,34.14-155.26,43.14,31.27,35.57,77.1,58.02,128.18,58.02,92.05,0,167.06-72.9,170.49-164.11-41.78,22.54-90.9,44.17-143.41,62.95Z"/>
+  </g>
+  <text class="cls-1" transform="translate(248.19 429.12)"><tspan x="0" y="0">?</tspan></text>
+  <text class="cls-8" transform="translate(120.18 542.07)"><tspan x="0" y="0">MISSING I</tspan><tspan class="cls-6" x="230.37" y="0">M</tspan><tspan class="cls-9" x="275.35" y="0">A</tspan><tspan x="308.34" y="0">GE</tspan></text>
+</svg>
