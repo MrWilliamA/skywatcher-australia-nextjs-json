@@ -1,13 +1,11 @@
 import Head from "next/head";
 import data from "/productData/products.json";
 import Styles from "../../styles/productPage.module.css";
-
 export default function Product({ urlObject }) {
   const productList = data.products;
 
   const currentUrl = urlObject.params.url;
   const product = productList.find((item) => item.url === currentUrl);
-
   if (product !== undefined) {
     return (
       <div>
@@ -15,9 +13,8 @@ export default function Product({ urlObject }) {
           <title>{product.name}</title>
         </Head>
 
-        <main>
-          <h1>{product.name}</h1>
-          <p className={Styles.test}>{product.bullets}</p>
+        <main className={Styles.top}>
+          <p>{product.bullets}</p>
         </main>
       </div>
     );
@@ -30,12 +27,12 @@ export async function getStaticProps({ params }) {
   const { url } = params;
 
   const product = data.products.find((product) => product.url === url);
-
   return {
     props: {
       urlObject: { params: { url } },
-      product,
+      product: product,
       title: product.name,
+      type: "product",
     },
   };
 }

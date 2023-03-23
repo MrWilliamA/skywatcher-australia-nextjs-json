@@ -1,10 +1,7 @@
 import Head from "next/head";
-import Header from "../components/header/Header";
 import styles from "../styles/Home.module.css";
-import BoxedWidth from "@/components/templates/BoxedWidth";
 import CatMasonry from "@/components/catMasonry/CatMasonry";
 import FeaturedPages from "@/components/FeaturedPages/FeaturedPages";
-import Footer from "../components/footer/Footer";
 export default function Home() {
   return (
     <>
@@ -26,12 +23,11 @@ export default function Home() {
   );
 }
 
-Home.getLayout = function getLayout(page) {
-  return (
-    <>
-      <Header />
-      <BoxedWidth>{page}</BoxedWidth>
-      <Footer />
-    </>
-  );
-};
+export async function getStaticProps() {
+  return {
+    props: {
+      type: "home",
+      title: "Sky-Watcher Australia",
+    },
+  };
+}

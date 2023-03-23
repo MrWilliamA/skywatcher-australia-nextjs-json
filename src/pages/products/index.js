@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import data from "/productData/products.json";
 import ProductGrid from "@/components/products/productGrid/ProductGrid";
 
@@ -30,6 +29,7 @@ export async function getStaticProps() {
     props: {
       products: productList,
       title: "Sky-Watcher Products",
+      type: "page",
     },
   };
 }

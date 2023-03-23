@@ -1,10 +1,17 @@
 import HomeBanner from "./banners/HomeBanner";
 import PageBanners from "./banners/PageBanners";
-import { useRouter } from "next/router";
+import ProductBanners from "./banners/ProductBanners";
 
-const Header = ({ title }) => {
-  const currentURL = useRouter().pathname;
-  return currentURL === "/" ? <HomeBanner /> : <PageBanners title={title} />;
+const Header = ({ productDetails }) => {
+  const banners = {
+    home: <HomeBanner />,
+    product: <ProductBanners productDetails={productDetails.product} />,
+    page: <PageBanners title={productDetails.title} />,
+  };
+
+  const selectedPageType = productDetails.type;
+
+  return banners[selectedPageType] || banners[`page`];
 };
 
 export default Header;
