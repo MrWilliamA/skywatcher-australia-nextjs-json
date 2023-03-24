@@ -9,7 +9,7 @@ const homebanner = () => {
           <div className={styles.galaxy}></div>
         </div>
         <Nav />
-        <div classname={styles.h1Container}>
+        <div className={styles.h1Container}>
           <h1>Sky-Watcher Australia</h1>
         </div>
       </section>

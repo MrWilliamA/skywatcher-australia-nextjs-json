@@ -1,5 +1,6 @@
 import Styles from "../../../styles/productPage.module.css";
 import Nav from "../navigation/Nav";
+import ProductTags from "@/components/products/ProductTags";
 
 const ProductBanners = ({ productDetails }) => {
   return (
@@ -8,9 +9,7 @@ const ProductBanners = ({ productDetails }) => {
       <div className={Styles.pageBannerText}>
         <h1>{productDetails.name}</h1>
         <div className={Styles.metaContainer}>
-          {productDetails.tags.map((tag, key) => {
-            return <p key={key}>{tag} </p>;
-          })}
+          <ProductTags productDetails={productDetails} />
         </div>
       </div>
     </section>

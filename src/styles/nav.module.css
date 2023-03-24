@@ -1,0 +1,119 @@
+.navContainer {
+  background: linear-gradient(to top, #ffffff42 0%, #00000000 50%);
+  height: 100px;
+  color: white;
+  box-sizing: border-box;
+  position: relative;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 70%,
+    55% 70%,
+    54% 100%,
+    46% 100%,
+    45% 70%,
+    0 70%
+  );
+  width: 3000px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.innerNavContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.innerNavContainer div:not(.logoContainer) {
+  width: clamp(320px, 25vw, 500px);
+  text-align: center;
+}
+
+.logoContainer {
+  width: clamp(200px, 30vw, 400px);
+  text-align: center;
+}
+
+.navContainer img {
+  position: relative;
+  top: 16px;
+  filter: drop-shadow(0px 0px 10px black);
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  line-height: 74px;
+}
+
+.list.left {
+  justify-content: right;
+}
+.list.right {
+  justify-content: left;
+}
+
+.rightMenuContainer a,
+.leftMenuContainer a {
+  padding: 0 10px;
+  font-size: clamp(12px, 0.8vw, 20px);
+  height: 69px;
+}
+
+.rightMenuContainer a:hover,
+.leftMenuContainer a:hover {
+  background-color: rgba(255, 255, 255, 0.144);
+  border-bottom: var(--green) 4px solid;
+}
+
+.mobileContainer {
+  background: black;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  z-index: 999;
+}
+
+.close {
+  color: white;
+  cursor: pointer;
+  line-height: 95px;
+}
+
+.close:hover {
+  background: var(--green);
+}
+
+.menuBtn {
+  color: white;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mobileContainerOpen {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  text-align: center;
+}
+
+.openMobileNav li {
+  list-style-type: none;
+  color: white;
+  line-height: 40px;
+}
+
+.openMobileNav li:hover {
+  background: var(--green);
+}

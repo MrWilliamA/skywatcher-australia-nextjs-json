@@ -1,12 +1,13 @@
 import Styles from "../../styles/productPage.module.css";
 import ImageWithFallback from "../products/ImageWithFallback";
+import ProductFeaturedImage from "../products/ProductFeaturedImage";
 
 const ProductTopSection = ({ product }) => {
   return (
     <section className={Styles.top}>
       <section className={Styles.innerContainer}>
         <article className={Styles.imageContainer}>
-          <ImageWithFallback
+          <ProductFeaturedImage
             src={`/images/products/${product.sku}.tag.0.png`}
             fallbackSrc={[
               `/images/products/${product.sku}.tag.0.jpg`,

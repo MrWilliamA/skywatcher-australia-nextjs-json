@@ -1,7 +1,7 @@
 import Styles from "../../../styles/productCard.module.css";
 import Link from "next/link";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import ImageWithFallback from "../../products/ImageWithFallback";
+import ProductFeaturedImage from "../../products/ProductFeaturedImage";
 
 const ProductCard = ({ product }) => {
   const productLink = `/products/${product.url}`;
@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
     <article className={Styles.card}>
       <div className={Styles.imageContainer}>
         <Link href={productLink}>
-          <ImageWithFallback
+          <ProductFeaturedImage
             src={`/images/products/${product.sku}.tag.0.png`}
             fallbackSrc={[
               `/images/products/${product.sku}.tag.0.jpg`,

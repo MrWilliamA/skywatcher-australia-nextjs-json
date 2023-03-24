@@ -1,6 +1,10 @@
 import Head from "next/head";
 import data from "/productData/products.json";
 import Styles from "../../styles/productPage.module.css";
+import Link from "next/link";
+import ProductTags from "@/components/products/ProductTags";
+import { FaSearchLocation } from "react-icons/fa";
+
 export default function Product({ urlObject }) {
   const productList = data.products;
 
@@ -11,10 +15,45 @@ export default function Product({ urlObject }) {
       <div>
         <Head>
           <title>{product.name}</title>
+          <meta
+            name="description"
+            content={`Introducing the ${product.name} ${product.tags}`}
+          />
         </Head>
 
-        <main className={Styles.top}>
-          <p>{product.bullets}</p>
+        <main className={Styles.mainContent}>
+          <section className={Styles.shortDescription}>
+            <h2>{product.name} Features</h2>
+            <ul>
+              {console.log(product.bullets)}
+              {product.bullets.map((bullet, key) => {
+                return <li key={key}>{bullet}</li>;
+              })}
+            </ul>
+          </section>
+          <section className={Styles.productDetails}>
+            <div>
+              <p className={Styles.rrp}>${product.rrp}</p>
+              <p className={Styles.sku}>
+                Product Code: <span>{product.sku}</span>
+              </p>
+              <p className={Styles.tags}>
+                <ProductTags productDetails={product} seperator={" | "} />
+              </p>
+            </div>
+            <div>
+              <button className={Styles.dealers}>
+                <Link href="/find-a-dealer">
+                  Find a Local Dealer
+                  <FaSearchLocation />
+                </Link>
+              </button>
+            </div>
+          </section>
+          <section className={Styles.description}>
+            <h2>{product.name} Description</h2>
+            <p>{product.description}</p>
+          </section>
         </main>
       </div>
     );
