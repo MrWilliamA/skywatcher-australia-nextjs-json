@@ -40,11 +40,12 @@
   max-width: var(--max-width);
   margin: auto;
   justify-content: start;
+  height: 100px;
 }
 
 .imageContainer {
   position: relative;
-  top: -33vh;
+  top: -30vh;
 }
 
 .metaContainer a {
@@ -59,6 +60,21 @@
 
 .detailsContainer {
   display: flex;
+  height: 100px;
+}
+
+.detailsContainer div {
+  height: 100px;
+}
+
+.detailsContainer img {
+  background: white;
+  margin: 0 5px;
+}
+
+.detailsContainer img,
+.imageContainer img {
+  cursor: pointer;
 }
 
 .mainContent {
@@ -71,7 +87,7 @@
   text-align: right;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .rrp {
@@ -100,6 +116,7 @@
   color: var(--green);
   padding: 10px 20px;
   cursor: pointer;
+  margin-top: 12px;
 }
 
 .dealers:hover,
@@ -116,4 +133,63 @@
 
 .description {
   margin: 65px 0;
+}
+
+.specs {
+  line-height: 2em;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row div {
+  padding: 8px 20px;
+}
+
+.tableLeft {
+  font-weight: bold;
+  border-right: rgb(var(--background-rgb)) 3px solid;
+  width: 12vw;
+  padding: 8px 20px;
+  min-width: 240px;
+}
+
+.specs > div:nth-child(even) {
+  background: var(--extra-light);
+}
+
+.specs > div:nth-child(even):hover {
+  background: var(--green);
+}
+
+.row:hover {
+  background: var(--green);
+  color: white;
+  transform: scale(1.03);
+  border: none;
+}
+.row:hover div {
+  border: none;
+}
+
+.row .definitions {
+  display: none;
+  background: var(--green);
+  width: 100%;
+  padding: 0 50px;
+  line-height: 1em;
+  position: relative;
+  top: -5px;
+}
+
+.row:hover .definitions {
+  display: block;
+}
+
+.definitions svg {
+  position: relative;
+  top: 3px;
 }

@@ -1,9 +1,10 @@
 import Head from "next/head";
 import data from "/productData/products.json";
-import Styles from "../../styles/productPage.module.css";
 import Link from "next/link";
 import ProductTags from "@/components/products/ProductTags";
 import { FaSearchLocation } from "react-icons/fa";
+import Styles from "../../styles/productPage.module.css";
+import ProductSpecTable from "@/components/products/ProductSpecTable";
 
 export default function Product({ urlObject }) {
   const productList = data.products;
@@ -25,7 +26,6 @@ export default function Product({ urlObject }) {
           <section className={Styles.shortDescription}>
             <h2>{product.name} Features</h2>
             <ul>
-              {console.log(product.bullets)}
               {product.bullets.map((bullet, key) => {
                 return <li key={key}>{bullet}</li>;
               })}
@@ -42,6 +42,9 @@ export default function Product({ urlObject }) {
               </p>
             </div>
             <div>
+              <p> 5 year manufacturer warranty (not transferable).</p>
+            </div>
+            <div>
               <button className={Styles.dealers}>
                 <Link href="/find-a-dealer">
                   Find a Local Dealer
@@ -54,6 +57,7 @@ export default function Product({ urlObject }) {
             <h2>{product.name} Description</h2>
             <p>{product.description}</p>
           </section>
+          <ProductSpecTable product={product.specs} />
         </main>
       </div>
     );

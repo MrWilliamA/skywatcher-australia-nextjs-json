@@ -6,17 +6,15 @@ import ProductFeaturedImage from "../../products/ProductFeaturedImage";
 const ProductCard = ({ product }) => {
   const productLink = `/products/${product.url}`;
   const name = product.name.replace("Sky-Watcher ", "");
+  console.log(product.images[0]);
 
   return (
     <article className={Styles.card}>
       <div className={Styles.imageContainer}>
         <Link href={productLink}>
           <ProductFeaturedImage
-            src={`/images/products/${product.sku}.tag.0.png`}
-            fallbackSrc={[
-              `/images/products/${product.sku}.tag.0.jpg`,
-              "/images/products/missing-image.svg",
-            ]}
+            src={product.images[0]}
+            fallbackSrc={"/images/products/missing-image.svg"}
             alt={product.name}
             width="0"
             height="0"

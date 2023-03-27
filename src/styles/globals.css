@@ -16,9 +16,11 @@
   --background-rgb: 239, 239, 239;
   --foreground-rgb: 0, 0, 0;
   --green: #2ab673;
+  --green-dark: #1c9159;
   --green-trans: #2ab673ab;
   --dark: #1c1c1c;
   --light: #cbcbcb;
+  --extra-light: #dfdfdf;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -78,12 +80,16 @@ h1 {
   font-size: clamp(30px, 4vw, 60px);
 }
 
-h2,
+h2 {
+  margin: 20px 0;
+  font-size: clamp(15px, 4vw, 30px);
+}
+
 h3,
 h4,
 h5 {
-  margin: 20px 0;
-  font-size: clamp(15px, 4vw, 30px);
+  margin: 8px 0;
+  font-size: clamp(12px, 3vw, 18px);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -33,7 +33,12 @@
         "Eyepieces": "1.25″ Super 20 and 10*",
         "Tube Weight": "2.53 Kgs",
         "Tube Dimensions": "10cm x 47cm"
-      }
+      },
+      "images": [
+        "/images/products/SW1025-AZGO2/SW1025-AZGO2.tag.0.png",
+        "/images/products/SW1025-AZGO2/SW1025-AZGO2.tag.1.png",
+        "/images/products/SW1025-AZGO2/SW1025-AZGO2.tag.2.jpg"
+      ]
     },
     {
       "name": "Sky-Watcher 114/450 AZ-Go2 Newtonian",
@@ -70,7 +75,13 @@
         "Tube Dimensions": "15cm x 41cm",
         "Shipping Weight": "10 kg",
         "Shipping Dimensions": "85x35x26 cm3"
-      }
+      },
+      "images": [
+        "/images/products/SW114P-AZGO2/SW114P-AZGO2.tag.0.png",
+        "/images/products/SW114P-AZGO2/SW114P-AZGO2.tag.1.jpg",
+        "/images/products/SW114P-AZGO2/SW114P-AZGO2.tag.2.jpg",
+        "/images/products/SW114P-AZGO2/SW114P-AZGO2.tag.3.jpg"
+      ]
     }
   ]
 }
