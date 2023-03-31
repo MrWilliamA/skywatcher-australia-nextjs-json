@@ -2,6 +2,7 @@ import styles from "../../../styles/page.module.css";
 import Nav from "../navigation/Nav";
 
 const PageBanners = ({ title }) => {
+  console.log(title);
   return (
     <section className={styles.pageBanner}>
       <Nav />

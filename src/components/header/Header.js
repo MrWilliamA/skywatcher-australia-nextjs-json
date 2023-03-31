@@ -2,11 +2,11 @@ import HomeBanner from "./banners/HomeBanner";
 import PageBanners from "./banners/PageBanners";
 import ProductBanners from "./banners/ProductBanners";
 
-const Header = ({ productDetails }) => {
+const Header = ({ productDetails, title }) => {
   const banners = {
     home: <HomeBanner />,
     product: <ProductBanners productDetails={productDetails.product} />,
-    page: <PageBanners title={productDetails.title} />,
+    page: <PageBanners title={title} />,
   };
 
   const selectedPageType = productDetails.type;

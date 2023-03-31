@@ -5,11 +5,15 @@ const ProductTags = ({ productDetails, seperator }) => {
   return (
     <>
       {productDetails.tags.map((tag) => {
+        const cleanedTag = tag.replace(" ", "-").toLowerCase();
+
         return (
           <React.Fragment key={tag}>
-            <Link href={`/products/cat/${tag.replace(" ", "-").toLowerCase()}`}>
-              {tag}
-            </Link>
+            {tag.includes("Dobsonian") ? (
+              <Link href={`/categories/dobsonians`}>{tag}</Link>
+            ) : (
+              <Link href={`/categories/${cleanedTag}`}>{tag}</Link>
+            )}
             {seperator && seperator}
           </React.Fragment>
         );

@@ -28,7 +28,7 @@
         "F/Ratio": "F/5",
         "Highest Practical Power": "204x",
         "Finder Scope": "Red Dot Finder*",
-        "Focuser Diameter": "2″ with 1.25″ adapter",
+        "Diameter": "2″ with 1.25″ adapter",
         "Diagonal": "1.25″ 45 deg. Erect Image*",
         "Eyepieces": "1.25″ Super 20 and 10*",
         "Tube Weight": "2.53 Kgs",
@@ -43,7 +43,7 @@
     {
       "name": "Sky-Watcher 114/450 AZ-Go2 Newtonian",
       "sku": "SW114P-AZGO2",
-      "tags": ["Telescopes", "Refractors", "First Telescopes"],
+      "tags": ["Telescopes", "Reflectors", "First Telescopes"],
       "url": "sky-watcher-114-450-az-go2-newtonian",
       "rrp": 599.99,
       "bullets": [
@@ -69,7 +69,7 @@
         "F/Ratio": "F/4.4",
         "Highest Practical Power": "228x",
         "Finder Scope": "Red Dot Finder*",
-        "Focuser Diameter": "Rack and Pinion Focuser (1.25”)",
+        "Diameter": "Rack and Pinion Focuser (1.25”)",
         "Eyepieces": "1.25″ Super 25 and 10*",
         "Tube Weight": "8 Kgs",
         "Tube Dimensions": "15cm x 41cm",
@@ -81,6 +81,554 @@
         "/images/products/SW114P-AZGO2/SW114P-AZGO2.tag.1.jpg",
         "/images/products/SW114P-AZGO2/SW114P-AZGO2.tag.2.jpg",
         "/images/products/SW114P-AZGO2/SW114P-AZGO2.tag.3.jpg"
+      ]
+    },
+    {
+      "name": "Sky-Watcher 114/900 EQ1 Reflector",
+      "sku": "SW1149EQ1",
+      "tags": ["Telescopes", "Reflectors", "First Telescopes"],
+      "url": "sky-watcher-114-900-eq1-reflector",
+      "rrp": 349.99,
+      "bullets": [
+        "Includes 114mm Newton Reflector with EQ1 Mount with Aluminium Tripod",
+        "165% more than 70mm Refractor",
+        "Aluminised mirrors",
+        "Fine Tracking Adjustment Knobs",
+        "Easy tracking of stars with equatorial mount",
+        "Sky-Watcher 5 Years Limited Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher  114/900mm EQ1 Reflector Telescope</strong></p> <p>See the giant planets such as Jupiter and Saturn and their moons, nebulae and clusters. The Sky-Watcher 114/900 EQ1 Reflector Telescope is a fantastic telescope for the beginning amateur astronomer. It has the benefits of gathering 125% more light than a 76mm telescope and 165% more than a 70mm refractor showing better the main details in nebulae and cluster. With maximum practical magnification of 224x , this Sky-Watcher Telescope will reveal details in Saturn’s rings, Jupiter’s bands, the Martian polar ice caps, and the phases of Venus and the moon.</p> <p><strong>Equatorial Mount Features</strong></p> The EQ1 is a lightweight equatorial mount, able to compensate for Earth’s rotation by moving along only one axis. That is a great advantage for high resolution observation as it is only necessary to turn a single knob whilst tracking an object across the sky. The optional tracking motor can be easily attached to the right ascension axis, allowing comfortable observation without the work of manual tracking. Aligning an equatorial mount is an easy operation that can be completed in a few minutes. Once the tripod is levelled and the mount is orientated south, incline the mount at the same angle of your local latitude. For example, if you are in Sydney (latitude 33° South), adjust the mount inclination to 33° above the horizon using the scale on the EQ1 mount. <p><strong>Premium Imaging Performance</strong></p>Sky-Watcher guarantee diffraction limited optics for an outstanding quality. The aluminised primary mirror is aspheric (parabolic profile) offering an optical system free from spherical aberration. The secondary mirror is thin to allow fast cooling and it is held by extra thin spider supports for minimal diffraction spike effects on bright stars and increased contrast.</p><p><strong>In the Box:</strong></p><ul><li>114mm Newton Reflector</li><li>EQ1 Mount with Aluminium Tripod</li><li>Fine Tracking Adjustment Knobs</li><li>2 Eyepieces Super 10mm (90x) & Super 25mm (36x) – 1.25″ Barrel</li><li>2x Barlow Lens (double the magnifications of the eyepieces)</li><li>Finderscope 6×24</li><li>Instruction Manual</li></ul>",
+      "specs": {
+        "Optical Design": "Newton Reflector",
+        "Optical Diameter": "114mm",
+        "Focal Length": "900mm",
+        "F/Ratio": "F/7.9",
+        "Highest Practical Power": "228x",
+        "Resolving Power": "1.05\"",
+        "Stellar Limit Magnitude": "12.5",
+        "Light Gathering Power": "265",
+        "Diameter": "1.25\"",
+        "Recommended Usage": "Viewing Moon and Planets"
+      },
+      "images": [
+        "/images/products/SW1149EQ1/SW1149EQ1.tag.0.png",
+        "/images/products/SW1149EQ1/SW1149EQ1.tag.1.jpg"
+      ]
+    },
+    {
+      "name": "3\" Tabletop Dobsonian",
+      "sku": "SWDOB76",
+      "tags": ["Telescopes", "Tabletop Dobsonians", "First Telescopes"],
+      "url": "3-tabletop-dobsonian",
+      "rrp": 174.99,
+      "bullets": [
+        "Table Top Dobsonian",
+        "Diffraction Limited Parabolic mirror",
+        "Lightweight and Extremely Portable (40cm long, total weight less than 2kg)",
+        "Dobson Wood Mount",
+        "No Disassembling or Collimation is required between use",
+        "Gift Box",
+        "Backed by 5 Years Sky-Watcher Limited Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher Heritage 3\" Table Top Dobsonian Telescope</strong></p><p>Designed as a great choice for beginners and children, this Sky-Watcher Heritage 76mm Dobsonian is very simple and easy to use and makes an ideal gift for the young astronomer. Coming with a 5x24 magnification finderscope and two  1.25\" eyepieces, this telescope has everything you need to start out. The optical tube and mount come fully assembled, ready to use straight out of the box - just use the finderscope to point at your target, insert the eyepiece and enjoy the night sky!</p><p>The optical tube design is synonymous with Galileo and his conflict with the Catholic church. Galileo Galilei believed that the Earth revolves around the Sun, but his theory clashed with the geocentric theory held by the establishment of the time. His belief led him to be denounced to the Roman Inquisition; he was accused of heresy and forced to withdraw his theories.</p><p>The telescope tube is also adorned with the words “Galileo 400” in recognition that in 2008 his first telescope turned 400 years old.</p><p><strong>Accessories in the Box:</strong></p><ul><li>Finderscope 5x24</li><li>Eyepiece Super 25mm (12x)</li><li>Eyepiece Super 10mm (30x)</li></ul>",
+      "specs": {
+        "Optical Design": "Reflector Newtonian",
+        "Optical Diameter": "76mm (3\")",
+        "Focal Length": "300mm",
+        "F/Ratio": "f/4",
+        "Highest Practical Power": "152x",
+        "Diameter": "Rack and Pinion 1.25\"",
+        "Stellar Limit Magnitude": "12.5",
+        "Resolving Power": "1.58\"",
+        "Light Gathering Power": "118",
+        "Finder Scope": "5x24"
+      },
+      "images": [
+        "/images/products/SWDOB76/SWDOB76.tag.0.png",
+        "/images/products/SWDOB76/SWDOB76.tag.1.jpg"
+      ]
+    },
+    {
+      "name": "60 AZ2 Refractor",
+      "sku": "SW607AZ2",
+      "tags": ["Telescopes", "Refractors", "First Telescopes"],
+      "url": "60-az2-refractor",
+      "rrp": 174.99,
+      "bullets": [
+        "Perfect for Beginners",
+        "Highly affordable",
+        "Suitable for both astronomy & terrestrial use",
+        "Lightweight and easy to use",
+        "Plastic carrying case included",
+        "Aluminium tripod",
+        "Sky-Watcher 5 Years manufacturer warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher 60/700 AZ2 Refractor Telescope</strong></p><p>Learning or interested in Astronomy? This Sky-Watcher 60/700 Refractor Telescope is a highly affordable telescope which allows beginners to take their first steps into the world of Astronomy. Several accessories are provided, this telescope is suitable for both astronomical and terrestrial observations. Unlike many other beginner telescopes on the market, this Sky-Watcher 60/700 comes with standard 1.25\" focuser allowing a broad range of eyepiece and accessories to be used for a better viewing experience.</p><p>Equipped with a user-friendly alt-azimuth AZ2 mount, this Sky-Watcher telescope can move in both horizontal and vertical axes. It is designed for viewing the Sun (Solar Filter REQUIRED), the moon and bright planets, and terrestrial observation during the day.</p><p><strong>The Refractor Advantage</strong></p><p>Images viewed through a refractor telescope have a classic quality that other telescope designs lack. Since a refractor does not use mirrors to view objects, you get a generally sharper image. Images are also displayed without the secondary mirror shadow, making it suitable for terrestrial viewing when used with a 45° erecting image diagonal or an erecting tube.</p><p><strong>Superb Imaging Qualities</strong></p><p>This achromatic refractor from Sky-Watcher features an aperture of 60mm and it is fully multi-coated to enhance light transmission. It delivers clear, high contrast images of the moon and the planets. Those new to astronomy will appreciate how simple and easy this telescope is to use.</p><p><strong>In the Box:</strong></p><ul><li>60mm Achromatic Refractor</li><li>AZ2 Mount with Aluminium Tripod</li><li>2 Eyepieces Super 10mm (70x) & Super 20mm (35x) – 1.25\" barrel</li><li>2x Barlow Lens (double the magnifications of the eyepieces)</li><li>Finderscope 6x24</li><li>90° Star Diagonal - 1.25\" barrel</li><li>Instruction Manual</li></ul>",
+      "specs": {
+        "Optical design": "Multicoated Achromatic refractor",
+        "Optical Diameter": "60mm",
+        "Focal Length": "700mm",
+        "F/Ratio": "f/11.7",
+        "Resolving Power": "2.00\"",
+        "Stellar Limit Magnitude": "11.4",
+        "Highest Practical Power": "120x",
+        "Light Gathering Power": "73",
+        "Diameter": "1.25\"",
+        "Recommended Usage": "Viewing Moon and Planets"
+      },
+      "images": [
+        "/images/products/SW607AZ2/SW607AZ2.tag.0.png",
+        "/images/products/SW607AZ2/SW607AZ2.tag.1.jpg"
+      ]
+    },
+    {
+      "name": "70 AZ2 Refractor",
+      "sku": "SW707AZ2",
+      "tags": ["Telescopes", "Refractors", "First Telescopes"],
+      "url": "70-az2-refractor",
+      "rrp": 224.99,
+      "bullets": [
+        "Perfect for beginners",
+        "Highly affordable",
+        "36% More Light Gathering capability than 60mm",
+        "Suitable for both astronomy & terrestrial use",
+        "Lightweight and easy to use",
+        "140x max practical magnification",
+        "Sky-Watcher 5 Years Manufacturer Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher 70/700 AZ2 Refractor Telescope</strong></p><p>Learning or interested in Astronomy? This Sky-Watcher 70/700 Refractor Telescope is a highly affordable telescope which allows beginners to take their first steps into the world of Astronomy. Several accessories are provided, this telescope is suitable for both astronomical and terrestrial observations. Unlike many other beginner telescopes on the market, this Sky-Watcher 60/700 comes with standard 1.25″ focuser allowing a broad range of eyepiece and accessories to be used for a better viewing experience.</p><p>Equipped with a user-friendly alt-azimuth AZ2 mount, this Sky-Watcher telescope can move in both horizontal and vertical axes. It is designed for viewing the Sun (Solar Filter REQUIRED), the moon and bright planets, and terrestrial observation during the day.</p><p><strong>The Refractor Advantage</strong></p><p>Images viewed through a refractor telescope have a classic quality that other telescope designs lack. Since a refractor does not use mirrors to view objects, you get a generally sharper image. Images are also displayed without the secondary mirror shadow, making it suitable for terrestrial viewing when used with a 45° erecting image diagonal or an erecting tube.</p><p><strong>Superb Imaging Qualities</strong></p><p>This achromatic refractor from Sky-Watcher features an aperture of 70mm and it is fully multi-coated to enhance light transmission. It delivers clear, high contrast images of the moon and the planets. Those new to astronomy will appreciate how simple and easy this telescope is to use.</p><p><strong>In the Box:</strong></p><ul><li>70mm Achromatic Refractor</li><li>AZ2 Mount with Aluminium Tripod</li><li>2 Eyepieces Super 10mm (70x) & Super 25mm (28x) – 1.25″ Barrel</li><li>2x Barlow Lens (double the magnifications of the eyepieces)</li><li>Finderscope 6×24</li><li>90° Star Diagonal – 1.25″ Barrel</li><li>Instruction Manual</li></ul>",
+      "specs": {
+        "Optical Design": "Multicoated Achromatic Refractor",
+        "Optical Diameter": "70mm",
+        "Focal Length": "700mm",
+        "F/Ratio": "f/10",
+        "Resolving Power": "1.71\"",
+        "Stellar Limit Magnitude": "11.6",
+        "Highest Practical Power": "140x",
+        "Light Gathering Power": "100",
+        "Focuser": "1.25\"",
+        "Recommended Usage": "Viewing Moon and Planets"
+      },
+      "images": [
+        "/images/products/SW707AZ2/SW707AZ2.tag.0.png",
+        "/images/products/SW707AZ2/SW707AZ2.tag.1.jpg"
+      ]
+    },
+    {
+      "name": "5\" Tabletop Dobsonian",
+      "sku": "SWDOB130",
+      "tags": ["Telescopes", "Tabletop Dobsonians", "First Telescopes"],
+      "url": "5-tabletop-dobsonian",
+      "rrp": 399.99,
+      "bullets": [
+        "Collapsible Table Top Dobsonian",
+        "Diffraction Limited Parabolic Mirror",
+        "Lightweight and Extremely Portable (37cm long, total weight less than 7kg)",
+        "Dobson Wooden Mount with Tightness Adjustment in Altitude",
+        "No Disassembling or Collimation is required between use",
+        "Gift Box",
+        "Backed by 5 Years Sky-Watcher Limited Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher Heritage P130 Dobsonian Telescope</strong></p><p>The Heritage 130 is a compact and easy-to-use table top telescope, ideal for all kind of observations. The patent collapsible system makes it is particularly easy to store and transport. Just extend the tube, point the telescope using the red dot finder scope, insert the eyepiece and enjoy the night sky!</p><p>The easy handling of the Dobsonian mount offers a great way of getting started in amateur astronomy. It is intuitive and simple to use; the built-in handle allows movement of the telescope to the left and right while the adjustable clutch allows adjustment of the altitude axis. The telescope and mount come fully assembled, ready to use straight out of the box</p><p>The Sky-Watcher Heritage 5″ Dobsonian Telescope commemorates the International Year of Astronomy – the tube is decorated with the names of great astronomers of the past.</p><p><strong>Accessories in the Box: </strong></p><ul><li>Red Dot Finderscope</li><li>Eyepiece 1.25″ Super 25mm (26x)</li><li>Eyepiece 1.25″ Super 10mm (65x)</li></ul>",
+      "specs": {
+        "Optical Design": "Newtonian",
+        "Optical Diameter": "130mm (5\")",
+        "Focal Length": "650mm",
+        "F/Ratio": "f/5",
+        "Secondary Mirror Diameter": "39.8mm",
+        "Obstruction": "30.6%",
+        "Diameter": "Helical 1.25\"",
+        "Stellar Limit Magnitude": "13.6 magnitude",
+        "Resolving Power": "0.92\"",
+        "Highest Practical Power": "260x",
+        "Light Gathering Power": "345",
+        "Finder Scope": "Red Dot"
+      },
+      "images": [
+        "/images/products/SWDOB130/SWDOB130.tag.0.png",
+        "/images/products/SWDOB130/SWDOB130.tag.1.jpg",
+        "/images/products/SWDOB130/SWDOB130.tag.2.jpg",
+        "/images/products/SWDOB130/SWDOB130.tag.3.jpg",
+        "/images/products/SWDOB130/SWDOB130.tag.4.jpg"
+      ]
+    },
+    {
+      "name": "Classic 200P Dobsonian",
+      "sku": "SWDOB200",
+      "tags": ["Telescopes", "Classic Dobsonians", "First Telescopes"],
+      "url": "classic-200P-dobsonian",
+      "rrp": 899.99,
+      "bullets": [
+        "User level: beginner – intermediate",
+        "Outstanding light gathering ability",
+        "Super-smooth Azimuth movement",
+        "Solid tube",
+        "Tension control system",
+        "2″ Focuser with a 1.25″ adaptor",
+        "5 Years Sky-Watcher Limited Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher Classic 200P DOBSONIAN Telescopes</strong></p><p><strong>The Ultimate Light Gatherer</strong></p><p>The Dobsonian telescopes are named after John Dobson, an amateur astronomer who designed a very simple but effective telescope, where the key factor is a large aperture for little money. His idea was to mount a Newton telescope on an easy-to-use alt-azimuth mount that does not need time-consuming alignments.</p><p>The Sky-Watcher 8″ Dobsonian is a large aperture Newtonian reflector telescope with f/6 focal ratio, make it ideal for wide field and deep-sky observation. Big aperture means better light gathering power and with this Sky-Watcher Telescope you are able to see prominent deep-sky object such as nebulae, star cluster and many more. To top it off, the Sky-Watcher Classic Dobsonians are equipped with a 2″ Crayford focuser and focuser locking screw – to allow easy use of either eyepiece size.</p><p><strong>Tension Control System</strong></p><p>The Tension Control System allows you to adjust the friction setting; to increase or reduce the amount of resistance when moving the tube on the wooden mount, so you always have the appropriate resistance. The secret of the design is to correctly balance the optical tube with the specially designed handles (found on the base) and this adds enough friction and tension to allow the tube to move easily when nudged or to stay solidly in position.</p><p><strong>In The Box:</strong></p><ul><li>Finderscope 6X30 straight version</li><li>Eyepiece 1.25″ Super 25mm (48x)</li><li>Eyepiece 1.25″ Super 10mm (120x)</li><li>Eyepiece adaptor from 2″ to 1.25″ with M42 thread</li><li>2″ Tube Extension</li><li>User Manual</li></ul>",
+      "specs": {
+        "Optical Design": "Newtonian (parabolic primary mirror)",
+        "Optical Diameter": "200mm",
+        "Focal Length": "1200mm",
+        "F/Ratio": "f/6",
+        "Resolving Power": "0.60\"",
+        "Stellar Limit Magnitude": "12.9",
+        "Highest Practical Power": "400X",
+        "Light Gathering Power": "816",
+        "Focuser": "2\" Crayford with 1.25\" adaptor"
+      },
+      "images": [
+        "/images/products/SWDOB200/SWDOB200.tag.0.png",
+        "/images/products/SWDOB200/SWDOB200.tag.1.jpg"
+      ]
+    },
+    {
+      "name": "Classic 250P Dobsonian",
+      "sku": "SWDOB250",
+      "tags": ["Telescopes", "Classic Dobsonians", "First Telescopes"],
+      "url": "classic-250P-dobsonian",
+      "rrp": 1299.99,
+      "bullets": [
+        "Most Practical f/5 Telescope",
+        "Outstanding Light Gathering Ability",
+        "Super-smooth Azimuth Movement",
+        "Tension Control System",
+        "2″ Focuser with a 1.25″ Adaptor",
+        "5 Years Sky-Watcher Limited Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher Classic 250P DOBSONIAN Telescopes</strong></p><p><strong>The Ultimate Light Gatherer</strong></p><p>The Dobsonian telescopes are named after John Dobson, an amateur astronomer who designed a very simple but effective telescope, where the key factor is a large aperture for little money. His idea was to mount a Newton telescope on an easy-to-use alt-azimuth mount that does not need time-consuming alignments.</p><p>The Sky-Watcher 10″ Dobsonian is a large aperture Newtonian reflector telescope with f/5 focal ratio, make it ideal for wide field and deep-sky observation. Big aperture means better light gathering power and with this Sky-Watcher Telescope you are able to see prominent deep-sky object such as nebulae, star cluster and many more. To top it off, the Sky-Watcher Classic Dobsonians are equipped with a 2″ Crayford focuser and focuser locking screw –  to allow easy use of either eyepiece size.</p><p><strong>Tension Control System</strong></p><p>The Tension Control System allows you to adjust the friction setting; to increase or reduce the amount of resistance when moving the tube on the wooden mount, so you always have the appropriate resistance. The secret of the design is to correctly balance the optical tube with the specially designed handles (found on the base) and this adds enough friction and tension to allow the tube to move easily when nudged or to stay solidly in position.</p><p><strong>In The Box:</strong></p><ul><li>Finderscope 6X30 straight version</li><li>Eyepiece 1.25″ Super 25mm (48x)</li><li>Eyepiece 1.25″ Super 10mm (120x)</li><li>Eyepiece adaptor from 2″ to 1.25″ with M42 thread</li><li>2″ Tube Extension</li><li>User Manual</li></ul>",
+      "specs": {
+        "Optical Design": "Newtonian (parabolic primary mirror)",
+        "Optical Diameter": "250mm",
+        "Focal Length": "1200mm",
+        "F/Ratio": "f/5",
+        "Resolving Power": "0.60\"",
+        "Stellar Limit Magnitude": "12.9",
+        "Highest Practical Power": "400X",
+        "Light Gathering Power": "816",
+        "Focuser": "2\" Crayford with 1.25\" adaptor"
+      },
+      "images": [
+        "/images/products/SWDOB250/SWDOB250.tag.0.png",
+        "/images/products/SWDOB250/SWDOB250.tag.1.jpg"
+      ]
+    },
+    {
+      "name": "Flextube 200P Collapsible Dobsonian",
+      "sku": "SWDOB200C",
+      "tags": ["Telescopes", "Collapsible Dobsonians"],
+      "url": "flextube-200p-collapsible-dobsonian",
+      "rrp": 1149.99,
+      "bullets": [
+        "Collapsible Dobsonian with 3-Points Tube Locking System",
+        "No Disassembling or Collimation is required between uses",
+        "Dobson Wooden Mount with Tension Control System and Accessories Tray",
+        "Diffraction Limited Parabolic Mirror",
+        "Ultra Thin Secondary Mirror Support (only 0.50mm)",
+        "M42 Thread for DSLR Connection",
+        "Backed by 5 Years Sky-Watcher Limited Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher Flextube 200P Collapsible Dobsonian Telescope</strong></p><p><strong>The Ultimate Light Gatherer</strong></p><p>The Dobsonian telescopes are named after John Dobson, an amateur astronomer who designed a very simple but effective telescope, where the key factor is a large aperture for little money. His idea was to mount a Newton telescope on an easy-to-use alt-azimuth mount that does not need time-consuming alignments. Sky-Watcher improved the Dobson design building a collapsible system that allows the telescope to be easily stored or transported. The 3 metal bars, used to fully extend the tube, have an auto-lock spring loaded system that simplify the set up of the telescope so only one person is required to fully extend the tube. The rigidity of the telescope keeps the mirrors collimated and the tension control system keeps the telescope balanced, so it is not necessary to move heavy counterweights.</p><p>Just extend the tube, use the finderscope and point the telescope towards your favourite night sky objects – sit back and enjoy the great light gathering of the Sky-Watcher Dobsonian!</p><p>To top it off, the Sky-Watcher Collapsible Dobsonians are equipped with a 2″ Crayford focuser and focuser locking screw.</p><p><strong>Accessories in the Box:</strong></p><ul><li>Finderscope 9X50 straight version</li><li>Eyepiece 1.25″ Super Plossl 25mm (48x) – apparent filed of view 52°</li><li>Eyepiece 1.25″ Super Plossl 10mm (120x) – apparent filed of view 52°</li><li>Eyepiece adapter from 2″ to 1.25″ with M42 thread</li><li>2″ tube extension</li><li>User Manual</li></ul>",
+      "specs": {
+        "Optical Design": "Newtonian (parabolic primary mirror)",
+        "Optical Diameter": "200mm (8\")",
+        "Focal Length": "1200mm",
+        "F/Ratio": "f/6",
+        "Secondary Mirror Diameter": "46.8mm",
+        "Obstruction": "23.4%",
+        "Resolving Power": "0.60\"",
+        "Stellar Limit Magnitude": "14.6",
+        "Highest Practical Power": "400X",
+        "Light Gathering Power": "816X",
+        "Focuser": "2\" Crayford with 1.25\" adaptor",
+        "Tube Length": "835mm-1110mm",
+        "Tube Weight": "10.3kg"
+      },
+      "images": [
+        "/images/products/SWDOB200C/SWDOB200C.tag.0.png",
+        "/images/products/SWDOB200C/SWDOB200C.tag.1.jpg",
+        "/images/products/SWDOB200C/SWDOB200C.tag.2.jpg",
+        "/images/products/SWDOB200C/SWDOB200C.tag.3.jpg",
+        "/images/products/SWDOB200C/SWDOB200C.tag.4.jpg"
+      ]
+    },
+    {
+      "name": "Flextube 250P Collapsible Dobsonian",
+      "sku": "SWDOB250C",
+      "tags": ["Telescopes", "Collapsible Dobsonian"],
+      "url": "flextube-250p-collapsible-dobsonian",
+      "rrp": 1599.99,
+      "bullets": [
+        "Collapsible Dobsonian with 3-Points Tube Locking System",
+        "No Disassembling or Collimation is required between uses",
+        "Dobson Wooden Mount with Tension Control System and Accessories Tray",
+        "Diffraction Limited Parabolic Mirror",
+        "Ultra Thin Secondary Mirror Support (only 0.80mm)",
+        "Backed by 5 Years Sky-Watcher Limited Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher Flextube 250P Collapsible Dobsonian Telescope</strong></p><p><strong>The Ultimate Light Gatherer</strong></p><p>The Dobsonian telescopes are named after John Dobson, an amateur astronomer who designed a very simple but effective telescope, where the key factor is a large aperture for little money. His idea was to mount a Newton telescope on an easy-to-use alt-azimuth mount that does not need time-consuming alignments. Sky-Watcher improved the Dobson design building a collapsible system that allows the telescope to be easily stored or transported. The 3 metal bars, used to fully extend the tube, have an auto-lock spring loaded system that simplify the set up of the telescope so only one person is required to fully extend the tube. The rigidity of the telescope keeps the mirrors collimated and the tension control system keeps the telescope balanced, so it is not necessary to move heavy counterweights.</p><p>Just extend the tube, use the finderscope and point the telescope towards your favourite night sky objects – sit back and enjoy the great light gathering of the Sky-Watcher Dobsonian!</p><p>To top it off, the Sky-Watcher Collapsible Dobsonians are equipped with a 2″ Crayford focuser and focuser locking screw.</p><p><strong>Accessories in the Box:</strong></p><ul><li>Finderscope 9X50 straight version</li><li>Eyepiece 1.25″ Super Plossl 25mm (48x) – apparent filed of view 52°</li><li>Eyepiece 1.25″ Super Plossl 10mm (120x) – apparent filed of view 52°</li><li>Eyepiece adapter from 2″ to 1.25″ with M42 thread</li><li>2″ tube extension</li><li>User Manual</li></ul>",
+      "specs": {
+        "Optical Design": "Newtonian (parabolic primary mirror)",
+        "Optical Diameter": "254mm (10\")",
+        "Focal Length": "1200mm",
+        "F/Ratio": "f/4.7",
+        "Secondary Mirror Diameter": "58mm",
+        "Obstruction": "22.8%",
+        "Resolving Power": "0.47\"",
+        "Stellar Limit Magnitude": "15.1",
+        "Highest Practical Power": "508X",
+        "Light Gathering Power": "1317X",
+        "Focuser": "2\" Crayford with 1.25\" adaptor",
+        "Tube Length": "805mm-1120mm",
+        "Height": "1390",
+        "Tube Weight": "14kg"
+      },
+      "images": [
+        "/images/products/SWDOB200C/SWDOB200C.tag.0.png",
+        "/images/products/SWDOB200C/SWDOB200C.tag.1.jpg",
+        "/images/products/SWDOB200C/SWDOB200C.tag.2.jpg",
+        "/images/products/SWDOB200C/SWDOB200C.tag.3.jpg",
+        "/images/products/SWDOB200C/SWDOB200C.tag.4.jpg"
+      ]
+    },
+    {
+      "name": "Stargate 500 Synscan Dobsonian",
+      "sku": "SWDOB500CGT",
+      "tags": ["Telescopes", "Stargate Dobsonian"],
+      "url": "stargate-500-synscan-dobsonian",
+      "rrp": 14999.99,
+      "bullets": [
+        "User level; intermediate – professional",
+        "Collapsible, transportable Dobsonian",
+        "View moon, planets, comets, stars, galaxies and nebulae",
+        "Collapsible truss design – 30 minute setup time",
+        "Optional WiFi adapter",
+        "Backed by 5 Years Sky-Watcher Limited Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher Stargate 500 SynScan Dobsonian </strong></p><p> The Stargate Dobsonians represents the ultimate combination between light gathering, precision and portability for outstanding performance and resolution. The truss structure is compact, allowing for easy transportation while you’re in search of the perfect dark, pristine sky. The outstanding light gathering of the mirror and the superior resolution allow amazing journeys through the universe, offering spectacular observations of tangled gas filaments in nebulae, fine galaxy details and remarkable planet structures. Despite the size of the mirror, the telescope is easy to assemble following the step by step instructions and video.</p><p> To top it off, the Sky-Watcher Stargate is equipped with a 2″ Crayford dual speed focuser for smooth and precise focusing, and a focuser-locking screw.</p><p><strong>Stargate 500 SynScan Dobsonian Features</strong></p><ul> <li>User level; intermediate – professional</li> <li>Collapsible, transportable Dobsonian</li> <li>View moon, planets, comets, stars, galaxies and nebulae</li> <li>Truss tube with stiffening clamps</li> <li>Borosilicate aluminised mirrors protected by quartz coating</li> <li>Aluminium structure and base</li> <li>Diffraction Limited Parabolic Mirror</li> <li>Ultra Thin Secondary Mirror Support (only 2.50mm)</li> <li>M42 Thread for DSLR Connection</li> <li>Backed by 5 Years Sky-Watcher Limited Warranty</li></ul><p><strong>Stargate 500 SynScan Dobsonian Features</strong></p><p> The most extraordinary feature of the Stargate is the technology used in the mirrors. They are made up of borosilicate glass that has a very low expansion coefficient, reducing the stresses caused by thermal gradients. The primary mirror uses a special lightweight technology. In fact, the mirror is extremely light and thin, but the glass ribs beneath minimise the glass deformation, thus allowing continuous high performance in all the telescope angulations. Moreover, the small thickness of the mirror allows a much quicker cooling time compared to the standard monolithic mirrors. The secondary mirror has a honeycomb structure that follows the concept of the primary mirror: lightweight, rigid and quick to cool down.</p><p> Both the mirrors are aluminised and in order to protect the reflective treatment over the years, the coatings are protected by a thin layer of quartz (silicon dioxide). This protection is needed as the mirrors are exposed to external elements due to their position in an open truss tube. Sky-Watcher is one of the few companies in the world that use this particular technology.</p><p><strong>Computerized Synscan </strong></p><p> The Stargate Go-To is equipped with the Sky-Watcher SynScan that has in it’s memory 42,900 objects! Once the telescope is aligned, thousands of objects will be visible with a touch of a button; planets, the entire Messier catalogue, bright and double stars and the IC, NGC, SAO catalogues. In addition to this, the Deep Sky Tour function suggests a list of the most interesting deep sky objects so even the inexperienced astronomer can easily observe faint nebulae and galaxies.</p><p> The Freedom Find technology (dual-encoder) allows the telescope to be moved manually whenever the user wishes, but without losing any of the pre-set alignment.</p><p><strong>Accessories in the Box: </strong></p><ul> <li> SynScan hand controller with cables 12V power cable with lighter socket plug </li> <li> Finderscope 9X50 straight version Eyepiece 2″ LET 28mm (71x) – apparent filed </li> <li> of view 56° Eyepiece 1.25″ Super Plossl 10mm (200x) – apparent filed of view </li> <li> 52° Eyepiece adapter from 2″ to 1.25″ with M42 thread 2″ tube extension </li> <li>Collimation Eyepiece User Manual</li></ul>",
+      "specs": {
+        "Optical Design": "Newtonian (parabolic primary mirror)",
+        "Optical Diameter": "508mm (20\")",
+        "Focal Length": "2000mm",
+        "F/Ratio": "f/3.9",
+        "Secondary Mirror Diameter": "136mm",
+        "Obstruction": "26.8%",
+        "Resolving Power": "0.24\"",
+        "Stellar Limit Magnitude": "16.2",
+        "Highest Practical Power": "1016X",
+        "Light Gathering Power": "5267X",
+        "Focuser": "2\" Crayford dual speed with 1.25\" adaptor",
+        "Tube Weight": "45.4kg",
+        "Mount Weight": "29.8kg",
+        "Total Weight": "75.2kg"
+      },
+      "images": ["/images/products/stargates/SWDOB500CGT.tag.0.png"]
+    },
+    {
+      "name": "150/750 Eq3 Aluminium Tripod Reflector",
+      "sku": "SW15075EQ3",
+      "tags": ["Telescopes", "Reflectors"],
+      "url": "150-750-eq3-aluminium-tripod-reflector",
+      "rrp": 1199.99,
+      "bullets": [
+        "Diffraction Limited Parabolic Primary Mirror",
+        "Ideal Fast Telescope for Astrophotography",
+        "Optional Dual-Axis Motor Drive",
+        "Optional Motorised Go-To Synscan system",
+        "Portable and Quick Assembly",
+        "5 Years SkyWatcher Limited Warranty"
+      ],
+      "description": "<p> <strong >Sky-Watcher 150/750 EQ3 Reflector Telescope with Aluminium Tripod</strong ></p><p> With an aperture of 150mm, this telescope permits exploration of fine planetary details and it reveals hundreds of deep sky objects such as nebulae, galaxies and clusters. This telescope collect 459x more light than the unaided eye and in good conditions, the resolution can reach 0.80″. This means amazing observations of the rings of Saturn, features on Mars, the tangled atmosphere of Jupiter and the phases of Venus. Globular clusters will reveal thousands of stars and nebulae will show filaments of gas floating in the dark sky. On top of that, the fast f/5 focal ratio is perfect for astrophotography.</p><p><strong>Equatorial Mount Features </strong></p><p> The equatorial mount offers the convenience to compensate the Earth’s rotation. That is a great advantage for high resolution observation as it is only necessary to turn a single knob whilst tracking an object across the sky. The EQ3 is a lightweight German equatorial mount that easily bears the weight of the Sky-Watcher 150/750. The altitude and azimuth fine adjustment knobs make the polar alignment easy while the gears ensure accurate tracking. The heavy duty aluminium tripod increases the stability of the telescope and reduces vibration due to wind.</p><p> Aligning an equatorial mount is an easy operation that can be completed in a few minutes. Once the tripod is levelled and the mount is orientated south, incline the mount at the same angle of your local latitude. For example, if you are in Sydney (latitude 33° South), adjust the mount inclination to 33° above the horizon using the scale on the EQ3 mount.</p><p> The tracking can be performed by the optional dual-axis motors that can be easily connected to the mount. The computerised SynScan system is the ultimate upgrade that allows automatic pointing and tracking of more than 42,000 object in the sky! This option will save time when finding planets and deep sky objects in the vastness of the night sky.</p><p><strong>In the Box:</strong></p><ul> <li>150mm Newton Reflector</li> <li>EQ3 Mount with Aluminium Tripod</li> <li>2 Eyepieces Super 10mm (75x) & Super 25mm (30x) – 1.25″ Barrel</li> <li>6×30 Finderscope</li> <li>Telescope Eyepiece Adapter from 2″ to 1.25″ with T2 Thread</li> <li>Instruction Manual</li></ul>",
+      "specs": {
+        "Optical Design": "Newton Reflector",
+        "Optical Diameter": "150mm",
+        "Focal Length": "750mm",
+        "F/Ratio": "f/5",
+        "Resolving Power": "0.80\"",
+        "Stellar Limit Magnitude": "13.7",
+        "Highest Practical Power": "300X",
+        "Light Gathering Power": "459",
+        "Focuser": "2\"",
+        "Recommended Usage": "Viewing Moon and PlanetsObserving Deep Sky Objects"
+      },
+      "images": [
+        "/images/products/SW15075EQ3/SW15075EQ3.tag.0.png",
+        "/images/products/SW15075EQ3/SW15075EQ3.tag.1.jpg",
+        "/images/products/SW15075EQ3/SW15075EQ3.tag.2.jpg"
+      ]
+    },
+    {
+      "name": "Skymax 127 Maksutov-Cassegrain OTA",
+      "sku": "SWMAK127-OTA",
+      "tags": ["Telescopes", "Maksutov-Cassegrains", "OTAs"],
+      "url": "skymax-127-maksutov-cassegrain-ota",
+      "rrp": 899.99,
+      "bullets": [
+        "Compact dimensions, ideal for transportation",
+        "Diffraction limited optics",
+        "Close optical tube to minimise the turbulence effect",
+        "Integrated Vixen Style Bar",
+        "Limited Image Shift During Focusing",
+        "5 years Sky-Watcher limited warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher 127mm/1500mm Skymax 127 Maksutov-Cassegrain OTA </strong></p><p> The Sky-Watcher 127/1500 Skymax 127 Maksutov-Cassegrain OTA is a compact and powerful optical design that combines a front meniscus lens and two mirrors. As the optical tube is closed by the meniscus, the mirrors are protected from atmospheric agents such as humidity, dust and pollution that over the years degrade the reflective coating of the mirrors. The tube is compact but the focal length is long allowing high magnification with the standard eyepieces. The resolution power gives the ability to distinguish the main planets details such as the rings of Saturn, the band and the moons of Jupiter.</p><p> <strong>127mm/1500mm Skymax 127 Maksutov-Cassegrain OTA Features </strong></p><ul> <li>Compact dimensions, ideal for transportation</li> <li>Practical main mirror focusing mechanism</li> <li>Universal accessory adaptation</li> <li>High contrast image without distracting false colour</li> <li>Quick release system for the tube</li> <li>Impressive viewing capabilities for its price range</li> <li>5 years Sky-Watcher limited warranty</li></ul><p> <strong>Superb Imaging Power </strong></p><p> The 127mm aperture provides enough light gathering power to view the most popular celestial bodies and messier catalogue objects. It is designed to produce high contrast images with minimal chromatic aberrations. This imaging power comes at a price that is well within the range of most enthusiasts.</p><p> <strong>Portable & Easy to Setup </strong></p><p> The compact dimensions of this optical tube assembly makes it easy to carry around. It’s designed for easy assembly and disassembly with its quick release system. It also allows you to easily perform minor tube adjustments to suit your current environment. Bring it along with you to your favourite viewing locations.</p><p> <strong>Durable Construction </strong></p><p> The lightweight aluminium tube is expertly designed to support the internal optical components and keep images sharply in focus while in use.</p>",
+      "specs": {
+        "Optical Design": "Maksutov-Cassegrain",
+        "Optical Diameter": "127mm",
+        "Focal Length": "1500mm",
+        "Eyepieces": "LET28mm",
+        "Focuser": "2\"",
+        "Finder Scope": "6x30mm",
+        "Highest Practical Power": "254x",
+        "Tube Weight": "5.6kg",
+        "Recommended Usage": "High Resolution Astrophotography"
+      },
+      "images": ["/images/products/SWMAK127-OTA/SWMAK127-OTA.tag.0.png"]
+    },
+    {
+      "name": "80 Evostar Ed Doublet Refractor OTA",
+      "sku": "SWBDED80-OTA",
+      "tags": ["Telescopes", "Refractors", "OTAs"],
+      "url": "80-evostar-ed-doublet-refractor-ota",
+      "rrp": 1749.99,
+      "bullets": [
+        "80mm Apochromatic Refractor",
+        "600mm Focal Length, f/7.5 Focal Ratio",
+        "Proprietary MHC Multicoated Optics",
+        "Schott BK-7 and FPL-53 ED Glass",
+        "2\" Crayford Focuser with 1.25\" Adapter",
+        "20mm and 5mm Eyepieces, 90° Diagonal",
+        "8x50 RA Erect-Image Finderscope",
+        "Vixen-Style Dovetail Plate & Cradle-Ring"
+      ],
+      "description": "<p> The Sky-Watcher 80/600 Evostar ED Doublet Refractor OTA is a refractor telescope that well designed for wide-field astronomical observation of prominent nebulae, star clusters, and galaxies from a dark-sky location. Come with focal ratio f/7.5, it can be used as an astrograph for sky photography or telephoto lens. The Ultra high contrast of this Sky-Watcher ED Refractor allows the subtlest of details to be easily scrutinized under conditions of good seeing.</p><p> <strong>Metallic High-Transmission Lens Coatings (MHC) </strong></p><p> Each air-to-glass lens surface has been coated by Sky-Watcher’s proprietary MHC. An anti-reflection metallic coatings which ensure optimum light-transmission approaching 99.5%.</p><p> <strong>Light-Baffled Optical Systems </strong></p><p> The objective lens cell of this 80/600 Evostar ED Doublet OTA is light-baffled to reduce stray & unfocused light to insure optimum contrast. The interior of the tube is flat blackened to prevent unfocused internal light reflections from reaching the focal plane.</p><p> <strong>Precision 2” Crayford Focuser </strong></p><p> This precision 2″ Crayford Focuser is mechanically ultra-smooth and backlash-free, offers you a fine and ultra-fine focusing adjustments.</p><p> <strong>Tube Materials </strong></p><p> The optical tube material is rolled steel, powder-coated reflective gloss black with gold fleck accent. The front and back cells are cast-aluminum painted white & black.</p><p> <strong>Telescope Tube Attachment Hardware </strong></p><p> The optical tube comes with attachment hardware that allows it to be securely fastened to any Sky-Watcher Mount. The quick-release tube rings provided with Evostar ED80 are cast-aluminum, painted white.</p><p> <strong>In the Box: </strong></p><ul> <li>ED80 OTA</li> <li>2″ Diagonal</li> <li>1.25″ Focuser Adaptor</li> <li>8×50 Finderscope with Bracket</li> <li>Eyepiece – LET 28mm</li> <li>Tube Ring Attachment to Any Sky-Watcher Mount</li> <li>Piggyback Bracket</li></ul>",
+      "specs": {
+        "Optical Design": "ED Refractor OTA",
+        "Optical Diameter": "80mm",
+        "Focal Length": "600mm",
+        "F/Ratio": "f/7.5",
+        "Eyepieces": "LET28mm",
+        "Focuser": "2\"",
+        "Finder Scope": "9x50mm",
+        "Diagonal": "2\" 90° Dielectric Diagaonal",
+        "Highest Practical Power": "160x",
+        "Recommended Usage": "Advanced Users",
+        "Tube Dimensions": "10cm x 62cm",
+        "Tube Weight": "2.47kg"
+      },
+      "images": [
+        "/images/products/SWBDED80-OTA/SWBDED80-OTA.tag.0.png",
+        "/images/products/SWBDED80-OTA/SWBDED80-OTA.tag.1.jpg"
+      ]
+    },
+    {
+      "name": "GT AZEQ5 GOTO Mount, NEQ5 Tripod",
+      "sku": "SWAZEQ5GTT",
+      "tags": ["Mounts", "AZEQ"],
+      "url": "gt-azeq5-goto-mount-neq5-tripod",
+      "rrp": 3249.99,
+      "bullets": [
+        "Equatorial and Alt-Azimuth Hybrid Mount",
+        "Adjustable tripod",
+        "Fine adjustments of latitude and azimuth for precise polar alignment",
+        "Bubble level for perfect levelling",
+        "Metal setting circle dials allow for quick target acquisition via celestial coordinates",
+        "Worm gear tracking controls provide full 360° manipulation of the RA and DEC axis",
+        "V style telescope connection",
+        "Belt driven transmission for limiting backlash",
+        "Freedom Find™ encoders",
+        "Permanent Periodic Error Correction (PPEC)",
+        "Capable of mounting two OTAs simultaneously",
+        "Optional polar scope",
+        "Sky-Watcher 5 Years Limited Warranty"
+      ],
+      "description": "<p> <strong>GT Series AZEQ5 GOTO Mount With NEQ5 Tripod</strong></p><p> The Sky-Watcher GT Series AZ-EQ5 Go-To Mount combines the advantages of the equatorial mount with the simplicity of the alt-azimuth system. In fact, the AZ-EQ5 is a hybrid mount usable in both these configurations. The equatorial mode is ideal for astrophotography while the alt-azimuth configuration is more practical for observation as polar alignment is not required. Moreover, two telescopes can be simultaneously mounted in alt-azimuth configuration.</p><p>The exceptional SynScan Go-To system allows full control of both R.A. and Dec. axes with 9 slew speeds and 5 arcminute pointing precision, allowing you to quickly and accurately locate objects across the night sky. The Go-To system can automatically slew the telescope on command toward planets, stars, nebulae, galaxies, clusters and much more. The SynScan has 42,900 memorised celestial objects for an amazing journey in the night sky. The Deep Sky Tour function suggests a list of the most interesting deep sky objects currently visible, so even the novice astronomer can easily observe faint objects at the touch of a button. Once achieving alignment, the patented Freedom Find™ dual encoders will then keep track of your position to within 4.2 arcminutes. The mount will retain alignment even after releasing the clutches and manually pointing the scope to a new part of the sky.</p><p>The AZ-EQ5 is equipped with two SNAP ports for dual control of camera shutter release. Working with the SynScan hand control’s “Camera Control” function, a user can take batch exposures in up to 8 groups of “Exposure-time & Frames”. An indexer on the R.A. worm gear keeps track of its current position, so that the Periodic Error inherent to all worm gear driven mounts can be learned and permanently corrected for. These features make the Sky-Watcher AZ-EQ5 a fantastic partner to high focal length telescopes and astrophotographers alike.</p><p><strong>SynScan Features:</strong></p><ul> <li>Usable in both Alt-Azimuth and Equatorial mode</li><li>Database with 42,900+ objects</li><li>Messier, Caldwell, NGC, IC & SAO catalogues, Named Stars, Double Stars, Variable Stars, Named Stars</li><li>One, Two and Three Stars or Brightest Star Alignment</li><li>Autoguiding feature for astrophotography</li><li>Pointing Accuracy Enhancement feature (PAE)</li><li>Permanent Periodic Error Correction (PPEC)</li><li>Unknown Object Identification feature</li><li>Pointing accuracy up to 5 arc min</li><li>Tracking rates: Sidereal, Lunar, Solar</li><li>Slewing speeds: 1x, 2x, 16x, 32x, 64x, 128x, 400x, 500x, 600x, 800x (3.4°/sec)</li><li>Motor type: DC hybrid stepper motors</li></ul></p><p><strong>In The Box:</strong></p><ul> <li>Hybrid German Equatorial Mount AZ-EQ5</li><li>Steel Tripod</li><li>Integrated Counterweight Bar</li><li>Counterweight Extension Bar</li><li>Plate Saddle for Counterweight Shaft</li><li>Counterweights (2x 3.5kg)</li><li>Polar Scope (South and North Hemispheres)</li><li>SynScan Hand Controller and Cable</li><li>Hand Controller Holder</li><li>Motor Cable (for Connecting the Mounts Motors)</li><li>Power Supply Cord (Lighter Plug)</li><li>User Manual</li></ul>",
+      "specs": {
+        "Mount Type": "Hybrid Equatorial & Alt-Azimuth Mount",
+        "Tripod Material": "Steel",
+        "Telescope Mounting": "V Style",
+        "Payload": "15kg (for Astrophotography)",
+        "Mount Head Weight": "7.7kg",
+        "Tripod Weight": "6.1kg",
+        "Counterweight Bar Diam.": "18mm",
+        "Counterweight Bar Length": "162mm + 120mm (extension)",
+        "Latitude Range": "28° - 90°",
+        "Azimuth Range": "+/- 15°",
+        "Power Requirement": "DC 12~16V - 3A",
+        "Point Accuracy": "up to 5 arc. min.",
+        "Slewing Speed": "up to 3.4°/sec (800X)",
+        "Guiding Speed": "0.125X, 0.25X, 0.50X, 0.75X, or 1X",
+        "Motors Resolution": "approx. 0.25 arc-second (5184000 Counts/Rev.)",
+        "Encoders Resolution": "approx. 4.2 arc-minutes (5144 Counts/Rev.)"
+      },
+      "images": ["/images/products/SWAZEQ5GTT/SWAZEQ5GTT.tag.0.png"]
+    },
+    {
+      "name": "HEQ5 Pro GOTO Dual Saddle Mount, Wifi Dongle",
+      "sku": "SWHEQ5PROi",
+      "tags": ["Mounts", "EQ"],
+      "url": "heq5-pro-goto-dual-saddle-mount-wifi-dongle",
+      "rrp": 2249.99,
+      "bullets": [
+        "Heavy-duty mount that’s easy to control",
+        "Comes with dual saddle",
+        "Designed for high-precision tracking and navigation",
+        "Minimal vibration for steady long-exposure photography",
+        "Auto-guider interface for astrophotography",
+        "Variable guiding speed controls",
+        "Terrific equatorial mount for astrophotography",
+        "Payload: 10kg",
+        "DC Power Cord with Cigarette Light Adapter included",
+        "5 Years Skywatcher Limited Warranty"
+      ],
+      "description": "<p><strong>HEQ5 Pro GOTO Dual Saddle Mount, Wifi Dongle</strong></p><p> The SkyWatcher HEQ5 Pro GOTO Dual Saddle Mount provides extremely high precision tracking and has built in autoguider ports. This heavy-duty HEQ5 Pro mount is a smaller version of the sturdy EQ6 Pro mount. It is specially designed for observers who need the steadiness of the EQ6 Pro mount, but find the EQ6 Pro mount too physically demanding.</p><p> The SynScan Go-To system allows automatic slewing to over 42,900 objects. Even an inexperienced astronomer can master its variety of features in a few observing sessions. The SynScan Hand Control also has the ability to connect to a computer via a RS-232 cable. Once the connection has been established between the computer and SynScan Hand Control, many commercially available planetarium software programs can be used to control the HEQ5 PRO Mounts. The HEQ5 Pro mount is equipped with WiFi capability with an Wi-Fi Adapter (not included). Simply connect the mount to the SynScan App by using the Wi-Fi Adapter and you may control your telescope through your mobile device.</p><p><strong>HEq5 Pro GOTO Dual Saddle Mount Features:</strong></p><ul> <li> Positioning Accuracy up to 1 arc minute. Accuracy enhanced by software collimation error (mount mechanical error) compensation. </li> <li>Slewing speed up to 3.4 degrees /sec (800X).</li> <li>Auto Guider Interface for astro-photography.</li> <li>Guiding speed selectable from 0.25X, 0.50X, 0.75X, or 1X.</li> <li>Object database containing complete Messier, NGC, and IC catalogues.</li> <li>Minimal vibration for steady long-exposure photography.</li> <li>Periodic Error Correction.</li> <li>PC compatibility.</li> <li>Upgradeable hand control via internet download.</li></ul><p><strong>Tour The Night Sky With Your Smart Device</strong></p><p> All Sky-Watcher Goto i telescopes include a SynScan Wifi Adaptor. Please check product specifications before purchasing.</p><p> For amateur astronomers seeking superior equatorial control and the ease of a high-precision computerised Go-To telescope mounting system for imaging or visual applications, the family of SynScan TM Pro Series mountings are the answer. All SynScan TM Pro Series models are premium-grade observing platforms which have been thoughtfully designed for ease of operation. With the user-friendly app, locating and viewing the treasures of the night sky becomes a walk in the park. The SynScan TM app allows you to point the telescope at a specific object or tour the skies at the touch of a button. The user friendly menu system allows automatic slewing to over 42,900 objects. Even an inexperienced astronomer can master its variety of features in a few observation sessions.</p><p><strong>Common Features:</strong></p><p>Download the Synscan Pro app from Google Play or Apple App Store.</p><p><strong>SynScan Pro App</strong></p><p> Features include ongoing firmware updated from the internet. Pointing accuracy enhancement (PAE), and capacity to store star alignment data. Accepts GPS Mouse for convenient entry of time, date and location.</p><p><strong></strong>42,900+ Object Database</strong></p><p>Including planets, named stars, double-stars, variable stars & user defined objects.</p><p><strong>Object Catalogues</strong></p><p>Messier, IC, NGC & Caldwell</p><p><strong>In The Box:</strong></p><ul> <li>SkyWatcher HEQ5 PRO Dual Mount</li> <li>Dual Telescope Saddle</li> <li>Steel Tripod</li> <li>Accessory Tray</li> <li>Integrated Counterweight Bar</li> <li>Polar scope (South and North Hemispheres)</li> <li>SynScan Wifi Adapter</li> <li>Counterweights</li> <li>Power Supply Cord (Lighter Plug)</li> <li>User Manual</li></ul>",
+      "specs": {
+        "Mount Type": "German Equatorial Go-To",
+        "Tripod Material": "Steel",
+        "Telescope Mounting": "Dual saddle",
+        "Payload": "10kg",
+        "Mount Head Weight": "10kg",
+        "Tripod Weight": "5KG",
+        "Tripod Height": "185-121cm",
+        "Counterweight Bar Diam.": "1.8cm",
+        "Counterweight Bar Length": "21.5cm",
+        "Point Accuracy": "up to 5 arc. min.",
+        "Slewing Speed": "up to 3.4°/sec (800X)",
+        "Guiding Speed": "0.25X, 0.50X, 0.75X, or 1X",
+        "Motors Resolution": "0.144 Arc. Sec.",
+        "Power Requirement": "12 to 15V - 2A"
+      },
+      "images": [
+        "/images/products/SWHEQ5PROi/SWHEQ5PROi.tag.0.png",
+        "/images/products/SWHEQ5PROi/SWHEQ5PROi.tag.1.jpg",
+        "/images/products/SWHEQ5PROi/SWHEQ5PROi.tag.2.jpg"
+      ]
+    },
+    {
+      "name": "AZ3 Mount & Tripod",
+      "sku": "SWAZ3",
+      "tags": ["Mounts", "AZ"],
+      "url": "az3-mount-tripod",
+      "rrp": 224.99,
+      "bullets": [
+        "Durable metal construction",
+        "Lightweight and transportable",
+        "All axis controls",
+        "Fine adjustment knobs"
+      ],
+      "description": "<p> The Sky-Watcher AZ3 Mount is the perfect companion to smaller telescopes, large spotting scopes, binoculars and cameras. It’s an excellent platform for mounting observing devices.</p><p> <strong>Durability and Reliability</strong></p><p> Sky-Watcher uses only high quality components and materials in their mounts. This ensures that you get the most stable viewing platform within the prescribed payload. This is important for an Alt-Azimuth mount since it can be moved in all axes.</p><p><strong>Smooth and Precise Slewing </strong></p><p> The mount is engineered to strict parameters to produce very precise and smooth movements. This significantly reduces the vibrations caused by manually adjusting the position of the tube making the entire viewing experience much more pleasant.</p><p><strong>Fine Adjustment Knobs</strong></p><p> The altitude and azimuth adjustment knobs are a great advantage for moving your optics at high magnifications. While standard photographic tripods allow rough movements that make framing particularly difficult, these two flexible knobs allow fine regulation.</p><p><strong>In the box:</strong></p><ul> <li>Aluminium Tripod</li> <li>Alt-Azimuth Mount Head</li> <li>Accessory Tray</li> <li>Two Fine Adjustment Knobs</li></ul>",
+      "specs": {
+        "Mount Type": "Alt-Azimuth",
+        "Slow Motion Control": "Yes",
+        "Tripod Height": "71-123cm",
+        "Tripod Weight": "1.23 kg",
+        "Accessory Tray": "Large wall to wall"
+      },
+      "images": [
+        "/images/products/SWAZ3/SWAZ3.tag.0.png",
+        "/images/products/SWAZ3/SWAZ3.tag.1.jpg"
       ]
     }
   ]

@@ -132,3 +132,19 @@ ul {
   list-style-type: square;
   margin: 15px 0;
 }
+
+.success {
+  background: var(--green);
+  padding: 6px 15px;
+  color: white;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.error {
+  background: #b92b2b;
+  padding: 6px 15px;
+  color: white;
+  display: inline-block;
+  margin-top: 25px;
+}

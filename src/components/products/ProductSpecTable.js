@@ -17,14 +17,55 @@ const ProductSpecTable = ({ product }) => {
       "Exceeding the Highest Practical Power will result in a fuzzy image.",
     "Finder Scope":
       "A low powered mini telescope with a wide field of view to assists with locating objects before observe through the main telescope.",
-    "Focuser Diameter": "Wider focusers allow for a wider field of view.",
+    Focuser: "Wider focusers allow for a wider field of view.",
     Diagonal:
       "A small triangular attachment for making it easier to observe through the telescope.",
     Eyepieces:
       "Short focal length (5-10mm) eyepieces generally provided high power magnifications.",
     "Tube Weight":
       "You may need a counterweight to prevent your telescope from rotating downwards due to gravity.",
+    "Mount Weight": "Weight of the telescope base.",
+    "Total Weight": "The combined weight of the telescope tube and base.",
     "Tube Dimensions": "The physical size of the telescope tube.",
+    "Tube Length": "The length of the tube without base or mount.",
+    Height: "Height of the telescope at full extension.",
+    "Tripod Height": "Height of the tripod without the mount attached.",
+    "Base Diameter": "Size of the Dobsonian mount.",
+    "Resolving Power":
+      "The ability to clearly distinguish between two points whose separation is less than the smallest angle that your eye can resolve.",
+    "Stellar Limit Magnitude":
+      "The magnitude of the faintest object visible under zero light pollution conditions.",
+    "Light Gathering Power":
+      "How much brighter things will appear than what the human eye can see.",
+    "Recommended Usage": "The recommended applications for this optic.",
+    "Secondary Mirror Diameter":
+      "Bounces the light back to the primary mirror and through a hole in its center.",
+    Obstruction:
+      "The secondary mirror in optical systems creates a shadow, which reduces the contrast and effective aperture performance.",
+    "Mount Type": "Either Altazimuth or Equatorial design.",
+    "Tripod Material": "Steel or Aluminium.",
+    "Telescope Mounting": "System for attaching Tubes to the mount.",
+    Payload:
+      "The weight the mount and dovetail can hold when adding on the tube and  accessories.",
+    "Mount Head Weight":
+      "Total Weight of the telescope mount, not including tube and tripod.",
+    "Tripod Weight": "Weight of the tripod not including the mount.",
+    "Counterweight Bar Diam.": "Diameter of the counterweight bar.",
+    "Counterweight Bar Length":
+      "Length of the counterweight bar for adding additional weights.",
+    "Latitude Range": "The minimum and maximum latitude angles.",
+    "Azimuth Range": "The minimum and maximum azimuth angles.",
+    "Power Requirement": "Power needed to run the mount.",
+    "Point Accuracy":
+      "How precisely it can be aimed at a specific target in the sky.",
+    "Slewing Speed":
+      "The rate at which a telescope's mount can move the telescope's pointing direction.",
+    "Guiding Speed":
+      "Refers to the rate at which a telescope's mount responds to commands from an autoguiding system.",
+    "Motors Resolution":
+      "The smallest angular increment that a telescope mount's motor system can move.",
+    "Encoders Resolution":
+      "The smallest angular increment that can be measured by the encoders on a telescope's mount.",
   };
 
   const [hoveredStates, setHoveredStates] = useState(

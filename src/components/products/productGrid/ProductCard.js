@@ -23,10 +23,12 @@ const ProductCard = ({ product }) => {
           />
         </Link>
       </div>
-      <h3>{name}</h3>
-      <Link href={productLink} className={Styles.link}>
-        Learn More <FaArrowAltCircleRight />
-      </Link>
+      <div className={Styles.text}>
+        <h3>{name}</h3>
+        <Link href={productLink} className={Styles.link}>
+          Learn More <FaArrowAltCircleRight />
+        </Link>
+      </div>
     </article>
   );
 };

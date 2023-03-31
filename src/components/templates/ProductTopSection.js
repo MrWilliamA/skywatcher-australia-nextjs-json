@@ -3,18 +3,29 @@ import ImageWithFallback from "../products/ImageWithFallback";
 import ProductFeaturedImage from "../products/ProductFeaturedImage";
 import { useState } from "react";
 import Lightbox from "../products/Lighbox";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useRouter } from "next/router";
 
-const ProductTopSection = ({ product }) => {
+const ProductTopSection = ({ product, nextProduct }) => {
   const [lightbox, setLightbox] = useState(false);
+  const router = useRouter();
 
   function handlelightbox() {
     setLightbox((lightbox) => !lightbox);
   }
 
-  // console.log(product);
   return (
     <>
       <section className={Styles.top}>
+        <div className={Styles.back} onClick={() => router.back()}>
+          <FaChevronLeft />
+        </div>
+        <div
+          className={Styles.forward}
+          onClick={() => router.push(window.location.assign(nextProduct.url))}
+        >
+          <FaChevronRight />
+        </div>
         <section className={Styles.innerContainer}>
           <article className={Styles.imageContainer}>
             <ProductFeaturedImage

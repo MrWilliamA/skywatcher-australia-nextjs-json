@@ -48,6 +48,10 @@
   top: -30vh;
 }
 
+.innerContainer img:hover {
+  filter: brightness(0.9);
+}
+
 .metaContainer a {
   background-color: var(--green);
   padding: 2px 10px;
@@ -83,11 +87,16 @@
   justify-content: space-between;
 }
 
+.shortDescription {
+  max-width: calc(100% - 350px);
+}
+
 .productDetails {
   text-align: right;
   display: flex;
   flex-direction: column;
   justify-content: start;
+  min-width: 350px;
 }
 
 .rrp {
@@ -135,6 +144,14 @@
   margin: 65px 0;
 }
 
+.description p {
+  margin: 10px 0;
+}
+
+.description ul {
+  margin: 0;
+}
+
 .specs {
   line-height: 2em;
   width: 100%;
@@ -152,9 +169,9 @@
 .tableLeft {
   font-weight: bold;
   border-right: rgb(var(--background-rgb)) 3px solid;
-  width: 12vw;
+  width: 16vw;
   padding: 8px 20px;
-  min-width: 240px;
+  min-width: 270px;
 }
 
 .specs > div:nth-child(even) {
@@ -192,4 +209,40 @@
 .definitions svg {
   position: relative;
   top: 3px;
+}
+
+.back,
+.forward {
+  position: absolute;
+  font-size: 90px;
+  color: #ffffff5e;
+  cursor: pointer;
+  height: 0;
+}
+
+.back:hover,
+.forward:hover {
+  color: #ffffffc9;
+}
+
+.back {
+  left: 0;
+}
+.forward {
+  right: 0;
+}
+
+@media only screen and (max-width: 750px) {
+  .mainContent {
+    flex-direction: column;
+  }
+
+  .mainContent > section {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .productDetails {
+    text-align: left;
+  }
 }

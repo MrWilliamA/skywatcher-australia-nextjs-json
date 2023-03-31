@@ -55,7 +55,7 @@ export default function Product({ urlObject }) {
           </section>
           <section className={Styles.description}>
             <h2>{product.name} Description</h2>
-            <p>{product.description}</p>
+            <p dangerouslySetInnerHTML={{ __html: product.description }}></p>
           </section>
           <ProductSpecTable product={product.specs} />
         </main>
@@ -70,10 +70,20 @@ export async function getStaticProps({ params }) {
   const { url } = params;
 
   const product = data.products.find((product) => product.url === url);
+
+  let nextProduct;
+
+  if (product !== data.products[data.products.length - 1]) {
+    nextProduct = data.products[data.products.indexOf(product) + 1];
+  } else {
+    nextProduct = data.products[0];
+  }
+
   return {
     props: {
       urlObject: { params: { url } },
       product: product,
+      nextProduct: nextProduct,
       title: product.name,
       type: "product",
     },

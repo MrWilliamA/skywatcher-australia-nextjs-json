@@ -7,7 +7,14 @@
 
 .card {
   width: 22%;
+  text-align: center;
+  margin: 14px 0;
+  height: 350px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
 }
+
 .link {
   margin: 5px 0;
   display: block;
@@ -20,4 +27,34 @@
 .imageContainer {
   position: relative;
   margin-bottom: 10px;
+}
+
+.imageContainer img:hover {
+  filter: brightness(0.9);
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    height: 280px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 48%;
+    height: 340px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
 }

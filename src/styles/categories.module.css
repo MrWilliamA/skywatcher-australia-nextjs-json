@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.text {
+  width: 75%;
+}
+
+.text.full {
+  width: 100%;
+}
+
+.image {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text p {
+  margin: 15px 0;
+}
+
+.productList {
+  width: 100%;
+}
