@@ -1,11 +1,16 @@
 import HomeBanner from "./banners/HomeBanner";
 import PageBanners from "./banners/PageBanners";
-import ProductBanners from "./banners/ProductBanners";
+import ProductBanners from "./banners/productPages/ProductBanners";
 
-const Header = ({ productDetails, title }) => {
+const Header = ({ productDetails, nextProduct, title }) => {
   const banners = {
     home: <HomeBanner />,
-    product: <ProductBanners productDetails={productDetails.product} />,
+    product: (
+      <ProductBanners
+        productDetails={productDetails.product}
+        nextProduct={nextProduct}
+      />
+    ),
     page: <PageBanners title={title} />,
   };
 

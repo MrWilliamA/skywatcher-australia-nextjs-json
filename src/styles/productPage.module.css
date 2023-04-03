@@ -1,10 +1,10 @@
-.pageBanner {
+.desktopBanner {
   width: 100%;
-  height: 40vh;
+  height: 60vh;
   background-image: url("/images/banners/thin-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center -15vh;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -12,20 +12,24 @@
   justify-content: space-between;
   overflow: hidden;
 }
-.pageBanner h1 {
+.productBanner h1 {
   color: white;
-  font-size: clamp(15px, 3.5vw, 50px);
+  font-size: clamp(24px, 3.5vw, 50px);
+  margin: 5px;
 }
 
 .pageBannerText {
-  width: 100%;
-  max-width: var(--max-width);
   text-align: right;
-  position: relative;
-  bottom: 5vh;
-  margin: 0 auto;
-  padding: 0 25px;
   filter: drop-shadow(1px 1px 6px #242424);
+<<<<<<< Updated upstream
+=======
+}
+
+.titleMeta {
+  margin: 30px auto;
+  max-width: var(--max-width);
+  padding: 0 25px;
+>>>>>>> Stashed changes
 }
 
 .top {
@@ -45,7 +49,7 @@
 
 .imageContainer {
   position: relative;
-  top: -30vh;
+  top: -29vh;
 }
 
 .innerContainer img:hover {
@@ -56,7 +60,7 @@
   background-color: var(--green);
   padding: 2px 10px;
   display: inline-block;
-  margin: 0 5px;
+  margin: 2px 5px;
   text-transform: uppercase;
   font-size: 12px;
   color: white;
@@ -230,6 +234,58 @@
 }
 .forward {
   right: 0;
+}
+
+/* Phone component */
+
+.phoneBanner {
+  width: 100%;
+  background-image: url("/images/banners/thin-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.phoneBanner .innerContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width);
+  margin: auto;
+  justify-content: start;
+  height: 100px;
+}
+
+.imageContainerPhones {
+  width: 100%;
+  text-align: center;
+}
+
+.phoneBanner .titleMeta {
+  text-align: center;
+}
+
+.detailsContainerPhones {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -10px;
+  background: #0000006b;
+  padding: 10px;
+}
+
+.imageContainerPhones img {
+  cursor: pointer;
+}
+.detailsContainerPhones img {
+  background: white;
+  margin: 0 5px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 750px) {
