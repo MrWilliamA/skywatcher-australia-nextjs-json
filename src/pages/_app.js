@@ -18,7 +18,6 @@ export default function App({ Component, pageProps }) {
               nextProduct={pageProps.nextProduct}
             />
           )}
-
           <BoxedWidth>{page}</BoxedWidth>
           <Footer />
         </>

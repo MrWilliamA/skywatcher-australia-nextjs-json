@@ -3,7 +3,7 @@
     {
       "name": "Sky-Watcher 102/500 AZ-Go2 Refractor",
       "sku": "SW1025-AZGO2",
-      "tags": ["Telescopes", "Refractors", "First Telescopes"],
+      "tags": ["Telescopes", "Refractors", "First Telescopes", "AZ"],
       "url": "sky-watcher-102-500-az-go2-refractor",
       "rrp": 749.99,
       "bullets": [
@@ -43,7 +43,7 @@
     {
       "name": "Sky-Watcher 114/450 AZ-Go2 Newtonian",
       "sku": "SW114P-AZGO2",
-      "tags": ["Telescopes", "Reflectors", "First Telescopes"],
+      "tags": ["Telescopes", "Reflectors", "First Telescopes", "AZ"],
       "url": "sky-watcher-114-450-az-go2-newtonian",
       "rrp": 599.99,
       "bullets": [
@@ -86,7 +86,7 @@
     {
       "name": "Sky-Watcher 114/900 EQ1 Reflector",
       "sku": "SW1149EQ1",
-      "tags": ["Telescopes", "Reflectors", "First Telescopes"],
+      "tags": ["Telescopes", "Reflectors", "First Telescopes", "EQ"],
       "url": "sky-watcher-114-900-eq1-reflector",
       "rrp": 349.99,
       "bullets": [
@@ -151,7 +151,7 @@
     {
       "name": "60 AZ2 Refractor",
       "sku": "SW607AZ2",
-      "tags": ["Telescopes", "Refractors", "First Telescopes"],
+      "tags": ["Telescopes", "Refractors", "First Telescopes", "AZ"],
       "url": "60-az2-refractor",
       "rrp": 174.99,
       "bullets": [
@@ -184,7 +184,7 @@
     {
       "name": "70 AZ2 Refractor",
       "sku": "SW707AZ2",
-      "tags": ["Telescopes", "Refractors", "First Telescopes"],
+      "tags": ["Telescopes", "Refractors", "First Telescopes", "AZ"],
       "url": "70-az2-refractor",
       "rrp": 224.99,
       "bullets": [
@@ -427,9 +427,9 @@
       "images": ["/images/products/stargates/SWDOB500CGT.tag.0.png"]
     },
     {
-      "name": "150/750 Eq3 Aluminium Tripod Reflector",
+      "name": "150/750 EQ3 Aluminium Tripod Reflector",
       "sku": "SW15075EQ3",
-      "tags": ["Telescopes", "Reflectors"],
+      "tags": ["Telescopes", "Reflectors", "EQ"],
       "url": "150-750-eq3-aluminium-tripod-reflector",
       "rrp": 1199.99,
       "bullets": [
@@ -566,10 +566,10 @@
       "images": ["/images/products/SWAZEQ5GTT/SWAZEQ5GTT.tag.0.png"]
     },
     {
-      "name": "HEQ5 Pro GOTO Dual Saddle Mount, Wifi Dongle",
+      "name": "HEQ5 Pro GOTO Dual Saddle Mount",
       "sku": "SWHEQ5PROi",
       "tags": ["Mounts", "EQ"],
-      "url": "heq5-pro-goto-dual-saddle-mount-wifi-dongle",
+      "url": "heq5-pro-goto-dual-saddle-mount",
       "rrp": 2249.99,
       "bullets": [
         "Heavy-duty mount that’s easy to control",
@@ -629,6 +629,72 @@
       "images": [
         "/images/products/SWAZ3/SWAZ3.tag.0.png",
         "/images/products/SWAZ3/SWAZ3.tag.1.jpg"
+      ]
+    },
+    {
+      "name": "Acuter Mak 60 Educational Telescope Kit",
+      "sku": "ACDOBMAK60",
+      "tags": [
+        "Telescopes",
+        "Maksutov-Cassegrains",
+        "Tabletop Dobsonians",
+        "Acuter",
+        "Educational"
+      ],
+      "url": "acuter-mak60-educational-telescope-kit",
+      "rrp": 249,
+      "bullets": [
+        "Great for Learning",
+        "Take Photos of the Stars",
+        "See how it Works Inside",
+        "Compact & Portable",
+        "Masutov Design",
+        "Famous Dobsonian style base"
+      ],
+      "description": "<p><strong>Follow In Isaac Newton’s Footsteps: </strong></p><ul> <li>Find Out How Newtonian Reflector telescopes Work.</li> <li>Use Your Own Telescope To Observe And Learn.</li> <li>Photograph And Record Your Observations</li></ul><p><strong>Acuter MAK 60 Educational Telescope Kit Features:</strong></p><ul> <li>Great for Learning</li> <li>Take Photos of the Stars</li> <li>See how it Works Inside</li> <li>Compact & Portable</li> <li>Masutov Design</li> <li>Famous Dobsonian style base</li></ul><p><strong>Included Accessories:</strong></p><ul> <li>Universal Smartphone Adaptor (Smartphone not included)</li> <li>Xtra Eyepiece</li> <li>Adjustable Compact Tripod</li></ul><p>Educational Product For Children Age 13+</p>",
+      "specs": {
+        "Mount Type": "Table Top Dobsonian",
+        "Optical Diameter": "60mm",
+        "Focal Length": "750mm",
+        "F/Ratio": "f/12.5",
+        "Eyepieces": "20x"
+      },
+      "images": [
+        "/images/products/ACDOBMAK60/ACDOBMAK60.tag.0.png",
+        "/images/products/ACDOBMAK60/ACDOBMAK60.tag.1.jpg",
+        "/images/products/ACDOBMAK60/ACDOBMAK60.tag.2.jpg"
+      ]
+    },
+    {
+      "name": "200 EQ5 Reflector Dual Speed Steel Tripod",
+      "sku": "SW2001EQ5ST-D",
+      "tags": ["Telescopes", "Reflectors", "EQ"],
+      "url": "200-eq5-reflector-dual-speed-steel-tripod",
+      "rrp": 1949.99,
+      "bullets": [
+        "High-quality parabolic primary mirrors",
+        "Paraboloidal Newtonian reflector",
+        "7x50 finderscope",
+        "Dual-Speed 2\" Crayford Focuser",
+        "56% more light gathering power",
+        "3x eyepieces",
+        "Included 1.75\" steel tripod"
+      ],
+      "description": "<p>The Sky-Watcher 200/1000 EQ5 Reflector Telescope is a fantastic choice for intermediate-to-advanced astronomers but also suitable for the very serious adult beginner. With a reasonable price point, the reflector telescope boasts an impressive aperture of 200mm (8”) and a focal length of 1000mm. </p><p>The EQ5 mount is an equatorial mount meaning it can follow the rotation of the sky, allowing you to keep your celestial object in the field of view for longer. The mount is motorisable and can be upgraded with a dual axis drive kit. </p><p>The 200/1000 EQ5 Reflector Telescope features a paraboloidal Newtonian reflector design, with high-quality parabolic primary mirrors. The reflector design removes visual obstruction of the front aperture of the telescope, delivering a nice clear view of the sky. The 56% more light gathering power of the Sky-Watcher 200/1000 EQ5 Reflector Telescope than that of the 150/750 is evident in the bright, clear and crisp images of deep-sky objects visible through this instrument. </p><p>The Sky-Watcher 200/1000 EQ5 Reflector Telescope comes complete with 3 Eyepieces (SP10mm, SP25mm & 2”-28mm), 7x50 Finderscope and an incredible Dual-Speed 2” Crayford Focuser.</p>",
+      "specs": {
+        "Aperture": "200mm",
+        "Focal Length": "1000mm",
+        "Focal Ratio": "f/5",
+        "Highest Practical Power": "400x",
+        "Finder Scope": "7x50 Finderscope",
+        "Focuser Diameter": "2\" Crayford Focuser with 1.25\" adapter",
+        "Eyepieces": "1.25\" Super 25 and 10 Eyepieces and a 2\"-28mm eyepiece",
+        "Mount Type": "German Equatorial Mount"
+      },
+      "images": [
+        "/images/products/SW2001EQ5ST-D/SW2001EQ5ST-D.tag.0.png",
+        "/images/products/SW2001EQ5ST-D/SW2001EQ5ST-D.tag.1.jpg",
+        "/images/products/SW2001EQ5ST-D/SW2001EQ5ST-D.tag.2.jpg"
       ]
     }
   ]
