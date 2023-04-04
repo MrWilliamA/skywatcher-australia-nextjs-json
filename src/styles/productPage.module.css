@@ -21,15 +21,12 @@
 .pageBannerText {
   text-align: right;
   filter: drop-shadow(1px 1px 6px #242424);
-<<<<<<< Updated upstream
-=======
 }
 
 .titleMeta {
   margin: 30px auto;
   max-width: var(--max-width);
   padding: 0 25px;
->>>>>>> Stashed changes
 }
 
 .top {

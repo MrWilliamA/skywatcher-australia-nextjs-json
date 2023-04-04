@@ -31,39 +31,42 @@ const dobsonians = () => {
         />
       </Head>
       <main className={Styles.main}>
-        <div className={Styles.text}>
-          <h2>The Ultimate In Light Gathering</h2>
-          <p>
-            A Dobsonian telescope is an altazimuth-mounted Newtonian telescope
-            design popularised by John Dobson starting in the 1960s and credited
-            with vastly increasing the size of telescopes available to amateur
-            astronomers. The design is optimised for visually observing faint,
-            deep-sky objects such as nebulae and galaxies.
-          </p>
-          <p>
-            Dobsonian telescopes are incredibly good light gatherers and are
-            great for amateurs and professional astronomers alike. They are also
-            very economical compared to other telescopes. The optical part of
-            the telescope or OTA (Optical Tube Assembly) is the same as a
-            Newtonian reflector telescope.
-          </p>
-          <p>
-            From its inception, telescope makers have been modifying the
-            Dobsonian design to fit their needs. The original design fit the
-            needs and available supplies of one person—John Dobson. Other people
-            devised variants that fit their own needs, abilities, and access to
-            parts. This has led to significant diversity in “Dobsonian” design.
-          </p>
-        </div>
-        <div className={Styles.image}>
-          <Image
-            src="/images/pageImages/early-dobsonian.jpg"
-            alt="Reflectors"
-            width="288"
-            height="228"
-          />
-        </div>
-
+        {" "}
+        <section className={Styles.top}>
+          <div className={Styles.text}>
+            <h2>The Ultimate In Light Gathering</h2>
+            <p>
+              A Dobsonian telescope is an altazimuth-mounted Newtonian telescope
+              design popularised by John Dobson starting in the 1960s and
+              credited with vastly increasing the size of telescopes available
+              to amateur astronomers. The design is optimised for visually
+              observing faint, deep-sky objects such as nebulae and galaxies.
+            </p>
+            <p>
+              Dobsonian telescopes are incredibly good light gatherers and are
+              great for amateurs and professional astronomers alike. They are
+              also very economical compared to other telescopes. The optical
+              part of the telescope or OTA (Optical Tube Assembly) is the same
+              as a Newtonian reflector telescope.
+            </p>
+            <p>
+              From its inception, telescope makers have been modifying the
+              Dobsonian design to fit their needs. The original design fit the
+              needs and available supplies of one person—John Dobson. Other
+              people devised variants that fit their own needs, abilities, and
+              access to parts. This has led to significant diversity in
+              “Dobsonian” design.
+            </p>
+          </div>
+          <div className={Styles.image}>
+            <Image
+              src="/images/pageImages/early-dobsonian.jpg"
+              alt="Reflectors"
+              width="288"
+              height="228"
+            />
+          </div>
+        </section>
         <section className={Styles.productList}>
           {collapsibleDobs.length > 0 && (
             <>

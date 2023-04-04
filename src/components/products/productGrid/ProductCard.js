@@ -6,7 +6,6 @@ import ProductFeaturedImage from "../../products/ProductFeaturedImage";
 const ProductCard = ({ product }) => {
   const productLink = `/products/${product.url}`;
   const name = product.name.replace("Sky-Watcher ", "");
-  console.log(product.images[0]);
 
   return (
     <article className={Styles.card}>

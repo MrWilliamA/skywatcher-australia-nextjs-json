@@ -66,6 +66,8 @@ const ProductSpecTable = ({ product }) => {
       "The smallest angular increment that a telescope mount's motor system can move.",
     "Encoders Resolution":
       "The smallest angular increment that can be measured by the encoders on a telescope's mount.",
+    Encoders:
+      "Measure the position and movement of the OTA. Allows precise tracking and pointing of the telescope.",
   };
 
   const [hoveredStates, setHoveredStates] = useState(

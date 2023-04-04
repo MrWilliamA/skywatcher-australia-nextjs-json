@@ -630,6 +630,72 @@
         "/images/products/SWAZ3/SWAZ3.tag.0.png",
         "/images/products/SWAZ3/SWAZ3.tag.1.jpg"
       ]
+    },
+    {
+      "name": "102 AZ-GTI GOTO MAKSUTOV",
+      "sku": "SW102MAK-AZGTI",
+      "tags": ["Telescopes", "Maksutov-Cassegrains", "AZ"],
+      "url": "102-az-gti-goto-maksutov",
+      "rrp": 1149.99,
+      "bullets": [
+        "102mm Aperture",
+        "1300mm Focal Length",
+        "Red Dot Finderscope",
+        "90° Star Diagonal",
+        "2 Eyepieces Super 10mm (130) & Super 25mm (52x)- 1.25″ Barrel",
+        "AZ-GTi Mount – WiFi-controllable with iOS and Android and compatible with SynScan hand controller",
+        "5 Years Sky-Watcher Limited Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher 102mm AZ-GTi Maksutov Cassegrain</strong></p><p> The Sky-Watcher 102/1300 Maksutov Cassegrain is a fully automatic telescope ideal for beginners and those who want to get straight to observing. It is a compact and powerful optical design that combines a front meniscus lens and two mirrors. The optical tube is closed by the front meniscus, keeping the mirrors protected from atmospheric agents such as humidity, dust and pollution. The tube is short but the focal length is long allowing high magnification with the standard eyepieces. With maximum practical magnification of 204x , this Sky-Watcher Telescope will reveal details in Saturn’s rings, Jupiter’s bands, the Martian polar ice caps, and the phases of Venus and the moon.</p><p> The AZ-GTi Mount – WiFi-controllable with iOS and Android and compatible with SynScan hand controller, allowing it for smooth tracking and alignment. Use Wi-Fi to control the telescope wirelessly with your mobile device; smartphone or tablet.</p><p>Download the SynScan App from Google play or the App Store.</p><p><strong>AZ-GTi Mount Features: </strong></p><ul> <li>Wi-Fi GOTO</li> <li>DC12V Voltage</li> <li>4kg Load Capacity</li> <li>1.3kg Mount Weight</li> <li>DC Motor</li> <li>Dimensions: 14cm x 9cm x 14cm</li></ul><p><strong>In the Box:</strong></p><ul> <li>102mm Maksutov-Cassegrain</li> <li>AZ-GTi GOTO Mount</li> <li>102mm Aperture</li> <li>1300mm Focal Length</li> <li>Red Dot Finderscope</li> <li>90° Star Diagonal</li> <li>2 Eyepieces Super 10mm (130x) & Super 25mm (52x)- 1.25″ Barrel</li> <li>Battery Pack for AA batteries</li> <li>User Manual</li></ul>",
+      "specs": {
+        "Encoders": "Yes",
+        "Optical Design": "Maksutov-Cassegrain",
+        "Optical Diameter": "102mm",
+        "Focal Length": "1300mm",
+        "F/Ratio": "f/12.7",
+        "Resolving Power": "1.18\"",
+        "Stellar Limit Magnitude": "12.2",
+        "Highest Practical Power": "228X",
+        "Light Gathering Power": "204",
+        "Focuser": "1.25\"",
+        "Recommended Usage": "Viewing Moon and Planets"
+      },
+      "images": [
+        "/images/products/SW102MAK-AZGTI/SW102MAK-AZGTI.tag.0.png",
+        "/images/products/SW102MAK-AZGTI/SW102MAK-AZGTI.tag.1.jpg",
+        "/images/products/SW102MAK-AZGTI/SW102MAK-AZGTI.tag.2.jpg",
+        "/images/products/SW102MAK-AZGTI/SW102MAK-AZGTI.tag.3.jpg"
+      ]
+    },
+    {
+      "name": "130 Black Diamond Reflector OTA",
+      "sku": "SW13065AP-OTA",
+      "tags": ["Telescopes", "Reflectors", "OTAs"],
+      "url": "130-black-diamond-reflector-ota",
+      "rrp": 599.99,
+      "bullets": [
+        "650mm f/5 Newtonian Reflector",
+        "Diffraction limited 130mm parabolic primary mirror",
+        "Ideal fast telescope for astrophotography",
+        "Shortened tube length – lightweight and portable for its power",
+        "Feature packed at a great price",
+        "A great choice for beginner stargazers and veteran enthusiasts",
+        "Tube rings and dovetail bar included",
+        "Optical tube only – tripod is not included",
+        "5 years Sky-Watcher limited warranty"
+      ],
+      "description": "<p><strong>130 Black Diamond Reflector OTA</strong></p><p> The Sky-Watcher Black Diamond 130/650 Photo Reflector OTA is a 130mm aperture Newtonian reflector with diffraction limited optics, all the light gathering power you need for visual use or astrophotography! Newtonian reflector telescopes are among the most cost effective design on the market, reaching much larger apertures than an equivalently priced refractor. The large aperture will help resolve faint, extended objects like nebulae and galaxies, whilst the 650mm focal length will reveal fine details of lunar craters.</p><p> The 130/650 Photo Reflector is equipped with an excellent Crayford dual speed focuser allowing fast, coarse regulation followed by a precise 10:1 reduction adjustment knob to reach the optimal focus. A 3 element 28mm LET eyepiece is provided, allowing 23x magnification and a 56° apparent field of view with 20mm of eye relief. The aluminised primary mirror is aspheric (parabolic profile) offering an optical system free from spherical aberration. The secondary mirror is thin to allow fast cooling and it is held by extra thin spider supports for minimal diffraction spike effects on bright stars and increased contrast.</p><p><strong>In The Box:</strong></p><ul> <li>Sky-Watcher Black Diamond 130/650 Photo Reflector OTA</li> <li>28mm LET Eyepiece</li> <li>8×50 Finder Scope</li> <li>130mm Tube Rings</li> <li>Dovetail Bar</li></ul>",
+      "specs": {
+        "Optical Design": "Newtonian (Parabolic)",
+        "Optical Diameter": "130mm",
+        "Focal Length": "650mm",
+        "F/Ratio": "f/5",
+        "Finder Scope": "6 x 30mm",
+        "Highest Practical Power": "260x",
+        "Eyepieces": "LET 28mm 2\"",
+        "Focuser": "2\" Crayford 10:1 Dual Speed"
+      },
+      "images": ["/images/products/SW13065AP-OTA/SW13065AP-OTA.tag.0.png"]
     }
   ]
 }

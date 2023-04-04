@@ -10,22 +10,11 @@ export default function App({ Component, pageProps }) {
       return (
         <>
           <PreHeader />
-<<<<<<< Updated upstream
-          <Header productDetails={pageProps} title={pageProps.title} />
-          {pageProps.product && (
-            <ProductTopSection
-              product={pageProps.product}
-              nextProduct={pageProps.nextProduct}
-            />
-          )}
-
-=======
           <Header
             productDetails={pageProps}
             title={pageProps.title}
             nextProduct={pageProps.nextProduct}
           />
->>>>>>> Stashed changes
           <BoxedWidth>{page}</BoxedWidth>
           <Footer />
         </>

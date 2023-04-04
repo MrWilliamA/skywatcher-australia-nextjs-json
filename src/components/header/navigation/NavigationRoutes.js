@@ -21,3 +21,19 @@ export const rightNavLinks = [
     path: "/contact",
   },
 ];
+
+export const productsSubMenu = [
+  {
+    name: "REFRACTORS",
+    path: "/categories/refractors",
+  },
+  {
+    name: "REFLECTORS",
+    path: "/categories/reflectors",
+  },
+  { name: "DOBSONIANS", path: "/categories/dobsonians" },
+  { name: "MAKSUTOVS", path: "/categories/maksutov-cassegrains" },
+  { name: "MOUNTS", path: "/categories/mounts" },
+  { name: "ACCESSORIES", path: "/categories/accessories" },
+  { name: "ACUTER", path: "/categories/acuter" },
+];

@@ -11,7 +11,7 @@
 }
 
 .section article {
-  flex: 1 0 auto;
+  /* flex: 1 0 auto; */
   background: #ffffff14;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
   left: 30px;
   bottom: -30px;
   transform: scale(0.95);
-  opacity: 0.25;
+  opacity: 0.15;
 }
 
 .section article h2,
@@ -33,15 +33,31 @@
   text-align: center;
   font-weight: 900;
   font-size: 2rem;
-  color: rgba(255, 255, 255, 0.185);
+  color: rgba(255, 255, 255, 54%);
   padding: 20px 0;
   z-index: 9;
   display: block;
 }
 
 .section article:hover {
-  background-color: #00000036;
+  background-color: var(--green);
   cursor: pointer;
+}
+
+.section article:hover h2 {
+  background-color: white !important;
+  color: var(--green) !important;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  transition-duration: 0.8s;
+}
+
+.section article:hover a {
+  color: var(--green) !important;
+  padding: 0;
 }
 
 .section article:hover img {
@@ -70,20 +86,24 @@
 .section article:nth-child(1) {
   height: 50%;
   border-bottom: solid 8px rgb(239, 239, 239);
+  width: 28%;
 }
 
 .section article:nth-child(2) {
   height: 50%;
   border-top: solid 8px rgb(239, 239, 239);
+  width: 28%;
 }
 .section article:nth-child(3) {
   height: 25%;
+  width: 44%;
   border-right: solid 16px rgb(239, 239, 239);
   border-left: solid 16px rgb(239, 239, 239);
   border-bottom: solid 8px rgb(239, 239, 239);
 }
 .section article:nth-child(4) {
   height: 25%;
+  width: 44%;
   border-right: solid 16px rgb(239, 239, 239);
   border-bottom: solid 8px rgb(239, 239, 239);
   border-top: solid 8px rgb(239, 239, 239);
@@ -91,14 +111,15 @@
 }
 .section article:nth-child(5) {
   height: 25%;
+  width: 44%;
   border-right: solid 16px rgb(239, 239, 239);
   border-top: solid 8px rgb(239, 239, 239);
   border-bottom: solid 8px rgb(239, 239, 239);
-
   border-left: solid 16px rgb(239, 239, 239);
 }
 .section article:nth-child(6) {
   height: 25%;
+  width: 44%;
   border-right: solid 16px rgb(239, 239, 239);
   border-top: solid 8px rgb(239, 239, 239);
   border-left: solid 16px rgb(239, 239, 239);
@@ -106,8 +127,10 @@
 .section article:nth-child(7) {
   height: 50%;
   border-bottom: solid 8px rgb(239, 239, 239);
+  width: 28%;
 }
 .section article:nth-child(8) {
   height: 50%;
   border-top: solid 8px rgb(239, 239, 239);
+  width: 28%;
 }

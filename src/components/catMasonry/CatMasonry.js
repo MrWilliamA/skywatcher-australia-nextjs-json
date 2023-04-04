@@ -1,6 +1,7 @@
 import styles from "../../styles/catMasonry.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 const refractors = "/images/featuredCats/refractors.png";
 const dobsonians = "/images/featuredCats/dobsonians.png";
 const otas = "/images/featuredCats/otas.png";
@@ -14,57 +15,60 @@ const CatMasonry = () => {
   return (
     <section className={styles.section}>
       <article className="refractors">
-        <Image src={refractors} alt="Refractors" width="350" height="400" />
-        <h2>
-          <Link href="/categories/refractors">Refractors</Link>
-        </h2>
+        <Link href="/categories/refractors">
+          <Image src={refractors} alt="Refractors" width="350" height="400" />
+          <h2>Refractors</h2>
+        </Link>
       </article>
       <article className="dobsonians">
-        <Image src={dobsonians} alt="Dobsonians" width="350" height="400" />
-        <h2>
-          <Link href="/categories/dobsonians">Dobsonians</Link>
-        </h2>
+        <Link href="/categories/dobsonians">
+          <Image src={dobsonians} alt="Dobsonians" width="350" height="400" />
+          <h2>Dobsonians</h2>
+        </Link>
       </article>
 
       <article className="otas">
-        <Image src={otas} alt="OTAs" width="550" height="200" />
-        <h2>
-          <Link href="/categories/otas">OTAs</Link>
-        </h2>
+        <Link href="/categories/otas">
+          <Image src={otas} alt="OTAs" width="550" height="200" />
+          <h2>OTAs</h2>
+        </Link>
       </article>
 
       <article className="maks">
-        <Image src={maks} alt="Maksutov Cassegrains" width="550" height="200" />
-        <h2>
-          <Link href="/categories/maksutov-cassegrains">
-            Maksutov Cassegrains
-          </Link>
-        </h2>
+        <Link href="/categories/maksutov-cassegrains">
+          <Image
+            src={maks}
+            alt="Maksutov Cassegrains"
+            width="550"
+            height="200"
+          />
+          <h2>Maksutov Cassegrains</h2>
+        </Link>
       </article>
       <article className="acuter">
-        <Image src={acuter} alt="Acuter" width="550" height="200" />
-        <h2>
-          <Link href="/categories/acuter">Acuter</Link>
-        </h2>
+        <Link href="/categories/acuter">
+          <Image src={acuter} alt="Acuter" width="550" height="200" />
+          <h2>Acuter</h2>
+        </Link>
       </article>
       <article className="accessories">
-        <Image src={accessories} alt="Accessories" width="518" height="188" />
-        <h2>
-          <Link href="/categories/accessories">Accessories</Link>
-        </h2>
+        <Link href="/categories/accessories">
+          <Image src={accessories} alt="Accessories" width="518" height="188" />
+          <h2>Accessories</h2>
+        </Link>
       </article>
 
       <article className="reflectors">
-        <Image src={reflectors} alt="Reflectors" width="350" height="400" />
-        <h2>
-          <Link href="/categories/reflectors">Reflectors</Link>
-        </h2>
+        <Link href="/categories/reflectors">
+          <Image src={reflectors} alt="Reflectors" width="350" height="400" />
+          <h2>Reflectors</h2>
+        </Link>
       </article>
       <article className="mounts">
-        <Image src={mounts} alt="Mounts" width="350" height="400" />
-        <h2>
-          <Link href="/categories/mounts">Mounts</Link>
-        </h2>
+        <Link href="/categories/mounts">
+          <Image src={mounts} alt="Mounts" width="350" height="400" />
+          <h2>Mounts</h2>
+        </Link>
       </article>
     </section>
   );
