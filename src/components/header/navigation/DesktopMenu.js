@@ -8,8 +8,8 @@ import {
 } from "./NavigationRoutes";
 import { useState } from "react";
 
-const DesktopMenu = ({ logoUrl }) => {
-  const [hovered, setHovered] = useState(false);
+const DesktopMenu = ({ logoUrl, hovered, setHovered }) => {
+  // const [hovered, setHovered] = useState(false);
 
   function mouseOver(name) {
     if (name === "PRODUCTS") {

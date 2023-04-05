@@ -37,3 +37,10 @@ export const productsSubMenu = [
   { name: "ACCESSORIES", path: "/categories/accessories" },
   { name: "ACUTER", path: "/categories/acuter" },
 ];
+
+export const knowledgeBaseSubMenu = [
+  {
+    name: "GLOSSARY",
+    path: "/glossary",
+  },
+];

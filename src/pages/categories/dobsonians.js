@@ -31,7 +31,6 @@ const dobsonians = () => {
         />
       </Head>
       <main className={Styles.main}>
-        {" "}
         <section className={Styles.top}>
           <div className={Styles.text}>
             <h2>The Ultimate In Light Gathering</h2>

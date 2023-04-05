@@ -57,7 +57,7 @@ export default function Product({ urlObject }) {
             <h2>{product.name} Description</h2>
             <p dangerouslySetInnerHTML={{ __html: product.description }}></p>
           </section>
-          <ProductSpecTable product={product.specs} />
+          {product.specs ? <ProductSpecTable product={product.specs} /> : " "}
         </main>
       </div>
     );

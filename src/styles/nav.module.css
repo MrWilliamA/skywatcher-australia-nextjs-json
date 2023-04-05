@@ -153,6 +153,7 @@
 .subMenuContainer li:hover {
   color: white;
   outline: thick solid var(--green);
+  transform: scale(1.1);
 }
 
 .subMenuContainer a {
@@ -163,5 +164,6 @@
   font-size: clamp(10px, 0.75vw, 16px);
 }
 
-.hovered {
+.hovered:hover .subMenuContainer ul {
+  box-shadow: 0 0 130px 810px #00000033, 0 0 19px 6px #00000073;
 }

@@ -26,6 +26,7 @@ const ProductSpecTable = ({ product }) => {
       "You may need a counterweight to prevent your telescope from rotating downwards due to gravity.",
     "Mount Weight": "Weight of the telescope base.",
     "Total Weight": "The combined weight of the telescope tube and base.",
+    Weight: "Total weight.",
     "Tube Dimensions": "The physical size of the telescope tube.",
     "Tube Length": "The length of the tube without base or mount.",
     Height: "Height of the telescope at full extension.",
@@ -68,6 +69,11 @@ const ProductSpecTable = ({ product }) => {
       "The smallest angular increment that can be measured by the encoders on a telescope's mount.",
     Encoders:
       "Measure the position and movement of the OTA. Allows precise tracking and pointing of the telescope.",
+    "Nearest Focus Distance":
+      "The closest distance that an object can be viewed clearly when viewing through the optics.",
+    "Field Of View":
+      "The extent of the observable world that is seen at any given moment.",
+    Magnification: "Magnification range of the optics",
   };
 
   const [hoveredStates, setHoveredStates] = useState(

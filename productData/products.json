@@ -696,6 +696,275 @@
         "Focuser": "2\" Crayford 10:1 Dual Speed"
       },
       "images": ["/images/products/SW13065AP-OTA/SW13065AP-OTA.tag.0.png"]
+    },
+    {
+      "name": "Mini AZ-GTI Mount",
+      "sku": "SWAZGTI",
+      "tags": ["Mounts", "AZ"],
+      "url": "mini-az-gti-mount",
+      "rrp": 799.99,
+      "bullets": [
+        "Wi-Fi controlled (iOS and Android)",
+        "Go-To via SynScan free app",
+        "Freedom Finder dual encoder",
+        "DC12V voltage.",
+        "5kg load capacity.",
+        "1.3kg Mount Weight."
+      ],
+      "description": "<p><strong>Sky-Watcher MINI AZ-GTi Mount </strong></p><p> The MINI AZ-GTi Mount – Wi-Fi controllable with iOS and Android and compatible with SynScan hand controller, allowing it for smooth tracking and alignment. Use Wi-Fi to control the telescope wirelessly with your mobile device; smartphone or tablet.</p><p> <strong>Download the SynScan App from Google play or the App Store. </strong></p><p> This mount is also available in three telescope kits, featuring the 102mm maksutov-cassegrain, 127mm maksutov-cassegrain, and 130mm reflector.</p><p><strong>MINI AZ-GTi Mount Features: </strong></p><ul> <li>Wi-Fi controlled (iOS and Android)</li> <li>Go-To via SynScan free app</li> <li>Freedom Finder dual encoder</li> <li>DC12V voltage.</li> <li>5kg load capacity.</li> <li>1.3kg Mount Weight.</li> <li>DC Motor.</li> <li>Dimensions: 14cm x 9cm x 14cm.</li></ul><p><strong>WI-FI Capability </strong></p><p> Connect the mount to the SynScan App and control your telescope wirelessley with your mobile device.</p><p><strong>Accessories: </strong></p><ul> <li>Portable tripod (3/8″ screw connection)</li> <li>Accessory tray</li> <li>Snap cable (2.5mm audio jack)</li> <li>216 extension pier</li></ul><p><strong>Other Features:</strong></p><ul> <li>Vixen style bar compatible</li> <li>Compatible with standard 3/8” screw tripods</li> <li>Snap port</li> <li>SynScan hand controller compatible</li> <li>7.5-14V supply or 8 AA batteries (battery case inside the mount)</li> <li>Adjustable tripod: 640mm to 1125mm</li></ul>",
+      "specs": {
+        "Encoders": "Yes",
+        "Mount Type": "Alt-Azimuth",
+        "Tripod Height": "640-1125mm",
+        "Tripod Weight": "1.23 kg"
+      },
+      "images": [
+        "/images/products/SWAZGTI/SWAZGTI.tag.0.png",
+        "/images/products/SWAZGTI/SWAZGTI.tag.1.jpg",
+        "/images/products/SWAZGTI/SWAZGTI.tag.2.jpg"
+      ]
+    },
+    {
+      "name": "90 Heritage Virtuoso Tabletop Dobsonian",
+      "sku": "SWDOBMAK90 ",
+      "tags": ["Telescopes", "Tabletop Dobsonians", "Maksutov-Cassegrains"],
+      "url": "90-heritage-virtuoso-tabletop-dobsonian",
+      "rrp": 599.99,
+      "bullets": [
+        "Perfect For Beginners",
+        "90mm High Contrast Maksutov-Cassegrain Optics",
+        "Camera/Video Cruising up to 6 preset positions",
+        "5 Different Cruising Speed Modes",
+        "Virtuoso™ Mount Stable Platform",
+        "Can be upgraded to Go-To System",
+        "5 Years Sky-Watcher Limited Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher Heritage-90 Virtuoso Dobsonian Telescope</strong></p><p> Four centuries ago, an Italian scientist, Galileo Galilei, introduced an elementary telescope that changed the science forever. His discoveries provided the solid evidence to disprove the Earth was the centre of the Universe. And now, to celebrate the International Year of Astronomy, Sky-Watcher is proud to present the commemorative edition of Newton’s Telescope – Heritage.</p><p> Designed to be fully functional telescope, this Sky-Watcher Heritage-90 Virtuoso Dobsonian Telescope is very simple and easy to use, an ideal gift for young astronomer. Equipped with a Virtuoso™ mount with Freedom-Find™ technology, it allows the telescope to be manually manoeuvred in either axis without disrupting the polar alignment; thus creating freedom and convenience to users using the telescope. Besides, the setup also offers camera/video cruising through six preset positions at five different speeds. This ensures smooth picture acquisition of the object without causing it to run off from the field of view.</p><p> Nonetheless, the Virtuoso mount can be further upgraded to a GO-TO system by installing the Synscan AZ GO-TO handset and cable.</p><p> <strong >Sky-Watcher Heritage-90 Virtuoso Dobsonian Telescope Features:</strong ></p><ul> <li>Perfect For Beginners</li> <li>90mm High Contrast Maksutov-Cassegrain Optics</li> <li>Camera/Video Cruising up to 6 preset positions</li> <li>5 Different Cruising Speed Modes</li> <li>Virtuoso™ Mount Stable Platform</li> <li>Can be upgraded to GO-TO System</li> <li>5 Years Sky-Watcher Limited Warranty</li></ul>",
+      "specs": {
+        "Optical Design": "Maksutov-Cassegrain on Tabletop computerised Dobsonian base",
+        "Optical Diameter": "90mm",
+        "Focal Length": "1250mm",
+        "F/Ratio": "f/13.9",
+        "Eyepieces": "Super 10, 25mm",
+        "Finder Scope": "Red Dot",
+        "Highest Practical Power": "180x",
+        "Motors Resolution": "2.42 arc sec",
+        "Slewing Speed": "8x, 16x, 64x, 400x, >2000x Max",
+        "Power Requirement": "12v DC 1 Amp Power Supply"
+      },
+      "images": [
+        "/images/products/SWDOBMAK90/SWDOBMAK90.tag.0.png",
+        "/images/products/SWDOBMAK90/SWDOBMAK90.tag.1.jpg",
+        "/images/products/SWDOBMAK90/SWDOBMAK90.tag.2.jpg",
+        "/images/products/SWDOBMAK90/SWDOBMAK90.tag.3.jpg",
+        "/images/products/SWDOBMAK90/SWDOBMAK90.tag.4.jpg"
+      ]
+    },
+    {
+      "name": "1.25\" Erect Image Diaganol",
+      "sku": "SWA-45EID",
+      "tags": ["Accessories"],
+      "url": "1.25-erect-image-diaganol",
+      "rrp": 84.99,
+      "bullets": [
+        "Suitable for Refractor, Maksutov & Schmidt-Cassegrain Telescope",
+        "Great Accessory for Daytime Terrestrial Viewing with Telescope",
+        "Fully Coated Optics",
+        "5 Years Warranty"
+      ],
+      "description": "<p><strong>Sky-Watcher 1.25″ Erect Image Diagonals </strong></p><p> Most of the telescopes work perfectly well during daytime as well as for astronomy. If you have a refractor or a Schmidt-Cassegrain telescope and you want to use it for terrestrial observations, Sky-Watcher Erect Image Diagonals are the most useful accessory you can buy.</p><p> Normally, image created through telescopes may be either upside down, flipped so that you see a mirror image, or a combination of the two. It will be very confusing when you are trying to track a moving boat or flying bird. This problem can be corrected easily by using a erect image diagonal</p><p> Simply remove the standard diagonal from the telescope’s focuser or visual back, and install the Sky-Watcher Erect Image Diagonal, then when you insert an eyepiece, objects will be right side up and left-to-right correct. These Amici prism diagonals are very comfortable for daytime observations, where the telescope is often in a horizontal position.</p>",
+      "images": ["/images/products/SWA-45EID/SWA-45EID.tag.0.png"]
+    },
+    {
+      "name": "180mm Universal D Sized Dovetail",
+      "sku": "SWA-DDOVETAIL-18",
+      "tags": ["Accessories"],
+      "url": "180mm-universal-dsized-dovetail",
+      "rrp": 124.99,
+      "bullets": [
+        "Losmandy-D Size Dovetail",
+        "Several Popular Mounting Hole Patterns",
+        "Lightweight and Strong Aluminum",
+        "Anodized Sky-Watcher Green Color",
+        "Length: 18cm (7″)"
+      ],
+      "description": "<p><strong>180mm Universal D Sized Dovetail</strong></p><p> The Universal D Sized dovetail from Sky-Watcher, fits any telescope mount with a D sized saddle. Allowing you to mount almost any Telescope or accessory to your setup.</p>",
+      "images": [
+        "/images/products/DDOVETAIL/DDOVETAIL.tag.0.png",
+        "/images/products/DDOVETAIL/DDOVETAIL.tag.1.jpg"
+      ]
+    },
+    {
+      "name": "0.85x Focal Reducer/Flattener",
+      "sku": "SWA-BDFF80ED",
+      "tags": ["Accessories"],
+      "url": "0.85x-focal-reducer-flattener",
+      "rrp": 599.99,
+      "bullets": [
+        "For 80/100/120/150ED DS-PRO",
+        "Optimised for the Sky-Watcher Evostar ED PRO (and equivalent Equinox) APO refractors",
+        "Reduces the telescopes focal length by a factor of 0.85x",
+        "Provides much improved field-edge correction",
+        "Use in conjunction with a Sky-Watcher DSLR-M48 Ring Adaptor."
+      ],
+      "description": "<p> <strong >Sky-Watcher 0.85x Focal Reducer/Flattener For 80/100/120/150ED DS-PRO </strong></p><p> Designed for serious astro-photographers. Each model is optimised for the corresponding model in the Sky-Watcher Evostar-ED DS-Pro range. They effectively reduce the telescopes focal length by a factor of 0.85x and provide much improved field edge correction. You will need to use a Sky-Watcher DSLR-M48 Ring Adaptor to connect this to your telescope. As always, try to make sure you’re the telescope and tripod you’re using can support the weight of your camera.</p><p><strong>Available Models: </strong></p><ul> <li>80ED</li> <li>100ED</li> <li>120ED</li> <li>150ED</li></ul>",
+      "images": ["/images/products/BDFF80ED/BDFF80ED.tag.0.png"]
+    },
+    {
+      "name": "EvoGuide 50ED Guidescope",
+      "sku": "SWED50",
+      "tags": ["Accessories"],
+      "url": "EvoGuide 50ED Guidescope",
+      "rrp": 499.99,
+      "bullets": [
+        "Designed for use with all Autoguiders",
+        "High quality ED Glass",
+        "Small compact size",
+        "Helical Focuser"
+      ],
+      "description": "<p> <strong>EvoGuide 50ED Guidescope </strong></p><p> Sky-Watcher’s new 50mm ED Guidescope with ED lenses and low dispersion 50mm diameter.</p><p> The 31.8mm ring focuser allows you to use the Evoguide ED50 both as a finder and as a guide telescope, in fact it is equipped with a T2 thread to allow the attachment to most of the driving and shooting cameras on the market. It is obviously compatible with 31.8mm eyepieces. The Evoguide ED50 is equipped with collimated rings, each with 3 nylon tipped screws. The Evoguide ED50 has a Vixen mini bar, compatible with the majority of commercially available bases.</p><p>Ideal as a high quality finder and guide telescope.</p>",
+      "images": [
+        "/images/products/SWED50/SWED50.tag.0.png",
+        "/images/products/SWED50/SWED50.tag.1.jpg"
+      ]
+    },
+    {
+      "name": "Acuter Mak 60 Educational Kit",
+      "sku": "ACDOBMAK60",
+      "tags": [
+        "Telescopes",
+        "Maksutov-Cassegrains",
+        "Tabletop Dobsonians",
+        "Acuter"
+      ],
+      "url": "acuter-mak-60-educational-kit",
+      "rrp": 249,
+      "bullets": [
+        "Great for Learning",
+        "Take Photos of the Stars",
+        "See how it Works Inside",
+        "Compact & Portable",
+        "Masutov Design",
+        "Famous Dobsonian style base"
+      ],
+      "description": "<p> <strong>Follow In Dimitri Maksutov’s Footsteps:</strong></p><ul> <li>Find Out How Maksutov telescopes Work.</li> <li>Use Your Own Telescope To Observe And Learn.</li> <li>Photograph And Record Your Observations.</li></ul><p> <strong>Acuter MAK 60 Educational Telescope Kit Features: </strong></p><ul> <li>Great for Learning</li> <li>Take Photos of the Stars</li> <li>See how it Works Inside</li> <li>Compact & Portable</li> <li>Masutov Design</li> <li>Famous Dobsonian style base</li></ul><p> <strong>Included Accessories: </strong></p><ul> <li>Universal Smartphone Adaptor (Smartphone not included)</li> <li>Extra Eyepiece</li> <li>Adjustable Compact Tripod</li></ul><p>EDUCATIONAL PRODUCT FOR CHILDREN AGE 13+</p>",
+      "specs": {
+        "Optical Design": "Maksutov-Cassegrains",
+        "Optical Diameter": "60mm",
+        "Focal Length": "750mm",
+        "Eyepieces": "Educational projection eyepiece"
+      },
+      "images": [
+        "/images/products/ACDOBMAK60/ACDOBMAK60.tag.0.png",
+        "/images/products/ACDOBMAK60/ACDOBMAK60.tag.1.jpg",
+        "/images/products/ACDOBMAK60/ACDOBMAK60.tag.2.jpg"
+      ]
+    },
+    {
+      "name": "Acuter Newtony 50 Educational Kit",
+      "sku": "ACDN50",
+      "tags": ["Telescopes", "Reflector", "Tabletop Dobsonians", "Acuter"],
+      "url": "acuter-newtony-60-educational-kit",
+      "rrp": 189,
+      "bullets": [
+        "Great for Learning",
+        "High Quality Glass Optics",
+        "Take Photos of the Stars",
+        "See how it Works Inside",
+        "Compact & Portable",
+        "Maksutov Design"
+      ],
+      "description": "<p> <strong>Follow In Isaac Newton’s Footsteps: </strong></p><ul> <li>Find Out How Maksutov telescopes Work.</li> <li>Use Your Own Telescope To Observe And Learn.</li> <li>Photograph And Record Your Observations.</li></ul><p> <strong>Acuter MAK 60 Educational Telescope Kit Features: </strong></p><ul> <li>Great for Learning</li> <li>Take Photos of the Stars</li> <li>See how it Works Inside</li> <li>Compact & Portable</li> <li>Masutov Design</li> <li>Famous Dobsonian style base</li></ul><p> <strong>Included Accessories: </strong></p><ul> <li>Universal Smartphone Adaptor (Smartphone not included)</li> <li>Extra Eyepiece</li> <li>Adjustable Compact Tripod</li></ul><p>EDUCATIONAL PRODUCT FOR CHILDREN AGE 13+</p>",
+      "specs": {
+        "Optical Design": "Newtonian Reflector",
+        "Optical Diameter": "50mm",
+        "Focal Length": "400mm",
+        "Eyepieces": "Educational projection eyepiece"
+      },
+      "images": [
+        "/images/products/ACDN50/ACDN50.tag.0.png",
+        "/images/products/ACDN50/ACDN50.tag.1.jpg",
+        "/images/products/ACDN50/ACDN50.tag.2.jpg",
+        "/images/products/ACDN50/ACDN50.tag.3.jpg",
+        "/images/products/ACDN50/ACDN50.tag.4.jpg"
+      ]
+    },
+    {
+      "name": "Acuter Maksy 60 Educational Kit",
+      "sku": "ACDM60",
+      "tags": ["Telescopes", "Reflector", "Tabletop Dobsonians", "Acuter"],
+      "url": "acuter-maksy-60-educational-kit",
+      "rrp": 99,
+      "bullets": [
+        "Great for Learning",
+        "Take Photos of the Stars",
+        "See how it Works Inside",
+        "Compact & Portable",
+        "Newtonian Design"
+      ],
+      "description": "<p> <strong>Follow In Dimitri Maksutov’s Footsteps: </strong></p><ul> <li>Find Out How Maksutov telescopes Work.</li> <li>Use Your Own Telescope To Observe And Learn.</li> <li>Photograph And Record Your Observations.</li></ul><p> <strong>Acuter Maksy 60 Educational Telescope Kit Features: </strong></p><ul> <li>Great for Learning</li> <li>High Quality Glass Optics</li> <li>Take Photos of the Stars</li> <li>See how it Works Inside</li> <li>Compact & Portable</li> <li>Maksutov Design</li></ul><p> <strong>Included Accessories: </strong></p><ul> <li>Universal Smartphone Adaptor (Smartphone not included)</li> <li>Extra Eyepiece</li> <li>Adjustable Compact Tripod</li></ul><p>EDUCATIONAL PRODUCT FOR CHILDREN AGE 14+</p>",
+      "specs": {
+        "Optical Design": "Maksutov",
+        "Optical Diameter": "60mm",
+        "Focal Length": "750mm",
+        "Eyepieces": "37.5x Educational projection eyepiece"
+      },
+      "images": [
+        "/images/products/ACDM60/ACDM60.tag.0.png",
+        "/images/products/ACDM60/ACDM60.tag.1.jpg",
+        "/images/products/ACDM60/ACDM60.tag.2.jpg"
+      ]
+    },
+    {
+      "name": "16-48x65mm Acuter Grandvista Spotting Scope",
+      "sku": "DS65A",
+      "tags": ["Spotting Scopes", "Acuter"],
+      "url": "16-48x65mm-acuter-grandvista-spotting-scope",
+      "rrp": 499,
+      "bullets": [
+        "Dual-Speed Focuser (15:1 Ratio) with Precision Fine-Focusing",
+        "Accepts Standard 1.25″ Push-fit Telescope Eyepieces",
+        "20mm Eye Relief, suitable for spectacle wearers",
+        "Extendable Sunshade/Dewshield with Handy Sighting Line",
+        "Robust Shock-Resistant Rubber Armoured Body",
+        "Spotting Scope Fully Rotatable in Collar",
+        "Supplied with DSLR camera adaptor ring",
+        "Stay-On Case"
+      ],
+      "description": "<p> <strong>16-48x65mm Acuter Grandvista Spotting Scope </strong></p><p> The new Acuter GrandVista series advanced achromatic waterproof spotting scopes are exceptionally stylish and highly functional precision optical instruments. They combine excellent optical performance with many desirable high-end features that make them perfect companions for Birdwatching, Serious Nature Observations, Target Shooting and even Astronomy.</p><p> The DS65A is supplied as standard with a 16x-48x (8-24mm) Zoom Eyepiece but can be used with virtually any standard 1.25″ push-fit telescope eyepiece for exceptional versatility. The spotting scope can be fully rotated in its collar to change the orientation of the eyepiece. Fully multi-coated Optics.</p><ul> <li>Dual-Speed Focuser (15:1 Ratio) with Precision Fine-Focusing</li> <li>Accepts Standard 1.25″ Push-fit Telescope Eyepieces</li> <li>20mm Eye Relief, suitable for spectacle wearers</li> <li>Extendable Sunshade/Dewshield with Handy Sighting Line</li> <li>Robust Shock-Resistant Rubber Armoured Body</li> <li>Spotting Scope Fully Rotatable in Collar</li> <li>Supplied with DSLR camera adaptor ring</li> <li>Stay-On Case</li></ul>",
+      "specs": {
+        "Magnification": "16x-48x Zoom",
+        "Optical Diameter": "65mm",
+        "Focal Length": "386mm",
+        "Field Of View": "2.6 – 1.3° - 45m-23m@1000M",
+        "Nearest Focus Distance": "4.5m",
+        "Weight": "1700g"
+      },
+      "images": ["/images/products/DS65A/DS65A.tag.0.png"]
+    },
+    {
+      "name": "16-48x65mm Acuter Natureclose Spotting Scope",
+      "sku": "ST1648X65A",
+      "tags": ["Spotting Scopes", "Acuter"],
+      "url": "16-48x65mm-acuter-natureclose-spotting-scope",
+      "rrp": 399,
+      "bullets": [
+        "Ideal for General Nature & Wildlife Observation",
+        "Fully Multi-Coated Optics",
+        "Waterproof & Nitrogen Purged Fogproof",
+        "Retractable Sunshade",
+        "Stay-on Carry Case",
+        "Attaches Directly to Camera T-Rings"
+      ],
+      "description": "<p> <strong> Acuter Nature Close 16-48×65 Angled Spotter </strong></p><p> Acuter™ is the sport optics line owned by Synta Technology Corp, a world famous and market leading optics manufacturer who are also the owners of Sky-Watcher. With the ambitious to make the highest quality optics but in a affordable price, Acuter is the best value spotting scope perfect for those with limited budget.</p><p> The Acuter Nature Close Fieldscope come with O-Ring sealed and nitrogen purged housing to ensure them fully waterproof, fogproof and dust resistance. Covered with a protective rubberised paint finish, it helps to protect the spotter from the elements. With smallest aperture size in Acuter Nature Close Series, it is an ideal spotter for those with limited budget and buy it for general use.</p><p> All the objective lenses of Acuter Nature Close Spotter are fully Multi-Coated for maximum light transmission and image contrast. Come with a 8-24mm Zoom Eyepiece to provide generous eye relief and fold-back rubber eyecups suitable for spectacle wearers. The “stay-on” carry case can be kept on the scope whilst attached to your tripod, provides extra protection to your spotter from the elements.</p><p> Digiscoping is available for the attachment of either SLR or DSLR camera, a T-2 Camera Adapter is required to be used in conjunction with the included multi-coated zoom eyepiece.</p><p> Acuter Optics – Simply deliver a fresher and more brilliant world to your eye.</p><p><strong>In the Box:</strong></p><ul> <li>8-24mm Zoom Eyepiece</li> <li>Objective Lens Cap</li> <li>Eyepiece Cover</li> <li>Stay-on Carry Case</li> <li>Lens Cloth</li></ul>",
+      "specs": {
+        "Magnification": "16x-48x Zoom",
+        "Optical Diameter": "65mm",
+        "Focal Length": "386mm",
+        "Field Of View": "2.6 – 1.3° - 45m-23m@1000M",
+        "Nearest Focus Distance": "7.5"
+      },
+      "images": ["/images/products/ST1648X65A/ST1648X65A.tag.0.png"]
     }
   ]
 }

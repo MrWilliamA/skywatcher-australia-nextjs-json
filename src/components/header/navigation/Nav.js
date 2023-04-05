@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import MobileMenu from "./MobileMenu";
 import DesktopMenu from "./DesktopMenu";
 
-const Nav = () => {
+const Nav = ({ hovered, setHovered }) => {
   const logoUrl = "/images/logos/Skywatcher-logo-white.png";
 
   const [windowWidth, setWindowWidth] = useState(0);
@@ -20,7 +20,7 @@ const Nav = () => {
   return windowWidth < 800 ? (
     <MobileMenu logoUrl={logoUrl} />
   ) : (
-    <DesktopMenu logoUrl={logoUrl} />
+    <DesktopMenu logoUrl={logoUrl} hovered={hovered} setHovered={setHovered} />
   );
 };
 

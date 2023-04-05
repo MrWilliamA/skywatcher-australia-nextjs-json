@@ -1,0 +1,21 @@
+.table {
+  width: 100%;
+}
+
+.table tr:first-child {
+  background-color: var(--dark);
+  color: white;
+  font-weight: bold;
+}
+
+.table tr:nth-child(2n + 3) {
+  background-color: var(--light);
+}
+
+.table th {
+  padding: 10px;
+}
+
+.table td {
+  padding: 8px 12px;
+}
