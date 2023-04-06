@@ -1,3 +1,7 @@
+.question {
+  margin-top: 5px;
+}
+
 .question button {
   background-color: var(--light);
   border: none;
@@ -5,4 +9,27 @@
   cursor: pointer;
   width: 100%;
   text-align: left;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.question button::before {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.question button.plus::before {
+  content: "+";
+  color: var(--green);
+}
+
+.question button.minus::before {
+  content: "-";
+  color: var(--red);
+}
+
+.answer {
+  padding: 20px;
 }

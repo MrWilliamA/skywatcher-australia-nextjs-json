@@ -10,6 +10,10 @@ function FAQ() {
     setActiveQuestionIndex((prevIndex) => (prevIndex === index ? null : index));
   }
 
+  function getButtonClass(index) {
+    return activeQuestionIndex === index ? Styles.minus : Styles.plus;
+  }
+
   return (
     <>
       <Head>
@@ -23,8 +27,15 @@ function FAQ() {
       <section>
         {questions.map((q, index) => (
           <div key={index} className={Styles.question}>
-            <button onClick={() => toggleQuestion(index)}>{q.question}</button>
-            {activeQuestionIndex === index && <p>{q.answer}</p>}
+            <button
+              onClick={() => toggleQuestion(index)}
+              className={getButtonClass(index)}
+            >
+              {q.question}
+            </button>
+            {activeQuestionIndex === index && (
+              <p className={Styles.answer}>{q.answer}</p>
+            )}
           </div>
         ))}
       </section>

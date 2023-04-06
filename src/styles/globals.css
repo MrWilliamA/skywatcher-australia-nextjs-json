@@ -21,6 +21,7 @@
   --dark: #1c1c1c;
   --light: #cbcbcb;
   --extra-light: #dfdfdf;
+  --red: #b92b2b;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -142,7 +143,7 @@ ul {
 }
 
 .error {
-  background: #b92b2b;
+  background: var(--red);
   padding: 6px 15px;
   color: white;
   display: inline-block;
