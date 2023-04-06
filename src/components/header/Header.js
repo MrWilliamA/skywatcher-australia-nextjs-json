@@ -4,20 +4,36 @@ import ProductBanners from "./banners/productPages/ProductBanners";
 import { useState } from "react";
 
 const Header = ({ productDetails, nextProduct, title }) => {
-  const [hovered, setHovered] = useState(false);
+  const [productsHovered, setProductsHovered] = useState(false);
+  const [kBHovered, setKBHovered] = useState(false);
 
   const banners = {
-    home: <HomeBanner hovered={hovered} setHovered={setHovered} />,
+    home: (
+      <HomeBanner
+        productsHovered={productsHovered}
+        setProductsHovered={setProductsHovered}
+        kBHovered={kBHovered}
+        setKBHovered={setKBHovered}
+      />
+    ),
     product: (
       <ProductBanners
         productDetails={productDetails.product}
         nextProduct={nextProduct}
-        hovered={hovered}
-        setHovered={setHovered}
+        productsHovered={productsHovered}
+        setProductsHovered={setProductsHovered}
+        kBHovered={kBHovered}
+        setKBHovered={setKBHovered}
       />
     ),
     page: (
-      <PageBanners title={title} hovered={hovered} setHovered={setHovered} />
+      <PageBanners
+        title={title}
+        productsHovered={productsHovered}
+        setProductsHovered={setProductsHovered}
+        kBHovered={kBHovered}
+        setKBHovered={setKBHovered}
+      />
     ),
   };
 

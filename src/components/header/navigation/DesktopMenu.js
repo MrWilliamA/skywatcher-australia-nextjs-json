@@ -5,20 +5,28 @@ import {
   leftNavLinks,
   productsSubMenu,
   rightNavLinks,
+  knowledgeBaseSubMenu,
 } from "./NavigationRoutes";
-import { useState } from "react";
 
-const DesktopMenu = ({ logoUrl, hovered, setHovered }) => {
-  // const [hovered, setHovered] = useState(false);
-
+const DesktopMenu = ({
+  logoUrl,
+  productsHovered,
+  setProductsHovered,
+  kBHovered,
+  setKBHovered,
+}) => {
   function mouseOver(name) {
     if (name === "PRODUCTS") {
-      setHovered(true);
+      setProductsHovered(true);
+    } else if (name === "KNOWLEDGE BASE") {
+      console.log("asdasd");
+      setKBHovered(true);
     }
   }
 
   function mouseOff() {
-    setHovered(false);
+    setProductsHovered(false);
+    setKBHovered(false);
   }
   return (
     <>
@@ -33,13 +41,13 @@ const DesktopMenu = ({ logoUrl, hovered, setHovered }) => {
                     <Link
                       href={link.path}
                       className={`${Styles.topList}${
-                        hovered ? Styles.hovered : ""
+                        productsHovered ? Styles.hovered : ""
                       }`}
                       onMouseOver={() => mouseOver(link.name)}
                     >
                       {link.name}
                     </Link>
-                    {link.name === "PRODUCTS" && hovered && (
+                    {link.name === "PRODUCTS" && productsHovered && (
                       <section
                         className={`${Styles.subMenuContainer} ${Styles.subMenuContainerFixed} `}
                         onMouseLeave={mouseOff}
@@ -75,9 +83,29 @@ const DesktopMenu = ({ logoUrl, hovered, setHovered }) => {
               {rightNavLinks.map((link, index) => {
                 return (
                   <li key={index}>
-                    <Link href={link.path} className={Styles.topList}>
+                    <Link
+                      href={link.path}
+                      className={Styles.topList}
+                      onMouseOver={() => mouseOver(link.name)}
+                    >
                       {link.name}
                     </Link>
+                    {link.name === "KNOWLEDGE BASE" && kBHovered && (
+                      <section
+                        className={`${Styles.subMenuContainer} ${Styles.subMenuContainerFixed} `}
+                        onMouseLeave={mouseOff}
+                      >
+                        <ul className={Styles.subMenu}>
+                          {knowledgeBaseSubMenu.map((link, index) => {
+                            return (
+                              <li key={index}>
+                                <Link href={link.path}>{link.name}</Link>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </section>
+                    )}
                   </li>
                 );
               })}

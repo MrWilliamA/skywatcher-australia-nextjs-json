@@ -82,46 +82,17 @@
   z-index: 999;
 }
 
-.close {
-  color: white;
-  cursor: pointer;
-  line-height: 95px;
-}
-
-.close:hover {
-  background: var(--green);
-}
-
 .menuBtn {
-  color: white;
+  color: var(--light);
   cursor: pointer;
   height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-.mobileContainerOpen {
-  background-color: black;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999;
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
-  text-align: center;
-}
-
-.openMobileNav .li {
-  list-style-type: none;
-  color: white;
-  line-height: 40px;
-}
-
-.openMobileNav li:hover {
-  background: var(--green);
+  text-decoration: underline;
+  font-weight: bold;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
 }
 
 .subMenuContainer {
@@ -133,11 +104,6 @@
 
 .subMenuContainer ul {
   list-style: none;
-}
-
-.subMenuContainer ul:hover {
-  box-shadow: 0 0 130px 810px #00000033, 0 0 19px 6px #00000073;
-  background: black;
 }
 
 .subMenuContainer li {
@@ -158,6 +124,7 @@
 
 .subMenuContainer a {
   height: auto;
+  width: 100%;
   display: inline-block;
   color: var(--dark);
   padding: 0;
@@ -166,4 +133,44 @@
 
 .hovered:hover .subMenuContainer ul {
   box-shadow: 0 0 130px 810px #00000033, 0 0 19px 6px #00000073;
+}
+
+/* mobile */
+
+.mobileContainerOpen {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.openMobileNav ul {
+  list-style-type: none;
+  color: var(--light);
+  line-height: 40px;
+}
+
+.openMobileNav li:hover {
+  background: var(--green);
+  color: white;
+}
+
+.close {
+  color: white;
+  cursor: pointer;
+  line-height: 95px;
+  background-color: var(--green);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.close:hover {
+  background: var(--green);
 }

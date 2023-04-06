@@ -43,4 +43,12 @@ export const knowledgeBaseSubMenu = [
     name: "GLOSSARY",
     path: "/glossary",
   },
+  {
+    name: "FAQ",
+    path: "/faq",
+  },
+  {
+    name: "FIRMWARE & MANUALS",
+    path: "/manuals",
+  },
 ];

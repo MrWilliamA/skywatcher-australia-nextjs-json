@@ -7,7 +7,14 @@ import { useMediaQuery } from "react-responsive";
 import { useState } from "react";
 import Lightbox from "../../../products/Lighbox";
 
-const ProductBanners = ({ productDetails, nextProduct }) => {
+const ProductBanners = ({
+  productDetails,
+  nextProduct,
+  productsHovered,
+  setProductsHovered,
+  kBHovered,
+  setKBHovered,
+}) => {
   const isSmallScreen = useMediaQuery({ maxWidth: 970 });
   const [lightbox, setLightbox] = useState(false);
 
@@ -22,7 +29,17 @@ const ProductBanners = ({ productDetails, nextProduct }) => {
           isSmallScreen ? Styles.phoneBanner : Styles.desktopBanner
         } ${Styles.productBanner}`}
       >
-        <Nav />
+        <div
+          className={`${Styles.hoverShade} ${
+            productsHovered || kBHovered ? Styles.hovered : ""
+          }`}
+        ></div>
+        <Nav
+          productsHovered={productsHovered}
+          setProductsHovered={setProductsHovered}
+          kBHovered={kBHovered}
+          setKBHovered={setKBHovered}
+        />
         <section className={Styles.pageBannerText}>
           <div className={Styles.titleMeta}>
             <div className={Styles.titleMetaInner}>

@@ -11,6 +11,19 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.hoverShade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+}
+
+.hoverShade.hovered {
+  background: #00000073;
+}
+
 .galaxyContainer {
   position: absolute;
   mask-image: url(/images/banners/mask.svg);

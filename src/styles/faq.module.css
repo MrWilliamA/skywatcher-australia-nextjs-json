@@ -1,0 +1,8 @@
+.question button {
+  background-color: var(--light);
+  border: none;
+  padding: 10px 12px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}

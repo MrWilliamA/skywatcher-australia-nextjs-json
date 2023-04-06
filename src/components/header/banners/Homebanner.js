@@ -1,15 +1,30 @@
 import Nav from "../navigation/Nav";
-import styles from "../../../styles/home.module.css";
+import Styles from "../../../styles/home.module.css";
 
-const homebanner = ({ hovered, setHovered }) => {
+const homebanner = ({
+  productsHovered,
+  setProductsHovered,
+  kBHovered,
+  setKBHovered,
+}) => {
   return (
     <>
-      <section className={styles.pageBanner}>
-        <div className={styles.galaxyContainer}>
-          <div className={styles.galaxy}></div>
+      <section className={Styles.pageBanner}>
+        <div
+          className={`${Styles.hoverShade} ${
+            productsHovered || kBHovered ? Styles.hovered : ""
+          }`}
+        ></div>
+        <div className={Styles.galaxyContainer}>
+          <div className={Styles.galaxy}></div>
         </div>
-        <Nav hovered={hovered} setHovered={setHovered} />
-        <div className={styles.h1Container}>
+        <Nav
+          productsHovered={productsHovered}
+          setProductsHovered={setProductsHovered}
+          kBHovered={kBHovered}
+          setKBHovered={setKBHovered}
+        />
+        <div className={Styles.h1Container}>
           <h1>Sky-Watcher Australia</h1>
         </div>
       </section>
