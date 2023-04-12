@@ -162,7 +162,7 @@ const mounts = () => {
 export async function getStaticProps() {
   return {
     props: {
-      title: "Sky-Watcher Reflectors",
+      title: "Sky-Watcher Mounts",
     },
   };
 }

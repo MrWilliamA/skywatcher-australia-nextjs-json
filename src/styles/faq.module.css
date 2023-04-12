@@ -1,3 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 49%;
+  display: inline-block;
+}
+
 .question {
   margin-top: 5px;
 }
@@ -31,5 +41,19 @@
 }
 
 .answer {
-  padding: 20px;
+  padding: 5px 20px 5px 20px;
+}
+
+.answer p {
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
 }

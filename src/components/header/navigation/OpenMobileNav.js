@@ -1,25 +1,72 @@
 import Styles from "../../../styles/nav.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import { leftNavLinks, rightNavLinks } from "./NavigationRoutes";
+import {
+  leftNavLinks,
+  rightNavLinks,
+  productsSubMenu,
+  knowledgeBaseSubMenu,
+} from "./NavigationRoutes";
 
-const OpenMobileNav = ({ logoUrl, isOpen, setOpen, buttonHandler }) => {
+const OpenMobileNav = ({ logoUrl, buttonHandler }) => {
   return (
     <section className={Styles.mobileContainerOpen}>
       <article className={Styles.openMobileNav}>
         <ul>
           {leftNavLinks.map((link, index) => {
             return (
-              <Link key={index} href={link.path}>
-                <li>{link.name}</li>
-              </Link>
+              <li key={index}>
+                <Link
+                  href={link.path}
+                  className={Styles.mobileTopList}
+                  onClick={buttonHandler}
+                >
+                  {link.name}
+                </Link>
+                {link.name === "PRODUCTS" && (
+                  <section className={Styles.mobileSubMenuContainer}>
+                    <ul className={Styles.mobileSubMenu}>
+                      {productsSubMenu.map((link, index) => {
+                        return (
+                          <li key={index}>
+                            <Link href={link.path} onClick={buttonHandler}>
+                              {link.name}
+                            </Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </section>
+                )}
+              </li>
             );
           })}
           {rightNavLinks.map((link, index) => {
             return (
-              <Link key={index} href={link.path}>
-                <li>{link.name}</li>
-              </Link>
+              <li key={index}>
+                <Link
+                  href={link.path}
+                  className={Styles.mobileTopList}
+                  onClick={buttonHandler}
+                >
+                  {link.name}
+                </Link>
+                {link.name === "KNOWLEDGE BASE" && (
+                  <section className={Styles.mobileSubMenuContainer}>
+                    <ul className={Styles.mobileSubMenu}>
+                      {knowledgeBaseSubMenu.map((link, index) => {
+                        return (
+                          <li key={index}>
+                            <Link href={link.path} onClick={buttonHandler}>
+                              {link.name}
+                            </Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </section>
+                )}
+              </li>
             );
           })}
         </ul>

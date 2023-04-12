@@ -3,16 +3,26 @@ import Head from "next/head";
 import Styles from "../styles/faq.module.css";
 import { questions } from "../components/faq/Faq";
 
-function FAQ() {
+const Faq = () => {
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(null);
 
-  function toggleQuestion(index) {
-    setActiveQuestionIndex((prevIndex) => (prevIndex === index ? null : index));
+  function toggleQuestion(column, index) {
+    setActiveQuestionIndex((prevIndex) =>
+      prevIndex === `${column}-${index}` ? null : `${column}-${index}`
+    );
   }
 
-  function getButtonClass(index) {
-    return activeQuestionIndex === index ? Styles.minus : Styles.plus;
+  function getButtonClass(column, index) {
+    return activeQuestionIndex === `${column}-${index}`
+      ? Styles.minus
+      : Styles.plus;
   }
+
+  const questionSplit = Math.ceil(questions.length / 2);
+
+  const test = Array.from(questions);
+  const firstColumn = test.slice(0, questionSplit);
+  const secondColumn = test.slice(questionSplit);
 
   return (
     <>
@@ -24,24 +34,47 @@ function FAQ() {
         />
       </Head>
 
-      <section>
-        {questions.map((q, index) => (
-          <div key={index} className={Styles.question}>
-            <button
-              onClick={() => toggleQuestion(index)}
-              className={getButtonClass(index)}
-            >
-              {q.question}
-            </button>
-            {activeQuestionIndex === index && (
-              <p className={Styles.answer}>{q.answer}</p>
-            )}
-          </div>
-        ))}
+      <section className={Styles.container}>
+        <div className={`${Styles.column} ${Styles.column1}`}>
+          {firstColumn.map((q, index) => (
+            <div key={index} className={Styles.question}>
+              <button
+                onClick={() => toggleQuestion("column1", index)}
+                className={getButtonClass("column1", index)}
+              >
+                {q.question}
+              </button>
+              {activeQuestionIndex === `column1-${index}` && (
+                <p
+                  className={Styles.answer}
+                  dangerouslySetInnerHTML={{ __html: q.answer }}
+                ></p>
+              )}
+            </div>
+          ))}
+        </div>
+        <div className={`${Styles.column} ${Styles.column2}`}>
+          {secondColumn.map((q, index) => (
+            <div key={index} className={Styles.question}>
+              <button
+                onClick={() => toggleQuestion("column2", index)}
+                className={getButtonClass("column2", index)}
+              >
+                {q.question}
+              </button>
+              {activeQuestionIndex === `column2-${index}` && (
+                <p
+                  className={Styles.answer}
+                  dangerouslySetInnerHTML={{ __html: q.answer }}
+                ></p>
+              )}
+            </div>
+          ))}
+        </div>
       </section>
     </>
   );
-}
+};
 
 export async function getStaticProps() {
   return {
@@ -51,4 +84,4 @@ export async function getStaticProps() {
   };
 }
 
-export default FAQ;
+export default Faq;

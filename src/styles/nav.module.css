@@ -147,8 +147,11 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  text-align: center;
   padding: 20px;
+}
+
+.mobileContainerOpen a {
+  padding-left: 15px;
 }
 
 .openMobileNav ul {
@@ -157,9 +160,15 @@
   line-height: 40px;
 }
 
-.openMobileNav li:hover {
+.openMobileNav li:not(.mobileSubMenuContainer li) {
+  background: #242424;
+  margin: 5px 0;
+}
+
+.openMobileNav a:hover {
   background: var(--green);
   color: white;
+  display: block;
 }
 
 .close {
@@ -173,4 +182,15 @@
 
 .close:hover {
   background: var(--green);
+}
+
+.mobileSubMenuContainer {
+  background: var(--dark);
+  font-size: 0.9em;
+  margin-left: 15px;
+}
+
+.mobileSubMenuContainer ul {
+  line-height: 35px;
+  margin-top: 0;
 }
