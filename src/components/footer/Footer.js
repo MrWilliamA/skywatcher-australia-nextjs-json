@@ -1,6 +1,7 @@
 import styles from "../../styles/footer.module.css";
 import Image from "next/image";
 import Socials from "../header/Socials";
+import Link from "next/link";
 
 const Footer = () => {
   const logoUrl = "/images/logos/Skywatcher-logo-white.png";
@@ -21,7 +22,7 @@ const Footer = () => {
           </p>
         </div>
         <div className={styles.column}>
-          <p>Newsletter Signup form here</p>
+          <p>Newsletter Signup </p>
           <br></br>
           <h3>Follow Us</h3>
           <br />
@@ -30,7 +31,18 @@ const Footer = () => {
         <div className={styles.column}>
           <h3>Popular Pages</h3>
           <ul>
-            <li>pages</li>
+            <li>
+              <Link href="/categories/refractors">Refractors</Link>
+            </li>
+            <li>
+              <Link href="/categories/reflectors">Reflectors</Link>
+            </li>
+            <li>
+              <Link href="/buyers-guide">Buyers Guide</Link>
+            </li>
+            <li>
+              <Link href="/knowledge-base">Knowledge Base</Link>
+            </li>
           </ul>
         </div>
         <div className={styles.fullColumn}>

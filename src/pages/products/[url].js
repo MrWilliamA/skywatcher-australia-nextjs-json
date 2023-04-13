@@ -5,6 +5,7 @@ import ProductTags from "@/components/products/ProductTags";
 import { FaSearchLocation } from "react-icons/fa";
 import Styles from "../../styles/productPage.module.css";
 import ProductSpecTable from "@/components/products/ProductSpecTable";
+import Layout from "@/components/templates/Layout";
 
 export default function Product({ urlObject }) {
   const productList = data.products;
@@ -13,7 +14,7 @@ export default function Product({ urlObject }) {
   const product = productList.find((item) => item.url === currentUrl);
   if (product !== undefined) {
     return (
-      <div>
+      <>
         <Head>
           <title>{product.name}</title>
           <meta
@@ -21,45 +22,46 @@ export default function Product({ urlObject }) {
             content={`Introducing the ${product.name} ${product.tags}`}
           />
         </Head>
-
-        <main className={Styles.mainContent}>
-          <section className={Styles.shortDescription}>
-            <h2>{product.name} Features</h2>
-            <ul>
-              {product.bullets.map((bullet, key) => {
-                return <li key={key}>{bullet}</li>;
-              })}
-            </ul>
-          </section>
-          <section className={Styles.productDetails}>
-            <div>
-              <p className={Styles.rrp}>${product.rrp}</p>
-              <p className={Styles.sku}>
-                Product Code: <span>{product.sku}</span>
-              </p>
-              <p className={Styles.tags}>
-                <ProductTags productDetails={product} seperator={" | "} />
-              </p>
-            </div>
-            <div>
-              <p> 5 year manufacturer warranty (not transferable).</p>
-            </div>
-            <div>
-              <button className={Styles.dealers}>
-                <Link href="/find-a-dealer">
-                  Find a Local Dealer
-                  <FaSearchLocation />
-                </Link>
-              </button>
-            </div>
-          </section>
-          <section className={Styles.description}>
-            <h2>{product.name} Description</h2>
-            <p dangerouslySetInnerHTML={{ __html: product.description }}></p>
-          </section>
-          {product.specs ? <ProductSpecTable product={product.specs} /> : " "}
-        </main>
-      </div>
+        <Layout layout="boxed">
+          <main className={Styles.mainContent}>
+            <section className={Styles.shortDescription}>
+              <h2>{product.name} Features</h2>
+              <ul>
+                {product.bullets.map((bullet, key) => {
+                  return <li key={key}>{bullet}</li>;
+                })}
+              </ul>
+            </section>
+            <section className={Styles.productDetails}>
+              <div>
+                <p className={Styles.rrp}>${product.rrp}</p>
+                <p className={Styles.sku}>
+                  Product Code: <span>{product.sku}</span>
+                </p>
+                <p className={Styles.tags}>
+                  <ProductTags productDetails={product} seperator={" | "} />
+                </p>
+              </div>
+              <div>
+                <p> 5 year manufacturer warranty (not transferable).</p>
+              </div>
+              <div>
+                <button className={Styles.dealers}>
+                  <Link href="/find-a-dealer">
+                    Find a Local Dealer
+                    <FaSearchLocation />
+                  </Link>
+                </button>
+              </div>
+            </section>
+            <section className={Styles.description}>
+              <h2>{product.name} Description</h2>
+              <p dangerouslySetInnerHTML={{ __html: product.description }}></p>
+            </section>
+            {product.specs ? <ProductSpecTable product={product.specs} /> : " "}
+          </main>{" "}
+        </Layout>
+      </>
     );
   } else {
     return <p>page not found</p>;

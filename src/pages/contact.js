@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import Head from "next/head";
 import Styles from "../styles/contactForm.module.css";
+import Image from "next/image";
+import Layout from "@/components/templates/Layout";
 
 const Contact = () => {
   useEffect(() => {
@@ -48,26 +50,51 @@ const Contact = () => {
           content="Contact Sky-Watcher Australia - Astronomy telescopes, binoculars and spotting scopes."
         />
       </Head>
-      <form id={Styles.form} action={""}>
-        <input
-          type="hidden"
-          name="Sky-Watcher"
-          placeholder="This is from the Sky-Watcher NextJS website."
-        />
-        <input type="text" name="name" placeholder="Name" />
-        <input type="email" name="email" placeholder="Email" />
-        <textarea
-          type="textarea"
-          name="message"
-          rows="15"
-          placeholder="Your Message"
-        />
+      <Layout layout="boxed">
+        <div className={Styles.quoteContainer}>
+          <div className={Styles.text}>
+            <p className={Styles.quote}>
+              &quot;ALL TRUTHS ARE EASY TO UNDERSTAND ONCE THEY ARE DISCOVERED;
+              THE POINT IS TO DISCOVER THEM.&quot;
+            </p>
+            <p className={Styles.author}>Galileo Galilei</p>
+          </div>
+          <div className={Styles.image}>
+            <Image
+              src="/images/pageImages/galileo-galilei.jpg"
+              alt="Galileo Galilei"
+              width="350"
+              height="264"
+            />
+          </div>
+        </div>
+        <div className={Styles.preform}>
+          <p>
+            Fill out the below form to send us a message. We will get back to
+            you as soon as possible.
+          </p>
+        </div>
+        <form id={Styles.form} action={""}>
+          <input
+            type="hidden"
+            name="Sky-Watcher"
+            placeholder="This is from the Sky-Watcher NextJS website."
+          />
+          <input type="text" name="name" placeholder="Name" />
+          <input type="email" name="email" placeholder="Email" />
+          <textarea
+            type="textarea"
+            name="message"
+            rows="15"
+            placeholder="Your Message"
+          />
 
-        <button type="submit">
-          <span>SEND</span>
-        </button>
-      </form>
-      <p id="response"></p>
+          <button type="submit" className={Styles.button}>
+            <span>SEND</span>
+          </button>
+        </form>
+        <p id="response"></p>
+      </Layout>
     </>
   );
 };

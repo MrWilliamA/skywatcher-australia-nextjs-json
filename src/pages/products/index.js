@@ -1,10 +1,11 @@
 import Head from "next/head";
 import data from "/productData/products.json";
 import ProductGrid from "@/components/products/productGrid/ProductGrid";
+import Layout from "@/components/templates/Layout";
 
 export default function Index({ products }) {
   return (
-    <div>
+    <>
       <Head>
         <title>Sky-Watcher Products</title>
         <meta
@@ -12,13 +13,14 @@ export default function Index({ products }) {
           content="Sky-Watcher Australia Products - Astronomy telescopes, binoculars and spotting scopes."
         />
       </Head>
-
-      <main>
-        <ul>
-          <ProductGrid products={products} />
-        </ul>
-      </main>
-    </div>
+      <Layout layout="boxed">
+        <main>
+          <ul>
+            <ProductGrid products={products} />
+          </ul>
+        </main>{" "}
+      </Layout>
+    </>
   );
 }
 

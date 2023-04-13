@@ -2,6 +2,8 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import CatMasonry from "@/components/catMasonry/CatMasonry";
 import FeaturedPages from "@/components/FeaturedPages/FeaturedPages";
+import Layout from "@/components/templates/Layout";
+
 export default function Home() {
   return (
     <>
@@ -14,11 +16,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.jpg" />
       </Head>
-
-      <main className={styles.main}>
-        <CatMasonry />
-        <FeaturedPages />
-      </main>
+      <Layout layout="boxed">
+        <main className={styles.main}>
+          <CatMasonry />
+          <FeaturedPages />
+        </main>
+      </Layout>
     </>
   );
 }

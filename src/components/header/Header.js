@@ -1,6 +1,7 @@
 import HomeBanner from "./banners/HomeBanner";
 import PageBanners from "./banners/PageBanners";
 import ProductBanners from "./banners/productPages/ProductBanners";
+import PageNotFoundBanner from "./banners/PageNotFoundBanner.js";
 import { useState } from "react";
 
 const Header = ({ productDetails, nextProduct, title }) => {
@@ -29,6 +30,14 @@ const Header = ({ productDetails, nextProduct, title }) => {
     page: (
       <PageBanners
         title={title}
+        productsHovered={productsHovered}
+        setProductsHovered={setProductsHovered}
+        kBHovered={kBHovered}
+        setKBHovered={setKBHovered}
+      />
+    ),
+    PageNotFound: (
+      <PageNotFoundBanner
         productsHovered={productsHovered}
         setProductsHovered={setProductsHovered}
         kBHovered={kBHovered}

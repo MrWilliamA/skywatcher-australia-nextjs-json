@@ -1,0 +1,49 @@
+.pageBanner {
+  width: 100%;
+  height: 50vh;
+  background-image: url("/images/banners/thin-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.hoverShade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+}
+
+.hoverShade.hovered {
+  background: #00000073;
+}
+
+.pageBanner h1 {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.pageBannerText {
+  width: var(--max-width);
+  margin: auto;
+  max-width: 90%;
+}
+
+.pageBanner h1 span {
+  font-size: 7em;
+  display: block;
+  font-family: impact;
+  line-height: 1em;
+}
+
+.notFound {
+  text-align: center;
+}

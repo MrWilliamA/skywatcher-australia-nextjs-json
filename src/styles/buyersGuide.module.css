@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container p {
+  margin: 8px 0;
+}
+
+.fullContainer {
+  background-color: #142b49;
+  color: white;
+  padding: 20px;
+}

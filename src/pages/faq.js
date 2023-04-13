@@ -2,6 +2,7 @@ import { useState } from "react";
 import Head from "next/head";
 import Styles from "../styles/faq.module.css";
 import { questions } from "../components/faq/Faq";
+import Layout from "@/components/templates/Layout";
 
 const Faq = () => {
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(null);
@@ -33,45 +34,46 @@ const Faq = () => {
           content="Sky-Watcher Australia Frequently Asked Questions(FAQs) - Astronomy telescopes, binoculars and spotting scopes."
         />
       </Head>
-
-      <section className={Styles.container}>
-        <div className={`${Styles.column} ${Styles.column1}`}>
-          {firstColumn.map((q, index) => (
-            <div key={index} className={Styles.question}>
-              <button
-                onClick={() => toggleQuestion("column1", index)}
-                className={getButtonClass("column1", index)}
-              >
-                {q.question}
-              </button>
-              {activeQuestionIndex === `column1-${index}` && (
-                <p
-                  className={Styles.answer}
-                  dangerouslySetInnerHTML={{ __html: q.answer }}
-                ></p>
-              )}
-            </div>
-          ))}
-        </div>
-        <div className={`${Styles.column} ${Styles.column2}`}>
-          {secondColumn.map((q, index) => (
-            <div key={index} className={Styles.question}>
-              <button
-                onClick={() => toggleQuestion("column2", index)}
-                className={getButtonClass("column2", index)}
-              >
-                {q.question}
-              </button>
-              {activeQuestionIndex === `column2-${index}` && (
-                <p
-                  className={Styles.answer}
-                  dangerouslySetInnerHTML={{ __html: q.answer }}
-                ></p>
-              )}
-            </div>
-          ))}
-        </div>
-      </section>
+      <Layout layout="boxed">
+        <section className={Styles.container}>
+          <div className={`${Styles.column} ${Styles.column1}`}>
+            {firstColumn.map((q, index) => (
+              <div key={index} className={Styles.question}>
+                <button
+                  onClick={() => toggleQuestion("column1", index)}
+                  className={getButtonClass("column1", index)}
+                >
+                  {q.question}
+                </button>
+                {activeQuestionIndex === `column1-${index}` && (
+                  <p
+                    className={Styles.answer}
+                    dangerouslySetInnerHTML={{ __html: q.answer }}
+                  ></p>
+                )}
+              </div>
+            ))}
+          </div>
+          <div className={`${Styles.column} ${Styles.column2}`}>
+            {secondColumn.map((q, index) => (
+              <div key={index} className={Styles.question}>
+                <button
+                  onClick={() => toggleQuestion("column2", index)}
+                  className={getButtonClass("column2", index)}
+                >
+                  {q.question}
+                </button>
+                {activeQuestionIndex === `column2-${index}` && (
+                  <p
+                    className={Styles.answer}
+                    dangerouslySetInnerHTML={{ __html: q.answer }}
+                  ></p>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>{" "}
+      </Layout>
     </>
   );
 };

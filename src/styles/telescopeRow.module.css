@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.container .inner {
+  max-width: 31%;
+  padding: 10px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.inner:first-child {
+  background-color: #dcdbe9;
+}
+
+.inner:nth-child(2) {
+  background-color: #edecfa;
+}
+
+.inner:last-child {
+  background-color: #dcdbe9;
+}
+
+.text {
+  padding: 0 10px;
+}
+
+.text ul {
+  list-style-position: outside;
+  padding: 0 10px 0 20px;
+  margin: 0 0 12px 0;
+}

@@ -37,3 +37,9 @@
   display: flex;
   gap: 25px;
 }
+
+@media only screen and (max-width: 750px) {
+  .top {
+    flex-direction: column;
+  }
+}

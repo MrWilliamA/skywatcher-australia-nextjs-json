@@ -33,6 +33,7 @@ export const productsSubMenu = [
   },
   { name: "DOBSONIANS", path: "/categories/dobsonians" },
   { name: "MAKSUTOVS", path: "/categories/maksutov-cassegrains" },
+  { name: "OTAS", path: "/categories/otas" },
   { name: "MOUNTS", path: "/categories/mounts" },
   { name: "ACCESSORIES", path: "/categories/accessories" },
   { name: "ACUTER", path: "/categories/acuter" },
@@ -40,15 +41,15 @@ export const productsSubMenu = [
 
 export const knowledgeBaseSubMenu = [
   {
+    name: "ABOUT",
+    path: "/about",
+  },
+  {
     name: "GLOSSARY",
     path: "/glossary",
   },
   {
     name: "FAQ",
     path: "/faq",
-  },
-  {
-    name: "FIRMWARE & MANUALS",
-    path: "/manuals",
   },
 ];
