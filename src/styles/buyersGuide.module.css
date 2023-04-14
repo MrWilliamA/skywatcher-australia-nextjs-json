@@ -12,3 +12,34 @@
   color: white;
   padding: 20px;
 }
+
+.featuredBullets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bullet {
+  width: 45%;
+  margin: 15px 0;
+  display: flex;
+  padding: 12px 18px 12px 0;
+}
+
+.title {
+  font-size: 1.1em;
+  color: var(--green);
+}
+
+.icon {
+  font-size: 2em;
+}
+
+.bullet div:first-child {
+  padding: 10px 10px 0 10px;
+}
+
+.bullet:hover {
+  transform: scale(1.1);
+  background-color: #264368;
+}

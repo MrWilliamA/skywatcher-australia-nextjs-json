@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Styles from "../../styles/telescopeRow.module.css";
-import FullWidth from "../templates/FullWidth";
 
 const telescopeRow = () => {
   return (
