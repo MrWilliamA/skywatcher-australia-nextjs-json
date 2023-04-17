@@ -18,7 +18,7 @@ export default function Index({ products }) {
           <ul>
             <ProductGrid products={products} />
           </ul>
-        </main>{" "}
+        </main>
       </Layout>
     </>
   );

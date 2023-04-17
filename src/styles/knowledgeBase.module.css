@@ -1,18 +1,46 @@
-.container {
+.container,
+.buttonContainer {
   display: flex;
 }
 
-.container div {
+.container {
+  justify-content: space-between;
+}
+
+.buttonContainer div {
   margin: 20px 10px;
   background-color: var(--green);
 }
 
-.container a {
+.buttonContainer a {
   color: white;
   padding: 8px 20px;
   display: block;
 }
 
-.container div:hover {
+.buttonContainer div:hover {
   background-color: var(--green-dark);
+}
+
+.leftcol {
+  width: 60%;
+}
+
+.rightcol {
+  width: 32%;
+}
+
+.rightcol img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 750px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .leftcol,
+  .rightcol {
+    width: 100%;
+  }
 }

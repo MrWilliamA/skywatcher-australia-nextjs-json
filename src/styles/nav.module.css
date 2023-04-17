@@ -114,8 +114,55 @@
   cursor: pointer;
   font-weight: bold;
   letter-spacing: 1px;
+  opacity: 0;
 }
 
+.subMenuContainer li {
+  animation: animatename ease-in-out forwards;
+}
+
+.subMenuContainer li:nth-child(1) {
+  animation: animatename ease-in-out forwards;
+  animation-delay: 0.1s;
+}
+
+.subMenuContainer li:nth-child(2) {
+  animation: animatename ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+.subMenuContainer li:nth-child(3) {
+  animation: animatename ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+.subMenuContainer li:nth-child(4) {
+  animation: animatename ease-in-out forwards;
+  animation-delay: 0.4s;
+}
+.subMenuContainer li:nth-child(5) {
+  animation: animatename ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+.subMenuContainer li:nth-child(6) {
+  animation: animatename ease-in-out forwards;
+  animation-delay: 0.6s;
+}
+.subMenuContainer li:nth-child(7) {
+  animation: animatename ease-in-out forwards;
+  animation-delay: 0.7s;
+}
+.subMenuContainer li:nth-child(8) {
+  animation: animatename ease-in-out forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes animatename {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .subMenuContainer li:hover {
   color: white;
   outline: thick solid var(--green);
@@ -148,6 +195,10 @@
   justify-content: space-between;
   flex-direction: column;
   padding: 20px;
+}
+
+.mobileContainerOpen {
+  overflow: scroll;
 }
 
 .mobileContainerOpen a {

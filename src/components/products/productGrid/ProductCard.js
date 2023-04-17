@@ -1,7 +1,7 @@
 import Styles from "../../../styles/productCard.module.css";
 import Link from "next/link";
-import { FaArrowAltCircleRight } from "react-icons/fa";
 import ProductFeaturedImage from "../../products/ProductFeaturedImage";
+import LearnMore from "@/components/buttons/LearnMore";
 
 const ProductCard = ({ product }) => {
   const productLink = `/products/${product.url}`;
@@ -24,9 +24,7 @@ const ProductCard = ({ product }) => {
       </div>
       <div className={Styles.text}>
         <h3>{name}</h3>
-        <Link href={productLink} className={Styles.link}>
-          Learn More <FaArrowAltCircleRight />
-        </Link>
+        <LearnMore href={productLink} />
       </div>
     </article>
   );

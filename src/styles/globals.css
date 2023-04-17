@@ -150,3 +150,12 @@ ul {
   display: inline-block;
   margin-top: 25px;
 }
+
+.link {
+  margin: 5px 0;
+  display: block;
+}
+.link svg {
+  position: relative;
+  top: 3px;
+}

@@ -15,15 +15,6 @@
   flex-direction: column;
 }
 
-.link {
-  margin: 5px 0;
-  display: block;
-}
-.link svg {
-  position: relative;
-  top: 3px;
-}
-
 .imageContainer {
   position: relative;
   margin-bottom: 10px;

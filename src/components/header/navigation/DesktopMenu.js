@@ -37,7 +37,7 @@ const DesktopMenu = ({
             <ul className={`${Styles.list}  ${Styles.left}`}>
               {leftNavLinks.map((link, index) => {
                 return (
-                  <li key={index}>
+                  <li key={index} onMouseLeave={mouseOff}>
                     <Link
                       href={link.path}
                       className={`${Styles.topList}${
@@ -82,7 +82,7 @@ const DesktopMenu = ({
             <ul className={`${Styles.list}  ${Styles.right}`}>
               {rightNavLinks.map((link, index) => {
                 return (
-                  <li key={index}>
+                  <li key={index} onMouseLeave={mouseOff}>
                     <Link
                       href={link.path}
                       className={Styles.topList}

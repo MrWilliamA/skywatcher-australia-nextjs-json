@@ -74,6 +74,10 @@ const ProductSpecTable = ({ product }) => {
     "Field Of View":
       "The extent of the observable world that is seen at any given moment.",
     Magnification: "Magnification range of the optics",
+    "Corrected Field Diameter":
+      "the maximum diameter of the circular area in the eyepiece where the image remains sharp and clear.",
+    "Visual Back Focus":
+      "The distance from the eyepiece to the point where the light rays converge to form a focused image.",
   };
 
   const [hoveredStates, setHoveredStates] = useState(

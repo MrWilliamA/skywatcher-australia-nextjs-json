@@ -488,6 +488,86 @@
       "images": ["/images/products/SWMAK127-OTA/SWMAK127-OTA.tag.0.png"]
     },
     {
+      "name": "Quattro 150P Astrophotography OTA",
+      "sku": "SW150Q-OTA",
+      "tags": ["Telescopes", "Reflectors", "OTAs"],
+      "url": "quattro-150-astrophotography-reflector-ota",
+      "rrp": 1049.99,
+      "bullets": [
+        "Optical configuration:Newtonian",
+        "Effective aperture:150mm",
+        "Focal length of objective lens:600mm",
+        "Focal Ratio:f/4",
+        "Eyepiece:70° Ultra Wide 22mm",
+        "Magnification:27X",
+        "OTA weight: 5.7Kg",
+        "Finder Scope:6×30",
+        "2” (50.8mm) Dual-Speed 10:1 Crayford Power Focuser",
+        "Tube Rings & Dovetail Bar"
+      ],
+      "description": "<p> <strong> Quattro 150P Astrophotography Reflector OTA</strong></p><p> <strong> A fast focal ratio of f/3.45 </strong></p><p> This is especially important for astrophotographers dealing with long exposure times. Imaging telescopes made of less thermally stable material can deviate from optimum focus after long time exposures. It can remain in focus for a longer period of time and long exposure images will stay clear and in focus.</p><p> <strong> 2” Dual-Speed Crayford Power Focuser </strong></p><p> The new Crayford power focuser utilises 4 precision ball bearings to support the drawtube and provide great stability and zero image shift while supporting a heavy eyepiece or camera. Moving the drawtube by the roller rather than a rack and pinion ensures exceptionally smooth operation and precise adjustability. The dual-speed feature has a second focus knob that has a 10:1-speed reduction to provide the super-fine adjustments even the most demanding users can appreciate.</p><p> <strong> Quality Mirror </strong></p><p> It features paraboloidal primary mirrors made of Low-Expansion Borosilicate Glass resulting in substantially shorter cooling-down times.</p><p> It comes with an impressive 0.5 mm Ultra-Thin Secondary Mirror Support and light gathering power improves greatly.</p>",
+      "specs": {
+        "Optical Design": "Reflector",
+        "Optical Diameter": "150mm",
+        "Focal Length": "600mm",
+        "Focuser": "2″ (50.8mm) Dual-Speed 10:1 Crayford Power Focuser",
+        "F/Ratio": "f/3.45",
+        "Finder Scope": "6x30mm",
+        "Highest Practical Power": "300x",
+        "Tube Weight": "5.7kg",
+        "Recommended Usage": "High Resolution Astrophotography",
+        "Shipping Weight": "7.8 kg",
+        "Shipping Dimensions": "64.5cm × 37.5cm × 34 cm"
+      },
+      "images": [
+        "/images/products/SW150Q-OTA/SW150Q-OTA.tag.0.png",
+        "/images/products/SW150Q-OTA/SW150Q-OTA.tag.1.jpg",
+        "/images/products/SW150Q-OTA/SW150Q-OTA.tag.2.jpg",
+        "/images/products/SW150Q-OTA/SW150Q-OTA.tag.3.jpg",
+        "/images/products/SW150Q-OTA/SW150Q-OTA.tag.4.jpg"
+      ]
+    },
+
+    {
+      "name": "ESPRIT 100ED APO OTA",
+      "sku": "SW150Q-OTA",
+      "tags": ["Telescopes", "Esprits", "OTAs"],
+      "url": "esprit-100ed-apo-ota",
+      "rrp": 4599.99,
+      "bullets": [
+        "Air Spaced 100mm Apochromatic Triplet",
+        "FPL-53 extra low dispersion glass",
+        "Zero detectable colour fringing even on bright objects",
+        "Diffraction limited optics",
+        "Fully multi coated lenses",
+        "3″ CNC machined 11:1 dual speed linear power focuser – rotatable",
+        "Indexed focuser tube",
+        "Knife-edge baffled system to enhance contrast"
+      ],
+      "description": "<p> <strong> ESPRIT 100ED APO OTA</strong></p><p> The Sky-Watcher 100mm Esprit 100ED Triplet APO Refractor is a professional instrument for the most demanding and exacting astro-photographers. The air spaced apochromatic triplet lenses use the remarkable Ohara FPL-53 ED (extra low dispersion) glass, with exceptional colour correction over the entire visible spectrum there is no chromatic aberration even on bright objects! Knife edge baffles reduce internal reflections and increase contrast, helping to bring out faint structure in deep sky objects.</p><p> A 2-element field flattener is included to iron out the natural off-axis astigmatism and field curvature of the objective lens, leaving a fully corrected 42mm field of view. The Sky-Watcher exclusive Helinear Track 11:1 dual speed focuser is rock solid with zero image shift and a 3″ barrel to avoid vignetting. Designed with photography in mind, it sits on two tracks above and below the barrel to prevent flexure with a heavy camera attached, and is fully rotatable to perfectly frame a target on the sensor.</p><p> <strong> In The Box: </strong></p><ul> <li>100/550 Apochromatic Refractor</li> <li>Fixed Dew Shield</li> <li>Field Flattener with M48 Thread</li> <li>T2 Canon Camera Adapter</li> <li>2″ Dielectric Star Diagonal</li> <li>9×50 Right Angled Erect Image Diagonal</li> <li>D Style dovetail Bar</li> <li>2″ to 1.25″ Eyepiece Adaptor</li> <li>Aluminium Foam-Lined Case</li></ul>",
+      "specs": {
+        "Optical Design": "Airspaced Apochromatic Triplet",
+        "Optical Diameter": "100mm",
+        "Focal Length": "550mm",
+        "Focuser": "3″ Crayford dual speed with 2″ and 1.25″ adaptor",
+        "F/Ratio": "f/5.5",
+        "Highest Practical Power": "200x",
+        "Light Gathering Power": "204",
+        "Tube Weight": "6.15kg",
+        "Corrected Field Diameter": "40mm",
+        "Visual Back Focus": "185mm",
+        "Resolving Power": "1.20″",
+        "Stellar Limit Magnitude": "12.0",
+        "Visual Back Focus": "465mm"
+      },
+      "images": [
+        "/images/products/SWESPRIT100/SWESPRIT100.tag.0.png",
+        "/images/products/SWESPRIT100/SWESPRIT100.tag.1.jpg",
+        "/images/products/SWESPRIT100/SWESPRIT100.tag.2.jpg"
+      ]
+    },
+
+    {
       "name": "80 Evostar Ed Doublet Refractor OTA",
       "sku": "SWBDED80-OTA",
       "tags": ["Telescopes", "Refractors", "OTAs"],
