@@ -1,0 +1,85 @@
+.question {
+  font-weight: bold;
+}
+
+.question span {
+  color: var(--green);
+}
+
+/* Style the tooltip */
+.question span[title] {
+  position: relative;
+}
+
+/* Add a pseudo-element to display the tooltip */
+.question span[title]:before {
+  content: attr(title);
+  position: absolute;
+  bottom: 140%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.9em;
+}
+
+/* Show the tooltip on hover */
+.question span[title]:hover:before {
+  opacity: 1;
+}
+
+.defined {
+  background: var(--extra-light);
+  padding: 15px;
+}
+
+.container {
+  background-color: #142b49;
+  padding: 10px;
+}
+.container input {
+  cursor: pointer;
+}
+
+.questionContainer {
+  display: flex;
+  color: white;
+}
+
+.questionDiv {
+  width: 20%;
+  padding: 0 10px;
+}
+
+.option {
+  width: 100%;
+}
+
+.option input {
+  margin: 6px 8px;
+}
+
+@media only screen and (max-width: 840px) {
+  .questionContainer {
+    flex-wrap: wrap;
+  }
+  .questionDiv {
+    width: auto;
+    margin: 20px 5px;
+  }
+
+  .container {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .question span[title]:before {
+    left: 100%;
+  }
+}

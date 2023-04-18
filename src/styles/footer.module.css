@@ -29,6 +29,13 @@
   font-size: 30px;
 }
 
+.socials a,
+.announcement svg {
+  margin: 0 5px;
+  position: relative;
+  top: 5px;
+}
+
 @media screen and (max-width: 700px) {
   .column {
     width: 100%;

@@ -5,6 +5,8 @@ const PageBanners = ({
   setProductsHovered,
   kBHovered,
   setKBHovered,
+  buyerGuideHovered,
+  setBuyerGuideHovered,
 }) => {
   return (
     <section className={Styles.pageBanner}>
@@ -18,6 +20,8 @@ const PageBanners = ({
         setProductsHovered={setProductsHovered}
         kBHovered={kBHovered}
         setKBHovered={setKBHovered}
+        buyerGuideHovered={buyerGuideHovered}
+        setBuyerGuideHovered={setBuyerGuideHovered}
       />
       <div className={Styles.pageBannerText}>
         <h1>

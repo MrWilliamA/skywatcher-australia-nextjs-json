@@ -6,6 +6,8 @@ const homebanner = ({
   setProductsHovered,
   kBHovered,
   setKBHovered,
+  buyerGuideHovered,
+  setBuyerGuideHovered,
 }) => {
   return (
     <>
@@ -23,6 +25,8 @@ const homebanner = ({
           setProductsHovered={setProductsHovered}
           kBHovered={kBHovered}
           setKBHovered={setKBHovered}
+          buyerGuideHovered={buyerGuideHovered}
+          setBuyerGuideHovered={setBuyerGuideHovered}
         />
         <div className={Styles.h1Container}>
           <h1>Sky-Watcher Australia</h1>

@@ -53,3 +53,14 @@ export const knowledgeBaseSubMenu = [
     path: "/faq",
   },
 ];
+
+export const buyersGuide = [
+  {
+    name: "BUYERS GUIDE",
+    path: "/buyers-guide",
+  },
+  {
+    name: "TELESCOPE FINDER",
+    path: "/telescope-finder",
+  },
+];

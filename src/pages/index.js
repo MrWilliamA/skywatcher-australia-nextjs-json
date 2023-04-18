@@ -1,8 +1,9 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Styles from "../styles/home.module.css";
 import CatMasonry from "@/components/catMasonry/CatMasonry";
 import FeaturedPages from "@/components/FeaturedPages/FeaturedPages";
 import Layout from "@/components/templates/Layout";
+import News from "../pages/news/index";
 
 export default function Home() {
   return (
@@ -17,9 +18,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.jpg" />
       </Head>
       <Layout layout="boxed">
-        <main className={styles.main}>
+        <main className={Styles.main}>
           <CatMasonry />
           <FeaturedPages />
+
+          <h2 className={Styles.subHeading}>Latest News From Sky-Watcher</h2>
+          <div className={Styles.news}>
+            <News />{" "}
+          </div>
         </main>
       </Layout>
     </>

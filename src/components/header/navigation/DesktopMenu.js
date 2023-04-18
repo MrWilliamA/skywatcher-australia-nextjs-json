@@ -6,6 +6,7 @@ import {
   productsSubMenu,
   rightNavLinks,
   knowledgeBaseSubMenu,
+  buyersGuide,
 } from "./NavigationRoutes";
 
 const DesktopMenu = ({
@@ -14,19 +15,23 @@ const DesktopMenu = ({
   setProductsHovered,
   kBHovered,
   setKBHovered,
+  buyerGuideHovered,
+  setBuyerGuideHovered,
 }) => {
   function mouseOver(name) {
     if (name === "PRODUCTS") {
       setProductsHovered(true);
     } else if (name === "KNOWLEDGE BASE") {
-      console.log("asdasd");
       setKBHovered(true);
+    } else if (name === "BUYERS GUIDE") {
+      setBuyerGuideHovered(true);
     }
   }
 
   function mouseOff() {
     setProductsHovered(false);
     setKBHovered(false);
+    setBuyerGuideHovered(false);
   }
   return (
     <>
@@ -54,6 +59,23 @@ const DesktopMenu = ({
                       >
                         <ul className={Styles.subMenu}>
                           {productsSubMenu.map((link, index) => {
+                            return (
+                              <li key={index}>
+                                <Link href={link.path}>{link.name}</Link>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </section>
+                    )}
+
+                    {link.name === "BUYERS GUIDE" && buyerGuideHovered && (
+                      <section
+                        className={`${Styles.subMenuContainer} ${Styles.subMenuContainerFixed} `}
+                        onMouseLeave={mouseOff}
+                      >
+                        <ul className={Styles.subMenu}>
+                          {buyersGuide.map((link, index) => {
                             return (
                               <li key={index}>
                                 <Link href={link.path}>{link.name}</Link>

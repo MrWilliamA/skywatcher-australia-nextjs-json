@@ -7,6 +7,7 @@ import { useState } from "react";
 const Header = ({ productDetails, nextProduct, title }) => {
   const [productsHovered, setProductsHovered] = useState(false);
   const [kBHovered, setKBHovered] = useState(false);
+  const [buyerGuideHovered, setBuyerGuideHovered] = useState(false);
 
   const banners = {
     home: (
@@ -15,6 +16,8 @@ const Header = ({ productDetails, nextProduct, title }) => {
         setProductsHovered={setProductsHovered}
         kBHovered={kBHovered}
         setKBHovered={setKBHovered}
+        buyerGuideHovered={buyerGuideHovered}
+        setBuyerGuideHovered={setBuyerGuideHovered}
       />
     ),
     product: (
@@ -25,6 +28,8 @@ const Header = ({ productDetails, nextProduct, title }) => {
         setProductsHovered={setProductsHovered}
         kBHovered={kBHovered}
         setKBHovered={setKBHovered}
+        buyerGuideHovered={buyerGuideHovered}
+        setBuyerGuideHovered={setBuyerGuideHovered}
       />
     ),
     page: (
@@ -34,6 +39,8 @@ const Header = ({ productDetails, nextProduct, title }) => {
         setProductsHovered={setProductsHovered}
         kBHovered={kBHovered}
         setKBHovered={setKBHovered}
+        buyerGuideHovered={buyerGuideHovered}
+        setBuyerGuideHovered={setBuyerGuideHovered}
       />
     ),
     PageNotFound: (
@@ -42,6 +49,8 @@ const Header = ({ productDetails, nextProduct, title }) => {
         setProductsHovered={setProductsHovered}
         kBHovered={kBHovered}
         setKBHovered={setKBHovered}
+        buyerGuideHovered={buyerGuideHovered}
+        setBuyerGuideHovered={setBuyerGuideHovered}
       />
     ),
   };

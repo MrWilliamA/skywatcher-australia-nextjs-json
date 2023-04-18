@@ -1,29 +1,47 @@
 .section {
+  background-image: url("/images/banners/featured-pages-background.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 250px;
+  height: 336px;
+  margin-bottom: 16px;
 }
 
 .section article {
-  flex: 1 0 auto;
-  background: #ec985a;
-  color: white;
-  margin: 0 1rem 1rem 0;
-  text-align: center;
-  font-weight: 900;
-  font-size: 2rem;
+  background: #ffffff14;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.section article h2,
+.section article a {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .section article:nth-child(1) {
-  height: 48%;
+  height: 100%;
+  width: 50%;
+  border-right: solid 8px rgb(239, 239, 239);
 }
 .section article:nth-child(2) {
-  height: 48%;
+  height: 66%;
+  width: 50%;
+  border-bottom: solid 8px rgb(239, 239, 239);
 }
 .section article:nth-child(3) {
-  height: 20%;
+  height: 33%;
+  width: 50%;
+}
+
+.section article:hover {
+  background-color: var(--green);
+  cursor: pointer;
 }

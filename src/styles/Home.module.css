@@ -115,6 +115,15 @@
   padding-top: 20px;
 }
 
+.subHeading {
+  margin-top: 65px;
+}
+
+.news {
+  max-height: 400px;
+  overflow: hidden;
+}
+
 @keyframes shimmer {
   0% {
     background-position: top left;

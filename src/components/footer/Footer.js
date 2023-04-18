@@ -22,7 +22,7 @@ const Footer = () => {
           </p>
         </div>
         <div className={styles.column}>
-          <p>Newsletter Signup </p>
+          <p>Newsletter Signup (coming soon) </p>
           <br></br>
           <h3>Follow Us</h3>
           <br />
