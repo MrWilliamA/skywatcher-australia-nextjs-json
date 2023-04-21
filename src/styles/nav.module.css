@@ -35,7 +35,7 @@
 }
 
 .logoContainer {
-  width: clamp(200px, 30vw, 400px);
+  width: clamp(240px, 30vw, 350px);
   text-align: center;
 }
 
@@ -43,6 +43,10 @@
   position: relative;
   top: 16px;
   filter: drop-shadow(0px 0px 10px black);
+}
+
+.mobileLogo {
+  text-align: center;
 }
 
 .list {
@@ -61,14 +65,16 @@
 
 .rightMenuContainer a,
 .leftMenuContainer a {
-  padding: 0 19px;
+  padding: 0 15px;
   font-size: clamp(12px, 0.9vw, 20px);
   height: 70px;
   display: block;
+  color: white;
+  letter-spacing: 1px;
 }
 
-.rightMenuContainer .topList:hover,
-.leftMenuContainer .topList:hover {
+a.topList:hover,
+a.topList:hover {
   background-color: rgba(255, 255, 255, 0.144);
   border-bottom: var(--green) 4px solid;
 }
@@ -82,8 +88,8 @@
   z-index: 999;
 }
 
-.menuBtn {
-  color: var(--light);
+.menuBtn p {
+  color: white;
   cursor: pointer;
   height: 100%;
   display: flex;
@@ -207,13 +213,17 @@
 
 .openMobileNav ul {
   list-style-type: none;
-  color: var(--light);
   line-height: 40px;
+}
+
+.openMobileNav li {
+  color: var(--light);
 }
 
 .openMobileNav li:not(.mobileSubMenuContainer li) {
   background: #242424;
   margin: 5px 0;
+  color: white;
 }
 
 .openMobileNav a:hover {
@@ -229,6 +239,8 @@
   background-color: var(--green);
   padding: 10px;
   margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .close:hover {

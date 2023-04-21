@@ -1,5 +1,6 @@
 import Styles from "../../styles/buyersGuide.module.css";
 import { FaDirections } from "react-icons/fa";
+import PropTypes from "prop-types";
 
 const FeaturedBullet = ({ title, content }) => {
   return (
@@ -19,6 +20,11 @@ const FeaturedBullet = ({ title, content }) => {
       </div>
     </div>
   );
+};
+
+FeaturedBullet.propTypes = {
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
 };
 
 export default FeaturedBullet;

@@ -45,7 +45,7 @@ const DesktopMenu = ({
                   <li key={index} onMouseLeave={mouseOff}>
                     <Link
                       href={link.path}
-                      className={`${Styles.topList}${
+                      className={`${Styles.topList} ${
                         productsHovered ? Styles.hovered : ""
                       }`}
                       onMouseOver={() => mouseOver(link.name)}

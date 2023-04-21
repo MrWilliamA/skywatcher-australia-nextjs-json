@@ -5,36 +5,44 @@ import TelescopeFinderForm from "@/components/telescopeFinder/TelescopeFinderFor
 import Styles from "../styles/telescopeFinder.module.css";
 import Layout from "@/components/templates/Layout";
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 const TelescopeFinder = ({ products }) => {
-  const [selectedFilters, setSelectedFilters] = useState([]);
-  const [selectedRrp, setSelectedRrp] = useState([]);
-
-  const rrpRanges = [
-    { label: "Under $300", min: 0, max: 300 },
-    { label: "$300 - $600", min: 300, max: 600 },
-    { label: "$600 - $1200", min: 600, max: 1200 },
-    { label: "Over $1200", min: 1200, max: Infinity },
-  ];
+  const [selectedOptions, setSelectedOptions] = useState([]);
 
   const filtered = products.filter((product) => {
-    // const matchedRange = rrpRanges.find(
-    //   (range) => product.rrp >= range.min && product.rrp < range.max
-    // );
-
-    return selectedFilters.every((filter) => {
-      if (filter.includes("$")) {
-        setSelectedRrp(...filter, filter);
+    return selectedOptions.every((filter) => {
+      if (filter.indexOf("$") > -1) {
+        switch (filter) {
+          case "Under $300":
+            if (product.rrp <= 300) {
+              return product;
+            }
+            break;
+          case "$300 - $600":
+            if (product.rrp > 300 && product.rrp <= 600) {
+              return product;
+            }
+            break;
+          case "$600 - $1200":
+            if (product.rrp > 600 && product.rrp <= 1200) {
+              return product;
+            }
+            break;
+          case "Over $1200":
+            if (product.rrp > 1200) {
+              return product;
+            }
+            break;
+        }
       }
-      // console.log(product.filter);
 
-      return product.filter.includes(filter);
-      // || product.rrp.includes(selectedRrp)
+      return product.options.includes(filter);
     });
   });
 
-  const handleFilterChange = (filters) => {
-    setSelectedFilters(filters);
+  const handleFilterChange = (options) => {
+    setSelectedOptions(options);
   };
 
   return (
@@ -64,7 +72,7 @@ const TelescopeFinder = ({ products }) => {
         </section>
       </Layout>
       <Layout layout="boxed">
-        {selectedFilters.includes("Land") && (
+        {selectedOptions.includes("Land") && (
           <p className={Styles.defined}>
             <strong>Land Telescopes: </strong>If you want to use your telescope
             for more then just stars, land telescopes are refractors or spotting
@@ -74,7 +82,7 @@ const TelescopeFinder = ({ products }) => {
             viewing the landscaope around you.
           </p>
         )}
-        {selectedFilters.includes("Sky") && (
+        {selectedOptions.includes("Sky") && (
           <p className={Styles.defined}>
             <strong>Astronomy Telescopes: </strong>Deep space viewing (nebulae,
             galaxies) is generally reserved for Dobosnian Telescopes. They are
@@ -85,7 +93,7 @@ const TelescopeFinder = ({ products }) => {
           </p>
         )}
 
-        {selectedFilters.includes("Beginner") && (
+        {selectedOptions.includes("Beginner") && (
           <p className={Styles.defined}>
             <strong>Beginner Telescopes: </strong>If you are curious and want to
             see more, but have no idea where to start. These telescopes are for
@@ -94,14 +102,14 @@ const TelescopeFinder = ({ products }) => {
           </p>
         )}
 
-        {selectedFilters.includes("Intermediate") && (
+        {selectedOptions.includes("Intermediate") && (
           <p className={Styles.defined}>
             <strong>Intermediate Telescopes: </strong>Featuring a balanced
             selection between quality telescopes, affordability and ease of use.
           </p>
         )}
 
-        {selectedFilters.includes("Experienced") && (
+        {selectedOptions.includes("Experienced") && (
           <p className={Styles.defined}>
             <strong>Experienced Telescopes: </strong>Featuring a selection of
             high powered, large Refractor, Maksutov- Cassegrains and Dobsonian
@@ -109,14 +117,14 @@ const TelescopeFinder = ({ products }) => {
             astronomy.
           </p>
         )}
-        {selectedFilters.includes("Yes") && (
+        {selectedOptions.includes("Yes") && (
           <p className={Styles.defined}>
             <strong>GOTO Telescopes: </strong>Good choice! GOTO telescopes are
             perfect for all usrs. It will allow you to automatically find
             celestial objects at the click of a button.
           </p>
         )}
-        {selectedFilters.includes("Compact") && (
+        {selectedOptions.includes("Compact") && (
           <p className={Styles.defined}>
             <strong>Compact Telescopes: </strong>Compact telescopes will give
             you the freedomnof portability, there’s no additional heavy
@@ -128,6 +136,10 @@ const TelescopeFinder = ({ products }) => {
       </Layout>
     </>
   );
+};
+
+TelescopeFinder.propTypes = {
+  products: PropTypes.array.isRequired,
 };
 
 export default TelescopeFinder;

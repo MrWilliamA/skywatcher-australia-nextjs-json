@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Styles from "../../styles/productPage.module.css";
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 const ImageWithFallback = (props) => {
   const { src, fallbackSrc, handleClick = null, ...rest } = props;
@@ -17,6 +17,10 @@ const ImageWithFallback = (props) => {
       }}
     />
   );
+};
+
+ImageWithFallback.propTypes = {
+  props: PropTypes.object,
 };
 
 export default ImageWithFallback;

@@ -17,7 +17,7 @@ const accessories = () => {
           name="description"
           content="Sky-Watcher Australia Accessories - Astronomy telescopes, binoculars and spotting scopes."
         />
-      </Head>{" "}
+      </Head>
       <Layout layout="boxed">
         <main className={Styles.main}>
           <section className={Styles.top}>

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Image from "next/image";
+import PropTypes from "prop-types";
 
-const ImageWithFallback = (props) => {
-  const { src, fallbackSrc, ...rest } = props;
+const ImageWithFallback = ({ src, fallbackSrc, ...rest }) => {
   const [imgSrc, setImgSrc] = useState(src);
   return (
     // eslint-disable-next-line jsx-a11y/alt-text
@@ -15,4 +15,10 @@ const ImageWithFallback = (props) => {
     />
   );
 };
+
+ImageWithFallback.propTypes = {
+  src: PropTypes.string.isRequired,
+  fallbackSrc: PropTypes.string.isRequired,
+};
+
 export default ImageWithFallback;

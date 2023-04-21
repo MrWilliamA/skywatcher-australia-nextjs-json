@@ -6,7 +6,7 @@ const FeaturedPages = () => {
     <section className={styles.section}>
       <article className="knowledge">
         <Link href="/knowledge-base">
-          <h2>Knowledge Base</h2>{" "}
+          <h2>Knowledge Base</h2>
         </Link>
       </article>
       <article className="firstTimeBuyer">

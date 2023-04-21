@@ -9,8 +9,12 @@
 
 .fullContainer {
   background-color: #142b49;
-  color: white;
+  color: white !important;
   padding: 20px;
+}
+
+.fullContainer h2 {
+  color: white;
 }
 
 .featuredBullets {
@@ -26,13 +30,18 @@
   padding: 12px 18px 12px 0;
 }
 
-.title {
+.bullet p {
+  color: white;
+}
+
+.title strong {
   font-size: 1.1em;
-  color: var(--green);
+  color: var(--green) !important;
 }
 
 .icon {
   font-size: 2em;
+  fill: var(--green) !important;
 }
 
 .bullet div:first-child {
@@ -42,4 +51,30 @@
 .bullet:hover {
   transform: scale(1.1);
   background-color: #264368;
+}
+
+.fullWidthBtn {
+  background: #dcdbe9;
+  margin: 0;
+  text-align: center;
+}
+
+.fullWidthBtn h2 {
+  margin: 0;
+  color: var(--green) !important;
+}
+
+.fullWidthBtn a {
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  display: block;
+}
+
+.fullWidthBtn a:hover {
+  color: white;
+}
+
+.fullWidthBtn:hover {
+  background: #9c9ca9;
 }

@@ -3,6 +3,7 @@ import PageBanners from "./banners/PageBanners";
 import ProductBanners from "./banners/productPages/ProductBanners";
 import PageNotFoundBanner from "./banners/PageNotFoundBanner.js";
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 const Header = ({ productDetails, nextProduct, title }) => {
   const [productsHovered, setProductsHovered] = useState(false);
@@ -58,6 +59,12 @@ const Header = ({ productDetails, nextProduct, title }) => {
   const selectedPageType = productDetails.type;
 
   return banners[selectedPageType] || banners[`page`];
+};
+
+Header.propTypes = {
+  productDetails: PropTypes.object.isRequired,
+  nextProduct: PropTypes.object,
+  title: PropTypes.string.isRequired,
 };
 
 export default Header;

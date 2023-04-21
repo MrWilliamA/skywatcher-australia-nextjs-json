@@ -12,7 +12,9 @@ const PageBanners = ({
     <section className={Styles.pageBanner}>
       <div
         className={`${Styles.hoverShade} ${
-          productsHovered || kBHovered ? Styles.hovered : ""
+          productsHovered || kBHovered || buyerGuideHovered
+            ? Styles.hovered
+            : ""
         }`}
       ></div>
       <Nav

@@ -24,7 +24,7 @@ const Nav = ({
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  return windowWidth < 800 ? (
+  return windowWidth < 902 ? (
     <MobileMenu logoUrl={logoUrl} />
   ) : (
     <DesktopMenu

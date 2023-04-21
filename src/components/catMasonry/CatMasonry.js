@@ -1,7 +1,6 @@
 import styles from "../../styles/catMasonry.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
 const refractors = "/images/featuredCats/refractors.png";
 const dobsonians = "/images/featuredCats/dobsonians.png";
 const otas = "/images/featuredCats/otas.png";
@@ -12,24 +11,48 @@ const reflectors = "/images/featuredCats/reflectors.png";
 const mounts = "/images/featuredCats/mounts.png";
 
 const CatMasonry = () => {
+  const image_width = 350;
+  const image_height = 400;
+
+  const image_width_alt1 = 550;
+  const image_height_alt1 = 200;
+
+  const image_width_alt2 = 518;
+  const image_height_alt3 = 188;
+
   return (
     <section className={styles.section}>
       <article className="refractors">
         <Link href="/categories/refractors">
-          <Image src={refractors} alt="Refractors" width="350" height="400" />
+          <Image
+            src={refractors}
+            alt="Refractors"
+            width={image_width}
+            height={image_height}
+          />
           <h2>Refractors</h2>
         </Link>
       </article>
       <article className="dobsonians">
         <Link href="/categories/dobsonians">
-          <Image src={dobsonians} alt="Dobsonians" width="350" height="400" />
+          <Image
+            src={dobsonians}
+            alt="Dobsonians"
+            width={image_width}
+            height={image_height}
+          />
           <h2>Dobsonians</h2>
         </Link>
       </article>
 
       <article className="otas">
         <Link href="/categories/otas">
-          <Image src={otas} alt="OTAs" width="550" height="200" />
+          <Image
+            src={otas}
+            alt="OTAs"
+            width={image_width_alt1}
+            height={image_height_alt1}
+          />
           <h2>OTAs</h2>
         </Link>
       </article>
@@ -39,15 +62,20 @@ const CatMasonry = () => {
           <Image
             src={maks}
             alt="Maksutov Cassegrains"
-            width="550"
-            height="200"
+            width={image_width_alt1}
+            height={image_height_alt1}
           />
           <h2>Maksutov Cassegrains</h2>
         </Link>
       </article>
       <article className="acuter">
         <Link href="/categories/acuter">
-          <Image src={acuter} alt="Acuter" width="550" height="200" />
+          <Image
+            src={acuter}
+            alt="Acuter"
+            width={image_width_alt1}
+            height={image_height_alt1}
+          />
           <h2>Acuter</h2>
         </Link>
       </article>
@@ -60,13 +88,23 @@ const CatMasonry = () => {
 
       <article className="reflectors">
         <Link href="/categories/reflectors">
-          <Image src={reflectors} alt="Reflectors" width="350" height="400" />
+          <Image
+            src={reflectors}
+            alt="Reflectors"
+            width={image_width}
+            height={image_height}
+          />
           <h2>Reflectors</h2>
         </Link>
       </article>
       <article className="mounts">
         <Link href="/categories/mounts">
-          <Image src={mounts} alt="Mounts" width="350" height="400" />
+          <Image
+            src={mounts}
+            alt="Mounts"
+            width={image_width}
+            height={image_height}
+          />
           <h2>Mounts</h2>
         </Link>
       </article>

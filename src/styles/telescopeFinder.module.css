@@ -1,5 +1,6 @@
 .question {
   font-weight: bold;
+  color: var(--grey);
 }
 
 .question span {
@@ -62,6 +63,10 @@
 
 .option input {
   margin: 6px 8px;
+}
+
+.option label {
+  color: var(--light);
 }
 
 @media only screen and (max-width: 840px) {

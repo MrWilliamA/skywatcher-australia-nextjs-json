@@ -25,7 +25,7 @@ const acuter = () => {
           name="description"
           content="Sky-Watcher Australia Acuter - Astronomy telescopes, binoculars and spotting scopes."
         />
-      </Head>{" "}
+      </Head>
       <Layout layout="boxed">
         <main className={Styles.main}>
           <section className={Styles.top}>
@@ -76,7 +76,7 @@ const acuter = () => {
               </>
             )}
           </section>
-        </main>{" "}
+        </main>
       </Layout>
     </>
   );

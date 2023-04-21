@@ -1,5 +1,6 @@
 import Styles from "../../../styles/productCard.module.css";
 import ProductCard from "./ProductCard";
+import PropTypes from "prop-types";
 
 const ProductGrid = ({ products }) => {
   return (
@@ -9,6 +10,10 @@ const ProductGrid = ({ products }) => {
       ))}
     </section>
   );
+};
+
+ProductGrid.propTypes = {
+  products: PropTypes.array.isRequired,
 };
 
 export default ProductGrid;

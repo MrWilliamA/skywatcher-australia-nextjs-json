@@ -4,13 +4,14 @@
       "name": "Sky-Watcher 102/500 AZ-Go2 Refractor",
       "sku": "SW1025-AZGO2",
       "tags": ["Telescopes", "Refractors", "First Telescopes"],
-      "filter": [
+      "options": [
         "Sky",
         "Beginner",
         "Yes",
         "Compact",
         "Size No Issue",
-        "Don't Mind"
+        "Don't Mind",
+        749.99
       ],
       "url": "sky-watcher-102-500-az-go2-refractor",
       "rrp": 749.99,
@@ -52,7 +53,7 @@
       "name": "Sky-Watcher 114/450 AZ-Go2 Newtonian",
       "sku": "SW114P-AZGO2",
       "tags": ["Telescopes", "Reflectors", "First Telescopes"],
-      "filter": ["Sky", "Beginner", "Yes", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Beginner", "Yes", "Size No Issue", "Don't Mind"],
       "url": "sky-watcher-114-450-az-go2-newtonian",
       "rrp": 599.99,
       "bullets": [
@@ -96,7 +97,7 @@
       "name": "Sky-Watcher 114/900 EQ1 Reflector",
       "sku": "SW1149EQ1",
       "tags": ["Telescopes", "Reflectors", "First Telescopes"],
-      "filter": ["Sky", "Beginner", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Beginner", "Size No Issue", "Don't Mind"],
       "url": "sky-watcher-114-900-eq1-reflector",
       "rrp": 349.99,
       "bullets": [
@@ -129,7 +130,7 @@
       "name": "3\" Tabletop Dobsonian",
       "sku": "SWDOB76",
       "tags": ["Telescopes", "Tabletop Dobsonians", "First Telescopes"],
-      "filter": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
       "url": "3-tabletop-dobsonian",
       "rrp": 174.99,
       "bullets": [
@@ -163,7 +164,7 @@
       "name": "60 AZ2 Refractor",
       "sku": "SW607AZ2",
       "tags": ["Telescopes", "Refractors", "First Telescopes"],
-      "filter": ["Land", "Sky", "Beginner", "Size No Issue", "Don't Mind"],
+      "options": ["Land", "Sky", "Beginner", "Size No Issue", "Don't Mind"],
       "url": "60-az2-refractor",
       "rrp": 174.99,
       "bullets": [
@@ -197,7 +198,7 @@
       "name": "70 AZ2 Refractor",
       "sku": "SW707AZ2",
       "tags": ["Telescopes", "Refractors", "First Telescopes"],
-      "filter": ["Land", "Sky", "Beginner", "Size No Issue", "Don't Mind"],
+      "options": ["Land", "Sky", "Beginner", "Size No Issue", "Don't Mind"],
       "url": "70-az2-refractor",
       "rrp": 224.99,
       "bullets": [
@@ -231,7 +232,7 @@
       "name": "5\" Tabletop Dobsonian",
       "sku": "SWDOB130",
       "tags": ["Telescopes", "Tabletop Dobsonians", "First Telescopes"],
-      "filter": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
       "url": "5-tabletop-dobsonian",
       "rrp": 399.99,
       "bullets": [
@@ -270,7 +271,7 @@
       "name": "Classic 200P Dobsonian",
       "sku": "SWDOB200",
       "tags": ["Telescopes", "Classic Dobsonians", "First Telescopes"],
-      "filter": ["Sky", "Beginner", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Beginner", "Size No Issue", "Don't Mind"],
       "url": "classic-200P-dobsonian",
       "rrp": 899.99,
       "bullets": [
@@ -303,7 +304,7 @@
       "name": "Classic 250P Dobsonian",
       "sku": "SWDOB250",
       "tags": ["Telescopes", "Classic Dobsonians", "First Telescopes"],
-      "filter": ["Sky", "Beginner", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Beginner", "Size No Issue", "Don't Mind"],
       "url": "classic-250P-dobsonian",
       "rrp": 1299.99,
       "bullets": [
@@ -335,7 +336,7 @@
       "name": "Flextube 200P Collapsible Dobsonian",
       "sku": "SWDOB200C",
       "tags": ["Telescopes", "Collapsible Dobsonians"],
-      "filter": ["Sky", "Experienced", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Experienced", "Size No Issue", "Don't Mind"],
       "url": "flextube-200p-collapsible-dobsonian",
       "rrp": 1149.99,
       "bullets": [
@@ -375,7 +376,7 @@
       "name": "Flextube 250P Collapsible Dobsonian",
       "sku": "SWDOB250C",
       "tags": ["Telescopes", "Collapsible Dobsonian"],
-      "filter": ["Sky", "Experienced", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Experienced", "Size No Issue", "Don't Mind"],
       "url": "flextube-250p-collapsible-dobsonian",
       "rrp": 1599.99,
       "bullets": [
@@ -415,7 +416,7 @@
       "name": "Stargate 500 Synscan Dobsonian",
       "sku": "SWDOB500CGT",
       "tags": ["Telescopes", "Stargate Dobsonian"],
-      "filter": ["Sky", "Experienced", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Experienced", "Size No Issue", "Don't Mind"],
       "url": "stargate-500-synscan-dobsonian",
       "rrp": 14999.99,
       "bullets": [
@@ -449,7 +450,7 @@
       "name": "150/750 Eq3 Aluminium Tripod Reflector",
       "sku": "SW15075EQ3",
       "tags": ["Telescopes", "Reflectors"],
-      "filter": ["Sky", "Intermediate", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Intermediate", "Size No Issue", "Don't Mind"],
       "url": "150-750-eq3-aluminium-tripod-reflector",
       "rrp": 1199.99,
       "bullets": [
@@ -483,7 +484,7 @@
       "name": "Skymax 127 Maksutov-Cassegrain OTA",
       "sku": "SWMAK127-OTA",
       "tags": ["Telescopes", "Maksutov-Cassegrains", "OTAs"],
-      "filter": ["Sky", "Experienced", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Experienced", "Size No Issue", "Don't Mind"],
       "url": "skymax-127-maksutov-cassegrain-ota",
       "rrp": 899.99,
       "bullets": [
@@ -512,7 +513,7 @@
       "name": "Quattro 150P Astrophotography OTA",
       "sku": "SW150Q-OTA",
       "tags": ["Telescopes", "Reflectors", "OTAs"],
-      "filter": ["Sky", "Intermediate", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Intermediate", "Size No Issue", "Don't Mind"],
       "url": "quattro-150-astrophotography-reflector-ota",
       "rrp": 1049.99,
       "bullets": [
@@ -554,7 +555,7 @@
       "name": "ESPRIT 100ED APO OTA",
       "sku": "SWESPRIT100",
       "tags": ["Telescopes", "Esprits", "Refractors", "OTAs"],
-      "filter": [
+      "options": [
         "Sky",
         "Experienced",
         "Compact",
@@ -600,7 +601,7 @@
       "name": "80 Evostar Ed Doublet Refractor OTA",
       "sku": "SWBDED80-OTA",
       "tags": ["Telescopes", "Refractors", "OTAs"],
-      "filter": [
+      "options": [
         "Land",
         "Sky",
         "Beginner",
@@ -644,7 +645,7 @@
       "name": "GT AZEQ5 GOTO Mount, NEQ5 Tripod",
       "sku": "SWAZEQ5GTT",
       "tags": ["Mounts", "AZEQ"],
-      "filter": [],
+      "options": [],
       "url": "gt-azeq5-goto-mount-neq5-tripod",
       "rrp": 3249.99,
       "bullets": [
@@ -687,7 +688,7 @@
       "name": "HEQ5 Pro GOTO Dual Saddle Mount, Wifi Dongle",
       "sku": "SWHEQ5PROi",
       "tags": ["Mounts", "EQ"],
-      "filter": [],
+      "options": [],
       "url": "heq5-pro-goto-dual-saddle-mount-wifi-dongle",
       "rrp": 2249.99,
       "bullets": [
@@ -729,7 +730,7 @@
       "name": "AZ3 Mount & Tripod",
       "sku": "SWAZ3",
       "tags": ["Mounts", "AZ"],
-      "filter": [],
+      "options": [],
       "url": "az3-mount-tripod",
       "rrp": 224.99,
       "bullets": [
@@ -755,7 +756,7 @@
       "name": "102 AZ-GTI GOTO MAKSUTOV",
       "sku": "SW102MAK-AZGTI",
       "tags": ["Telescopes", "Maksutov-Cassegrains", "AZ"],
-      "filter": [
+      "options": [
         "Sky",
         "Experienced",
         "Yes",
@@ -799,7 +800,7 @@
       "name": "130 Black Diamond Reflector OTA",
       "sku": "SW13065AP-OTA",
       "tags": ["Telescopes", "Reflectors", "OTAs"],
-      "filter": ["Sky", "Intermediate", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Intermediate", "Size No Issue", "Don't Mind"],
       "url": "130-black-diamond-reflector-ota",
       "rrp": 599.99,
       "bullets": [
@@ -830,7 +831,7 @@
       "name": "Mini AZ-GTI Mount",
       "sku": "SWAZGTI",
       "tags": ["Mounts", "AZ"],
-      "filter": [],
+      "options": [],
       "url": "mini-az-gti-mount",
       "rrp": 799.99,
       "bullets": [
@@ -863,7 +864,7 @@
         "Maksutov-Cassegrains",
         "Yes"
       ],
-      "filter": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
       "url": "90-heritage-virtuoso-tabletop-dobsonian",
       "rrp": 599.99,
       "bullets": [
@@ -900,7 +901,7 @@
       "name": "1.25\" Erect Image Diaganol",
       "sku": "SWA-45EID",
       "tags": ["Accessories"],
-      "filter": [],
+      "options": [],
       "url": "1.25-erect-image-diaganol",
       "rrp": 84.99,
       "bullets": [
@@ -916,7 +917,7 @@
       "name": "180mm Universal D Sized Dovetail",
       "sku": "SWA-DDOVETAIL-18",
       "tags": ["Accessories"],
-      "filter": [],
+      "options": [],
       "url": "180mm-universal-dsized-dovetail",
       "rrp": 124.99,
       "bullets": [
@@ -936,7 +937,7 @@
       "name": "0.85x Focal Reducer/Flattener",
       "sku": "SWA-BDFF80ED",
       "tags": ["Accessories"],
-      "filter": [],
+      "options": [],
       "url": "0.85x-focal-reducer-flattener",
       "rrp": 599.99,
       "bullets": [
@@ -953,7 +954,7 @@
       "name": "EvoGuide 50ED Guidescope",
       "sku": "SWED50",
       "tags": ["Accessories"],
-      "filter": [],
+      "options": [],
       "url": "EvoGuide 50ED Guidescope",
       "rrp": 499.99,
       "bullets": [
@@ -977,7 +978,7 @@
         "Tabletop Dobsonians",
         "Acuter"
       ],
-      "filter": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
       "url": "acuter-mak-60-educational-kit",
       "rrp": 249,
       "bullets": [
@@ -1005,7 +1006,7 @@
       "name": "Acuter Newtony 50 Educational Kit",
       "sku": "ACDN50",
       "tags": ["Telescopes", "Reflector", "Tabletop Dobsonians", "Acuter"],
-      "filter": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
       "url": "acuter-newtony-60-educational-kit",
       "rrp": 189,
       "bullets": [
@@ -1035,7 +1036,7 @@
       "name": "Acuter Maksy 60 Educational Kit",
       "sku": "ACDM60",
       "tags": ["Telescopes", "Reflector", "Tabletop Dobsonians", "Acuter"],
-      "filter": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
+      "options": ["Sky", "Beginner", "Compact", "Size No Issue", "Don't Mind"],
       "url": "acuter-maksy-60-educational-kit",
       "rrp": 99,
       "bullets": [
@@ -1068,7 +1069,7 @@
         "Size No Issue",
         "Don't Mind"
       ],
-      "filter": ["Land", "Size No Issue", "Don't Mind"],
+      "options": ["Land", "Size No Issue", "Don't Mind"],
       "url": "16-48x65mm-acuter-grandvista-spotting-scope",
       "rrp": 499,
       "bullets": [
@@ -1096,7 +1097,7 @@
       "name": "16-48x65mm Acuter Natureclose Spotting Scope",
       "sku": "ST1648X65A",
       "tags": ["Spotting Scopes", "Acuter", "Compact"],
-      "filter": ["Land", "Size No Issue", "Don't Mind"],
+      "options": ["Land", "Size No Issue", "Don't Mind"],
       "url": "16-48x65mm-acuter-natureclose-spotting-scope",
       "rrp": 399,
       "bullets": [

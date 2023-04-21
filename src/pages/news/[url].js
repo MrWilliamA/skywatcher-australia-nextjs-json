@@ -3,8 +3,9 @@ import Styles from "../../styles/news.module.css";
 import Layout from "@/components/templates/Layout";
 import { articles } from "../../components/news/NewsArticles";
 import Image from "next/image";
+import PropTypes from "prop-types";
 
-export default function Product({ article, title }) {
+export default function News({ article }) {
   return (
     <>
       <Head>
@@ -20,7 +21,7 @@ export default function Product({ article, title }) {
             ? article.image.map((imageUrl, index) => (
                 <Image
                   key={index}
-                  src={imageUrl}
+                  src={`/images/pageimages/news/${imageUrl}`}
                   alt={article.title}
                   width={500}
                   height={350}
@@ -32,6 +33,10 @@ export default function Product({ article, title }) {
     </>
   );
 }
+
+News.propTypes = {
+  article: PropTypes.object.isRequired,
+};
 
 export async function getStaticProps({ params }) {
   const article = articles.find(

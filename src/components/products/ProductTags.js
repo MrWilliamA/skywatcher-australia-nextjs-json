@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import PropTypes from "prop-types";
 
 const ProductTags = ({ productDetails, seperator }) => {
   const tagElements = productDetails.tags.map((tag) => {
@@ -33,6 +34,11 @@ const ProductTags = ({ productDetails, seperator }) => {
     }
   });
   return tagElements;
+};
+
+ProductTags.propTypes = {
+  productDetails: PropTypes.object.isRequired,
+  seperator: PropTypes.string,
 };
 
 export default ProductTags;

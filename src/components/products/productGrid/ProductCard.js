@@ -2,6 +2,7 @@ import Styles from "../../../styles/productCard.module.css";
 import Link from "next/link";
 import ProductFeaturedImage from "../../products/ProductFeaturedImage";
 import LearnMore from "@/components/buttons/LearnMore";
+import PropTypes from "prop-types";
 
 const ProductCard = ({ product }) => {
   const productLink = `/products/${product.url}`;
@@ -28,6 +29,10 @@ const ProductCard = ({ product }) => {
       </div>
     </article>
   );
+};
+
+ProductCard.propTypes = {
+  product: PropTypes.object.isRequired,
 };
 
 export default ProductCard;

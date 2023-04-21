@@ -6,6 +6,7 @@ import { FaSearchLocation } from "react-icons/fa";
 import Styles from "../../styles/productPage.module.css";
 import ProductSpecTable from "@/components/products/ProductSpecTable";
 import Layout from "@/components/templates/Layout";
+import PropTypes from "prop-types";
 
 export default function Product({ urlObject }) {
   const productList = data.products;
@@ -59,7 +60,7 @@ export default function Product({ urlObject }) {
               <p dangerouslySetInnerHTML={{ __html: product.description }}></p>
             </section>
             {product.specs ? <ProductSpecTable product={product.specs} /> : " "}
-          </main>{" "}
+          </main>
         </Layout>
       </>
     );
@@ -67,6 +68,10 @@ export default function Product({ urlObject }) {
     return <p>page not found</p>;
   }
 }
+
+Product.propTypes = {
+  urlObject: PropTypes.object.isRequired,
+};
 
 export async function getStaticProps({ params }) {
   const { url } = params;

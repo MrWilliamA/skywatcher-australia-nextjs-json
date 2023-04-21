@@ -2,6 +2,7 @@ import Head from "next/head";
 import data from "/productData/products.json";
 import ProductGrid from "@/components/products/productGrid/ProductGrid";
 import Layout from "@/components/templates/Layout";
+import PropTypes from "prop-types";
 
 export default function Index({ products }) {
   return (
@@ -23,6 +24,10 @@ export default function Index({ products }) {
     </>
   );
 }
+
+Index.propTypes = {
+  products: PropTypes.array.isRequired,
+};
 
 export async function getStaticProps() {
   const productList = data.products;

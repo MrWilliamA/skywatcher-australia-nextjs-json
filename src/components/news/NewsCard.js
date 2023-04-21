@@ -5,8 +5,6 @@ import LearnMore from "@/components/buttons/LearnMore";
 import Link from "next/link";
 
 const NewsCard = () => {
-  console.log(typeof articles);
-
   return articles.map((article, key) => {
     const url =
       "/news/" +
@@ -19,7 +17,7 @@ const NewsCard = () => {
       <div key={key} className={Styles.article}>
         <Link href={url}>
           <Image
-            src={`${article.image[0]}`}
+            src={`/images/pageimages/news/${article.image[0]}`}
             alt={article.title}
             width="300"
             height="200"

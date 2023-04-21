@@ -42,7 +42,7 @@
 
 .quote {
   font-style: italic;
-  background: #dbdbdb;
+  background: var(--light);
   padding: 12px 14px;
   font-size: 1.1em;
 }

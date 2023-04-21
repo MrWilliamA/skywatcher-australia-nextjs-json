@@ -2,6 +2,7 @@ import Styles from "../../styles/lightBox.module.css";
 import ProductFeaturedImage from "./ProductFeaturedImage";
 import ImageWithFallback from "./ImageWithFallback";
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 const Lighbox = ({ handlelightbox, product }) => {
   const [featuredImage, setFeaturedImage] = useState(product.images[0]);
@@ -50,6 +51,11 @@ const Lighbox = ({ handlelightbox, product }) => {
       </section>
     </section>
   );
+};
+
+Lighbox.propTypes = {
+  handlelightbox: PropTypes.func.isRequired,
+  product: PropTypes.object.isRequired,
 };
 
 export default Lighbox;

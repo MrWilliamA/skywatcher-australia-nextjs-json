@@ -1,22 +1,22 @@
 import Styles from "../../styles/telescopeFinder.module.css";
 import { questions } from "./Questions";
 import { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 
 const TelescopeFinderForm = ({ onFilterChange }) => {
-  const [filters, setFilters] = useState([]);
+  const [options, setOptions] = useState([]);
 
   useEffect(() => {
-    onFilterChange(filters);
-  }, [filters]);
+    onFilterChange(options);
+  }, [options]);
 
   const handleCheckboxChange = (event) => {
-    const filter = event.target.value;
-    if (filters.includes(filter)) {
-      // If the filter is already selected, remove it
-      setFilters(filters.filter((f) => f !== filter));
+    const option = event.target.value;
+
+    if (options.includes(option)) {
+      setOptions(options.filter((f) => f !== option));
     } else {
-      // If the filter is not selected, add it
-      setFilters([...filters, filter]);
+      setOptions([...options, option]);
     }
   };
 
@@ -26,23 +26,23 @@ const TelescopeFinderForm = ({ onFilterChange }) => {
         return (
           <div key={key} className={Styles.questionDiv}>
             <p
-              className={Styles.question}
               key={key}
               dangerouslySetInnerHTML={{ __html: question.question }}
+              className={Styles.question}
             ></p>
-
             <div>
               {question.options.map((option, index) => {
+                const name = option.includes("$") ? "priceRange" : option;
                 return (
                   <div key={index} className={Styles.option}>
                     <input
                       type="checkbox"
                       key={index}
                       value={option}
-                      name={option}
+                      name={name}
                       onChange={handleCheckboxChange}
                     />
-                    <label for={option}>{option}</label>
+                    <label htmlFor={option}>{option}</label>
                   </div>
                 );
               })}
@@ -52,6 +52,10 @@ const TelescopeFinderForm = ({ onFilterChange }) => {
       })}
     </section>
   );
+};
+
+TelescopeFinderForm.propTypes = {
+  onFilterChange: PropTypes.func.isRequired,
 };
 
 export default TelescopeFinderForm;

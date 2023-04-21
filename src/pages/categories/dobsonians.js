@@ -30,7 +30,7 @@ const dobsonians = () => {
           name="description"
           content="Sky-Watcher Australia Dobsonians - Astronomy telescopes, binoculars and spotting scopes."
         />
-      </Head>{" "}
+      </Head>
       <Layout layout="boxed">
         <main className={Styles.main}>
           <section className={Styles.top}>

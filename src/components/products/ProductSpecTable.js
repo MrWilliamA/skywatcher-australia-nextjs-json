@@ -2,6 +2,7 @@ import Styles from "../../styles/productPage.module.css";
 import { useState } from "react";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import React from "react";
+import PropTypes from "prop-types";
 
 const ProductSpecTable = ({ product }) => {
   const specDefinitions = {
@@ -116,6 +117,10 @@ const ProductSpecTable = ({ product }) => {
       })}
     </section>
   );
+};
+
+ProductSpecTable.propTypes = {
+  product: PropTypes.object.isRequired,
 };
 
 export default ProductSpecTable;

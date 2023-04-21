@@ -3,6 +3,7 @@ import TelescopeRow from "../components/buyersGuide/TelescopeRow";
 import Layout from "@/components/templates/Layout";
 import FeaturedBulletGrid from "@/components/buyersGuide/FeaturedBulletGrid";
 import Image from "next/image";
+import Link from "next/link";
 
 const buyersGuide = () => {
   return (
@@ -30,7 +31,7 @@ const buyersGuide = () => {
             don’t overlook portability and convenience — the best scope for you
             is the one you’ll actually use.
           </p>
-          <h2>There Are Three main Types Of Telescopes</h2>
+          <h2>There Are Three Main Types Of Telescopes</h2>
           <p>
             Generally, telescopes fall into 3 different categories; Refractors,
             Reflectors and Compound telescopes. These three telescope types use
@@ -65,6 +66,11 @@ const buyersGuide = () => {
             <FeaturedBulletGrid />
           </Layout>
         </section>
+        <div className={Styles.fullWidthBtn}>
+          <Link href="/telescope-finder">
+            <h2>TRY OUR TELESCOPE FINDER</h2>
+          </Link>
+        </div>
       </Layout>
       <Layout layout="boxed">
         <h2>Aperture: A Telescopes Most Important Feature</h2>

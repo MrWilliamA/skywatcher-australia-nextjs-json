@@ -198,12 +198,21 @@
 
 .row:hover {
   background: var(--green);
-  color: white;
   transform: scale(1.03);
   border: none;
 }
+
+.row:hover p {
+  color: white !important;
+}
+
+.row:hover svg {
+  fill: white;
+}
+
 .row:hover div {
   border: none;
+  color: white !important;
 }
 
 .row .definitions {

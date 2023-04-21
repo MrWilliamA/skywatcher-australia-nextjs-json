@@ -1,8 +1,11 @@
 .container {
   background: var(--dark);
   min-height: 10vh;
-  color: white;
   padding: 40px 25px 10px 25px;
+}
+
+.container * {
+  color: white !important;
 }
 
 .innerContainer {
