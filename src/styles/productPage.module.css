@@ -238,9 +238,13 @@
 .forward {
   position: absolute;
   font-size: 90px;
-  color: #ffffff5e;
   cursor: pointer;
   height: 0;
+}
+
+.back svg,
+.forward svg {
+  fill: #ffffff5e;
 }
 
 .back:hover,
@@ -319,5 +323,18 @@
   }
   .productDetails {
     text-align: left;
+  }
+
+  .tableLeft {
+    width: 50%;
+    min-width: auto;
+  }
+
+  .row {
+    padding: 0;
+  }
+
+  .row div {
+    padding: 8px 10px;
   }
 }

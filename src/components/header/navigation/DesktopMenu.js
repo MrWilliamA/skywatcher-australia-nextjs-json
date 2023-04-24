@@ -6,7 +6,8 @@ import {
   productsSubMenu,
   rightNavLinks,
   knowledgeBaseSubMenu,
-  buyersGuide,
+  buyersGuideSubMenu,
+  contactSubMenu,
 } from "./NavigationRoutes";
 
 const DesktopMenu = ({
@@ -15,6 +16,8 @@ const DesktopMenu = ({
   setProductsHovered,
   kBHovered,
   setKBHovered,
+  contactHovered,
+  setContactHovered,
   buyerGuideHovered,
   setBuyerGuideHovered,
 }) => {
@@ -25,6 +28,8 @@ const DesktopMenu = ({
       setKBHovered(true);
     } else if (name === "BUYERS GUIDE") {
       setBuyerGuideHovered(true);
+    } else if (name === "CONTACT") {
+      setContactHovered(true);
     }
   }
 
@@ -32,6 +37,7 @@ const DesktopMenu = ({
     setProductsHovered(false);
     setKBHovered(false);
     setBuyerGuideHovered(false);
+    setContactHovered(false);
   }
   return (
     <>
@@ -75,7 +81,7 @@ const DesktopMenu = ({
                         onMouseLeave={mouseOff}
                       >
                         <ul className={Styles.subMenu}>
-                          {buyersGuide.map((link, index) => {
+                          {buyersGuideSubMenu.map((link, index) => {
                             return (
                               <li key={index}>
                                 <Link href={link.path}>{link.name}</Link>
@@ -119,6 +125,22 @@ const DesktopMenu = ({
                       >
                         <ul className={Styles.subMenu}>
                           {knowledgeBaseSubMenu.map((link, index) => {
+                            return (
+                              <li key={index}>
+                                <Link href={link.path}>{link.name}</Link>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </section>
+                    )}
+                    {link.name === "CONTACT" && contactHovered && (
+                      <section
+                        className={`${Styles.subMenuContainer} ${Styles.subMenuContainerFixed} `}
+                        onMouseLeave={mouseOff}
+                      >
+                        <ul className={Styles.subMenu}>
+                          {contactSubMenu.map((link, index) => {
                             return (
                               <li key={index}>
                                 <Link href={link.path}>{link.name}</Link>

@@ -24,7 +24,7 @@ export default function Home() {
 
           <h2 className={Styles.subHeading}>Latest News From Sky-Watcher</h2>
           <div className={Styles.news}>
-            <News />{" "}
+            <News />
           </div>
         </main>
       </Layout>

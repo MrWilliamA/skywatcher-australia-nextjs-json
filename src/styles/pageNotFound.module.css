@@ -47,3 +47,8 @@
 .notFound {
   text-align: center;
 }
+
+.notFound img {
+  max-width: 90%;
+  height: auto;
+}

@@ -6,7 +6,8 @@ import {
   rightNavLinks,
   productsSubMenu,
   knowledgeBaseSubMenu,
-  buyersGuide,
+  buyersGuideSubMenu,
+  contactSubMenu,
 } from "./NavigationRoutes";
 
 const OpenMobileNav = ({ logoUrl, buttonHandler }) => {
@@ -42,7 +43,7 @@ const OpenMobileNav = ({ logoUrl, buttonHandler }) => {
                 {link.name === "BUYERS GUIDE" && (
                   <section className={Styles.mobileSubMenuContainer}>
                     <ul className={Styles.mobileSubMenu}>
-                      {buyersGuide.map((link, index) => {
+                      {buyersGuideSubMenu.map((link, index) => {
                         return (
                           <li key={index}>
                             <Link href={link.path} onClick={buttonHandler}>
@@ -71,6 +72,22 @@ const OpenMobileNav = ({ logoUrl, buttonHandler }) => {
                   <section className={Styles.mobileSubMenuContainer}>
                     <ul className={Styles.mobileSubMenu}>
                       {knowledgeBaseSubMenu.map((link, index) => {
+                        return (
+                          <li key={index}>
+                            <Link href={link.path} onClick={buttonHandler}>
+                              {link.name}
+                            </Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </section>
+                )}
+
+                {link.name === "CONTACT" && (
+                  <section className={Styles.mobileSubMenuContainer}>
+                    <ul className={Styles.mobileSubMenu}>
+                      {contactSubMenu.map((link, index) => {
                         return (
                           <li key={index}>
                             <Link href={link.path} onClick={buttonHandler}>

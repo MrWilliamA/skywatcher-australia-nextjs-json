@@ -141,7 +141,7 @@
     border-left: none !important;
     border-right: none !important;
     border-top: solid 8px rgb(var(--background-rgb));
-    border-top: solid 8pxrgb (var(--background-rgb));
+    border-bottom: solid 8px rgb(var(--background-rgb));
   }
 
   .section article img {

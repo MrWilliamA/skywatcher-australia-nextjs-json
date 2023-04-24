@@ -54,7 +54,7 @@ export const knowledgeBaseSubMenu = [
   },
 ];
 
-export const buyersGuide = [
+export const buyersGuideSubMenu = [
   {
     name: "BUYERS GUIDE",
     path: "/buyers-guide",
@@ -62,5 +62,16 @@ export const buyersGuide = [
   {
     name: "TELESCOPE FINDER",
     path: "/telescope-finder",
+  },
+];
+
+export const contactSubMenu = [
+  {
+    name: "CONTACT",
+    path: "/contact",
+  },
+  {
+    name: "FIND A DEALER",
+    path: "/find-a-dealer",
   },
 ];

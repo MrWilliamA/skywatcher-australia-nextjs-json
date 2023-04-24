@@ -17,7 +17,7 @@ const NewsCard = () => {
       <div key={key} className={Styles.article}>
         <Link href={url}>
           <Image
-            src={`/images/pageimages/news/${article.image[0]}`}
+            src={article.image[0]}
             alt={article.title}
             width="300"
             height="200"

@@ -9,6 +9,9 @@ const Nav = ({
   setKBHovered,
   buyerGuideHovered,
   setBuyerGuideHovered,
+  contactSubMenu,
+  contactHovered,
+  setContactHovered,
 }) => {
   const logoUrl = "/images/logos/Skywatcher-logo-white.png";
 
@@ -35,6 +38,9 @@ const Nav = ({
       setKBHovered={setKBHovered}
       buyerGuideHovered={buyerGuideHovered}
       setBuyerGuideHovered={setBuyerGuideHovered}
+      contactSubMenu={contactSubMenu}
+      contactHovered={contactHovered}
+      setContactHovered={setContactHovered}
     />
   );
 };

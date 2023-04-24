@@ -9,6 +9,7 @@ const Header = ({ productDetails, nextProduct, title }) => {
   const [productsHovered, setProductsHovered] = useState(false);
   const [kBHovered, setKBHovered] = useState(false);
   const [buyerGuideHovered, setBuyerGuideHovered] = useState(false);
+  const [contactHovered, setContactHovered] = useState(false);
 
   const banners = {
     home: (
@@ -19,6 +20,8 @@ const Header = ({ productDetails, nextProduct, title }) => {
         setKBHovered={setKBHovered}
         buyerGuideHovered={buyerGuideHovered}
         setBuyerGuideHovered={setBuyerGuideHovered}
+        contactHovered={contactHovered}
+        setContactHovered={setContactHovered}
       />
     ),
     product: (
@@ -31,6 +34,8 @@ const Header = ({ productDetails, nextProduct, title }) => {
         setKBHovered={setKBHovered}
         buyerGuideHovered={buyerGuideHovered}
         setBuyerGuideHovered={setBuyerGuideHovered}
+        contactHovered={contactHovered}
+        setContactHovered={setContactHovered}
       />
     ),
     page: (
@@ -42,6 +47,8 @@ const Header = ({ productDetails, nextProduct, title }) => {
         setKBHovered={setKBHovered}
         buyerGuideHovered={buyerGuideHovered}
         setBuyerGuideHovered={setBuyerGuideHovered}
+        contactHovered={contactHovered}
+        setContactHovered={setContactHovered}
       />
     ),
     PageNotFound: (
@@ -52,6 +59,8 @@ const Header = ({ productDetails, nextProduct, title }) => {
         setKBHovered={setKBHovered}
         buyerGuideHovered={buyerGuideHovered}
         setBuyerGuideHovered={setBuyerGuideHovered}
+        contactHovered={contactHovered}
+        setContactHovered={setContactHovered}
       />
     ),
   };

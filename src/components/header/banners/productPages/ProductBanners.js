@@ -16,6 +16,8 @@ const ProductBanners = ({
   setKBHovered,
   buyerGuideHovered,
   setBuyerGuideHovered,
+  contactHovered,
+  setContactHovered,
 }) => {
   const isSmallScreen = useMediaQuery({ maxWidth: 970 });
   const [lightbox, setLightbox] = useState(false);
@@ -45,6 +47,8 @@ const ProductBanners = ({
           setKBHovered={setKBHovered}
           buyerGuideHovered={buyerGuideHovered}
           setBuyerGuideHovered={setBuyerGuideHovered}
+          contactHovered={contactHovered}
+          setContactHovered={setContactHovered}
         />
         <section className={Styles.pageBannerText}>
           <div className={Styles.titleMeta}>

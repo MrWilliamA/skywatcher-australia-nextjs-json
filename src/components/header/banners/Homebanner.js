@@ -8,13 +8,15 @@ const homebanner = ({
   setKBHovered,
   buyerGuideHovered,
   setBuyerGuideHovered,
+  contactHovered,
+  setContactHovered,
 }) => {
   return (
     <>
       <section className={Styles.pageBanner}>
         <div
           className={`${Styles.hoverShade} ${
-            productsHovered || kBHovered || buyerGuideHovered
+            productsHovered || kBHovered || buyerGuideHovered || contactHovered
               ? Styles.hovered
               : ""
           }`}
@@ -29,6 +31,8 @@ const homebanner = ({
           setKBHovered={setKBHovered}
           buyerGuideHovered={buyerGuideHovered}
           setBuyerGuideHovered={setBuyerGuideHovered}
+          contactHovered={contactHovered}
+          setContactHovered={setContactHovered}
         />
         <div className={Styles.h1Container}>
           <h1>Sky-Watcher Australia</h1>
